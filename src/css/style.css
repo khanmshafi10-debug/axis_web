@@ -2398,7 +2398,16 @@ li:hover .anim-bullet.dots,
     z-index: 1;
 }
 
-/* 3-Row Snake Timeline Styles (Road Style with Moving Dashes) */
+/* Container & Desktop Grid */
+.timeline-container {
+    position: relative;
+    padding: 30px 0;
+}
+
+.timeline-desktop-wrapper {
+    position: relative;
+}
+
 .timeline-grid-new {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -2415,7 +2424,6 @@ li:hover .anim-bullet.dots,
     position: relative;
 }
 
-/* Fix visual vertical balance by removing default bottom margin from paragraphs */
 .timeline-card-new p:last-child {
     margin-bottom: 0;
 }
@@ -2444,11 +2452,11 @@ li:hover .anim-bullet.dots,
     transform: scale(1.1);
 }
 
-/* Horizontal connectors styled as Roads with moving dashes */
+/* Horizontal Animated Road Line Connectors */
 .timeline-card-new.timeline-right::after {
     content: '';
     position: absolute;
-    top: 24px; /* Centered on the 60px badge */
+    top: 24px;
     left: calc(50% + 30px);
     width: calc(100% - 30px);
     height: 12px;
@@ -2462,16 +2470,12 @@ li:hover .anim-bullet.dots,
     animation: road-flow 1s linear infinite;
 }
 
-@keyframes road-flow {
-    from {
-        background-position: 0 center, 0 0;
-    }
-    to {
-        background-position: -24px center, 0 0;
-    }
+.timeline-card-new:hover::after {
+    border-color: var(--clr-orange) !important;
+    transition: border-color 0.3s ease;
 }
 
-/* Row 2: Blank middle road line */
+/* Middle Road Line (Row 2) */
 .timeline-middle-road-new {
     grid-column: 1 / -1;
     grid-row: 2;
@@ -2489,66 +2493,186 @@ li:hover .anim-bullet.dots,
     animation: road-flow-reverse 1s linear infinite;
 }
 
-/* SVG dashed flow animation */
-.road-dashed-flow {
-    animation: svg-road-flow 1s linear infinite;
+/* Step 4 Hook Connector (Right Turn) */
+.step4-hook-wrapper {
+    grid-column: 4;
+    grid-row: 1 / 3;
+    position: relative;
+    pointer-events: none;
+    z-index: 1;
 }
 
-@keyframes svg-road-flow {
-    from {
-        stroke-dashoffset: 0;
-    }
-    to {
-        stroke-dashoffset: -16;
-    }
+.hook-segment {
+    position: absolute;
+    box-sizing: border-box;
+    background: var(--clr-primary-navy);
+    z-index: 1;
 }
 
-/* Hover transitions for connectors */
-.timeline-card-new:hover::after {
-    border-color: var(--clr-orange) !important;
-    transition: border-color 0.3s ease;
+.hook-top {
+    top: 24px;
+    left: calc(50% + 30px);
+    right: -20px;
+    height: 12px;
+    border-top: 2px solid var(--clr-blue);
+    border-bottom: 2px solid var(--clr-blue);
 }
 
-/* Mobile responsive styles */
-@media (max-width: 1199px) {
-    .timeline-grid-new {
-        grid-template-columns: 1fr !important;
-        gap: 40px !important;
-    }
-    .timeline-middle-road-new {
-        display: none !important;
-    }
-    .timeline-card-new.timeline-right::after {
-        display: none !important;
-    }
-    /* Mobile road timeline */
-    .timeline-card-new::after {
-        content: '';
-        position: absolute;
-        top: 60px;
-        left: calc(50% - 6px);
-        width: 12px;
-        height: 40px;
-        background: 
-            linear-gradient(to bottom, var(--clr-white) 50%, transparent 50%) repeat-y center / 2px 12px,
-            var(--clr-primary-navy);
-        border-left: 2px solid var(--clr-blue);
-        border-right: 2px solid var(--clr-blue);
-        z-index: 1;
-        display: block !important;
-        animation: road-flow-vertical 1s linear infinite;
-    }
-    .timeline-card-new:last-child::after {
-        display: none !important;
-    }
+.hook-right {
+    top: 24px;
+    right: -20px;
+    bottom: 0;
+    width: 12px;
+    border-left: 2px solid var(--clr-blue);
+    border-right: 2px solid var(--clr-blue);
+}
+
+.hook-bottom {
+    bottom: 0;
+    left: calc(50% - 30px);
+    right: -20px;
+    height: 12px;
+    border-top: 2px solid var(--clr-blue);
+    border-bottom: 2px solid var(--clr-blue);
+}
+
+/* Step 5 Hook Connector (Left Turn) */
+.step5-hook-wrapper {
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.hook-left-top {
+    top: 0;
+    left: -20px;
+    right: calc(50% - 30px);
+    height: 12px;
+    border-top: 2px solid var(--clr-blue);
+    border-bottom: 2px solid var(--clr-blue);
+}
+
+.hook-left-vertical {
+    top: 0;
+    left: -20px;
+    width: 12px;
+    height: 118px;
+    border-left: 2px solid var(--clr-blue);
+    border-right: 2px solid var(--clr-blue);
+}
+
+.hook-left-bottom {
+    top: 106px;
+    left: -20px;
+    right: calc(50% + 30px);
+    height: 12px;
+    border-top: 2px solid var(--clr-blue);
+    border-bottom: 2px solid var(--clr-blue);
+}
+
+/* Seamless Corner Patches */
+.hook-corner-patch {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: var(--clr-primary-navy);
+    z-index: 2;
+}
+.patch-tr { top: 26px; right: -18px; }
+.patch-br { bottom: 2px; right: -18px; }
+.patch-tl { top: 2px; left: -18px; }
+.patch-bl { top: 108px; left: -18px; }
+
+/* Dash Flow Animations */
+.hook-dash-h {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, var(--clr-white) 50%, transparent 50%) repeat-x center / 12px 2px;
+    animation: road-flow 1s linear infinite;
+}
+.hook-dash-h.reverse { animation: road-flow-reverse 1s linear infinite; }
+.hook-dash-v {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, var(--clr-white) 50%, transparent 50%) repeat-y center / 2px 12px;
+    animation: road-flow-vertical 1s linear infinite;
+}
+
+@keyframes road-flow {
+    from { background-position: 0 center; }
+    to { background-position: -24px center; }
+}
+
+@keyframes road-flow-reverse {
+    from { background-position: 0 center; }
+    to { background-position: 24px center; }
 }
 
 @keyframes road-flow-vertical {
-    from {
-        background-position: center 0, 0 0;
+    from { background-position: center 0; }
+    to { background-position: center 24px; }
+}
+
+/* Mobile S-Curve Overrides (under 768px) */
+@media (max-width: 768px) {
+    .timeline-grid-new {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0 !important;
+        padding: 10px 0;
     }
-    to {
-        background-position: center 24px, 0 0;
+    
+    .step4-hook-wrapper, .timeline-middle-road-new, .step5-hook-wrapper {
+        display: none !important;
+    }
+
+    .timeline-card-new {
+        width: 100% !important;
+        display: grid !important;
+        grid-template-columns: 60px 1fr !important;
+        column-gap: 20px !important;
+        margin-bottom: 40px !important;
+        position: relative;
+    }
+
+    .timeline-badge-new {
+        grid-column: 1;
+        margin: 0 !important;
+        z-index: 2;
+    }
+
+    .timeline-card-new h4 {
+        grid-column: 2;
+        text-align: left !important;
+        margin: 0 !important;
+        padding-top: 5px;
+    }
+
+    /* Alternating layout for mobile snake curve */
+    .timeline-card-new:nth-child(3),
+    .timeline-card-new:nth-child(5),
+    .timeline-card-new:nth-child(10),
+    .timeline-card-new:nth-child(12) {
+        grid-template-columns: 1fr 60px !important;
+    }
+
+    .timeline-card-new:nth-child(3) .timeline-badge-new,
+    .timeline-card-new:nth-child(5) .timeline-badge-new,
+    .timeline-card-new:nth-child(10) .timeline-badge-new,
+    .timeline-card-new:nth-child(12) .timeline-badge-new {
+        grid-column: 2;
+    }
+
+    .timeline-card-new:nth-child(3) h4,
+    .timeline-card-new:nth-child(5) h4,
+    .timeline-card-new:nth-child(10) h4,
+    .timeline-card-new:nth-child(12) h4 {
+        grid-column: 1;
+        text-align: right !important;
     }
 }
 

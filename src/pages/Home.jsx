@@ -37,8 +37,120 @@ export default function Home() {
 
   useEffect(() => {
     document.title = "AXIS INFINITY STRUCTURE | Engineering, Construction & Infrastructure Solutions";
-    // Scroll to top on load
     window.scrollTo(0, 0);
+
+    function drawMobileSnake() {
+      const grid = document.querySelector('.timeline-grid-new');
+      if (!grid) return;
+      
+      grid.style.position = 'relative';
+      
+      if (window.innerWidth > 768) {
+        const svg = document.getElementById('mobile-snake-svg');
+        if (svg) svg.style.display = 'none';
+        return;
+      }
+      
+      let svg = document.getElementById('mobile-snake-svg');
+      if (!svg) {
+        svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.id = 'mobile-snake-svg';
+        svg.style.position = 'absolute';
+        svg.style.top = '0';
+        svg.style.left = '0';
+        svg.style.width = '100%';
+        svg.style.height = '100%';
+        svg.style.zIndex = '0';
+        svg.style.pointerEvents = 'none';
+        
+        const path1 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path1.id = 'mobile-snake-path1';
+        path1.setAttribute('fill', 'none');
+        path1.setAttribute('stroke', '#1B293A');
+        path1.setAttribute('stroke-width', '12');
+        
+        const path2 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path2.id = 'mobile-snake-path2';
+        path2.setAttribute('fill', 'none');
+        path2.setAttribute('stroke', '#0A192F');
+        path2.setAttribute('stroke-width', '8');
+        
+        const path3 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path3.id = 'mobile-snake-path3';
+        path3.setAttribute('fill', 'none');
+        path3.setAttribute('stroke', '#ffffff');
+        path3.setAttribute('stroke-width', '2');
+        path3.setAttribute('stroke-dasharray', '8, 8');
+        path3.style.animation = 'svg-snake-move 0.8s linear infinite';
+        
+        const style = document.createElement('style');
+        style.innerHTML = `@keyframes svg-snake-move { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -16; } }`;
+        svg.appendChild(style);
+        svg.appendChild(path1);
+        svg.appendChild(path2);
+        svg.appendChild(path3);
+        grid.insertBefore(svg, grid.firstChild);
+      }
+      svg.style.display = 'block';
+      
+      const badges = Array.from(grid.querySelectorAll('.timeline-card-new .timeline-badge-new'));
+      if (badges.length === 0) return;
+      
+      const gridRect = grid.getBoundingClientRect();
+      let d = '';
+      
+      for (let i = 0; i < badges.length - 1; i++) {
+        const b1 = badges[i];
+        const b2 = badges[i+1];
+        
+        const r1 = b1.getBoundingClientRect();
+        const r2 = b2.getBoundingClientRect();
+        
+        const x1 = r1.left - gridRect.left + r1.width / 2;
+        const y1 = r1.bottom - gridRect.top;
+        
+        const x2 = r2.left - gridRect.left + r2.width / 2;
+        const y2 = r2.top - gridRect.top;
+        
+        const radius = 20;
+        const verticalDist = y2 - y1;
+        let r = radius;
+        if (verticalDist < radius * 2) {
+          r = verticalDist / 2;
+        }
+        
+        const y_mid = y1 + verticalDist / 2;
+        
+        if (x2 > x1) {
+          if (i === 0) { d += ` M ${x1} ${y1}`; } else { d += ` L ${x1} ${y1}`; }
+          d += ` L ${x1} ${y_mid - r}`;
+          d += ` Q ${x1} ${y_mid} ${x1 + r} ${y_mid}`;
+          d += ` L ${x2 - r} ${y_mid}`;
+          d += ` Q ${x2} ${y_mid} ${x2} ${y_mid + r}`;
+          d += ` L ${x2} ${y2}`;
+        } else {
+          if (i === 0) { d += ` M ${x1} ${y1}`; } else { d += ` L ${x1} ${y1}`; }
+          d += ` L ${x1} ${y_mid - r}`;
+          d += ` Q ${x1} ${y_mid} ${x1 - r} ${y_mid}`;
+          d += ` L ${x2 + r} ${y_mid}`;
+          d += ` Q ${x2} ${y_mid} ${x2} ${y_mid + r}`;
+          d += ` L ${x2} ${y2}`;
+        }
+      }
+      
+      const p1 = document.getElementById('mobile-snake-path1');
+      const p2 = document.getElementById('mobile-snake-path2');
+      const p3 = document.getElementById('mobile-snake-path3');
+      if (p1) p1.setAttribute('d', d);
+      if (p2) p2.setAttribute('d', d);
+      if (p3) p3.setAttribute('d', d);
+    }
+
+    drawMobileSnake();
+    return () => {
+      window.removeEventListener('resize', drawMobileSnake);
+      clearTimeout(timer);
+    };
   }, []);
 
   return (
@@ -2884,7 +2996,7 @@ i.active-gold-global,
         </div>
     </section>
 
-    {/* Project Lifecycle Support */}
+    {/* Project Lifecycle Support Section (Snake Road Timeline) */}
     <section id="lifecycle" className="section-padding bg-off-white">
         <div className="container">
             <div className="section-header text-center fade-in-up">
@@ -2892,31 +3004,30 @@ i.active-gold-global,
                 <h2>From Mobilization to Final Handover</h2>
                 <p className="max-w-800 mx-auto">AXIS Infinity Structure supports project requirements across planning, resource mobilization, site execution, inspection, testing, pre-commissioning, commissioning, documentation, and handover.</p>
             </div>
+            
             <div className="timeline-container mt-5">
-                 <div className="timeline-desktop-wrapper">
-                     
-                    
+                <div className="timeline-desktop-wrapper">
                     <div className="timeline-grid-new">
                         
-                        {/* Row 1: Left to Right */}
+                        {/* Row 1: Steps 1 to 4 */}
                         <div className="timeline-card-new timeline-right fade-in-up">
-                             <div className="timeline-badge-new">1</div>
-                             <h4>Requirement Review</h4>
+                            <div className="timeline-badge-new">1</div>
+                            <h4>Requirement Review</h4>
                         </div>
                         <div className="timeline-card-new timeline-right fade-in-up delay-1">
-                             <div className="timeline-badge-new">2</div>
-                             <h4>Planning & Coordination</h4>
+                            <div className="timeline-badge-new">2</div>
+                            <h4>Planning & Coordination</h4>
                         </div>
                         <div className="timeline-card-new timeline-right fade-in-up delay-2">
-                             <div className="timeline-badge-new">3</div>
-                             <h4>Resource Mobilization</h4>
+                            <div className="timeline-badge-new">3</div>
+                            <h4>Resource Mobilization</h4>
                         </div>
-                        <div className="timeline-card-new fade-in-up delay-3" style={{"gridColumn":"4","gridRow":"1"}}>
-                             <div className="timeline-badge-new">4</div>
-                             <h4>Site Execution</h4>
+                        <div className="timeline-card-new fade-in-up delay-3" style={{ gridColumn: "4", gridRow: "1" }}>
+                            <div className="timeline-badge-new">4</div>
+                            <h4>Site Execution</h4>
                         </div>
                         
-                        {/* Step 4 Hook Connector */}
+                        {/* Step 4 Hook Connector (Right Turn to Middle Road) */}
                         <div className="step4-hook-wrapper">
                             <div className="hook-segment hook-top">
                                 <div className="hook-dash-h"></div>
@@ -2931,11 +3042,10 @@ i.active-gold-global,
                             <div className="hook-corner-patch patch-br"></div>
                         </div>
                         
-                        {/* Row 2: Blank middle road line */}
+                        {/* Row 2: Blank Middle Road Line */}
                         <div className="timeline-middle-road-new"></div>
-                        
 
-                        {/* Step 5 Hook Connector (Left Side) */}
+                        {/* Step 5 Hook Connector (Left Turn from Middle Road) */}
                         <div className="step5-hook-wrapper">
                             <div className="hook-segment hook-left-top">
                                 <div className="hook-dash-h reverse"></div>
@@ -2950,26 +3060,27 @@ i.active-gold-global,
                             <div className="hook-corner-patch patch-bl"></div>
                         </div>
 
-                        {/* Row 3: Left to Right */}
-                        <div className="timeline-card-new timeline-right fade-in-up delay-4" style={{"marginTop":"30px"}}>
-                             <div className="timeline-badge-new">5</div>
-                             <h4>QA/QC Inspection</h4>
+                        {/* Row 3: Steps 5 to 8 */}
+                        <div className="timeline-card-new timeline-right fade-in-up delay-4" style={{ marginTop: "30px" }}>
+                            <div className="timeline-badge-new">5</div>
+                            <h4>QA/QC Inspection</h4>
                         </div>
-                        <div className="timeline-card-new timeline-right fade-in-up delay-5" style={{"marginTop":"30px"}}>
+                        <div className="timeline-card-new timeline-right fade-in-up delay-5" style={{ marginTop: "30px" }}>
                             <div className="timeline-badge-new">6</div>
                             <h4>Testing & Pre-Commissioning</h4>
                         </div>
-                        <div className="timeline-card-new timeline-right fade-in-up delay-6" style={{"marginTop":"30px"}}>
+                        <div className="timeline-card-new timeline-right fade-in-up delay-6" style={{ marginTop: "30px" }}>
                             <div className="timeline-badge-new">7</div>
                             <h4>Commissioning Support</h4>
                         </div>
-                        <div className="timeline-card-new fade-in-up delay-7" style={{"marginTop":"30px"}}>
+                        <div className="timeline-card-new fade-in-up delay-7" style={{ marginTop: "30px" }}>
                             <div className="timeline-badge-new">8</div>
                             <h4>Handover & Docs</h4>
                         </div>
-                     </div>
-                 </div>
-             </div>
+
+                    </div>
+                </div>
+            </div>
 
             <div className="text-center mt-5 fade-in-up">
                 <a href="#contact" className="btn btn-primary">Discuss Project Support</a>
