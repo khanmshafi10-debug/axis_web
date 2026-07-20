@@ -45,7 +45,7 @@ export default function Home() {
       
       grid.style.position = 'relative';
       
-      if (window.innerWidth > 1024) {
+      if (window.innerWidth > 1200) {
         const svg = document.getElementById('mobile-snake-svg');
         if (svg) svg.style.display = 'none';
         return;

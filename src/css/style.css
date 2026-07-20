@@ -2696,8 +2696,13 @@ li:hover .anim-bullet.dots,
     to { background-position: center 24px; }
 }
 
-/* Mobile & Tablet S-Curve Overrides (under 1024px) */
-@media (max-width: 1024px) {
+/* Mobile & Tablet S-Curve Overrides (under 1200px - covers 754px to 1090px & all mobile) */
+@media (max-width: 1200px) {
+    .timeline-desktop-wrapper {
+        max-width: 650px !important;
+        margin: 0 auto !important;
+    }
+
     .timeline-grid-new {
         display: flex !important;
         flex-direction: column !important;
