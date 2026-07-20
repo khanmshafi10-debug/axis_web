@@ -58,15 +58,14 @@ export default function Home() {
         svg.style.position = 'absolute';
         svg.style.top = '0';
         svg.style.left = '0';
-        svg.style.width = '100%';
-        svg.style.height = '100%';
-        svg.style.zIndex = '0';
+        svg.style.zIndex = '1';
         svg.style.pointerEvents = 'none';
+        svg.style.overflow = 'visible';
         
         const path1 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
         path1.id = 'mobile-snake-path1';
         path1.setAttribute('fill', 'none');
-        path1.setAttribute('stroke', '#1B293A');
+        path1.setAttribute('stroke', '#0B8FC8');
         path1.setAttribute('stroke-width', '12');
         
         const path2 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
@@ -91,12 +90,19 @@ export default function Home() {
         svg.appendChild(path3);
         grid.insertBefore(svg, grid.firstChild);
       }
+      
+      const gridRect = grid.getBoundingClientRect();
+      if (gridRect.width === 0 || gridRect.height === 0) return;
+
       svg.style.display = 'block';
+      svg.setAttribute('width', gridRect.width);
+      svg.setAttribute('height', gridRect.height);
+      svg.style.width = gridRect.width + 'px';
+      svg.style.height = gridRect.height + 'px';
       
       const badges = Array.from(grid.querySelectorAll('.timeline-card-new .timeline-badge-new'));
       if (badges.length === 0) return;
       
-      const gridRect = grid.getBoundingClientRect();
       let d = '';
       
       for (let i = 0; i < badges.length - 1; i++) {
@@ -148,10 +154,28 @@ export default function Home() {
 
     drawMobileSnake();
     window.addEventListener('resize', drawMobileSnake);
-    const timer = setTimeout(drawMobileSnake, 500);
+    window.addEventListener('scroll', drawMobileSnake);
+
+    const t1 = setTimeout(drawMobileSnake, 100);
+    const t2 = setTimeout(drawMobileSnake, 400);
+    const t3 = setTimeout(drawMobileSnake, 800);
+    const t4 = setTimeout(drawMobileSnake, 1500);
+
+    let ro = null;
+    const gridEl = document.querySelector('.timeline-grid-new');
+    if (gridEl && window.ResizeObserver) {
+      ro = new ResizeObserver(drawMobileSnake);
+      ro.observe(gridEl);
+    }
+
     return () => {
       window.removeEventListener('resize', drawMobileSnake);
-      clearTimeout(timer);
+      window.removeEventListener('scroll', drawMobileSnake);
+      clearTimeout(t1);
+      clearTimeout(t2);
+      clearTimeout(t3);
+      clearTimeout(t4);
+      if (ro) ro.disconnect();
     };
   }, []);
 

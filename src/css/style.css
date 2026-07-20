@@ -2726,14 +2726,18 @@ li:hover .anim-bullet.dots,
 
     .timeline-badge-new {
         margin: 0 !important;
-        z-index: 2;
+        z-index: 5 !important;
+        background: #ffffff !important;
+        position: relative !important;
     }
 
     .timeline-card-new h4 {
-        font-size: 1.05rem !important;
+        font-size: clamp(1rem, 2.2vw, 1.15rem) !important;
         line-height: 1.35 !important;
         margin: 0 !important;
         padding: 0 !important;
+        z-index: 5 !important;
+        position: relative !important;
     }
 
     /* Alternating layout for mobile snake curve */
