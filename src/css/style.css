@@ -2659,45 +2659,45 @@ li:hover .anim-bullet.dots,
     .timeline-card-new {
         width: 100% !important;
         display: grid !important;
-        grid-template-columns: 60px 1fr !important;
-        column-gap: 20px !important;
-        margin-bottom: 40px !important;
+        column-gap: 15px !important;
+        margin-bottom: 85px !important;
+        margin-top: 0 !important;
+        align-items: center !important;
         position: relative;
     }
 
     .timeline-badge-new {
-        grid-column: 1;
         margin: 0 !important;
         z-index: 2;
     }
 
     .timeline-card-new h4 {
-        grid-column: 2;
-        text-align: left !important;
+        font-size: 1.05rem !important;
+        line-height: 1.35 !important;
         margin: 0 !important;
-        padding-top: 5px;
+        padding: 0 !important;
     }
 
     /* Alternating layout for mobile snake curve */
-    .timeline-card-new:nth-child(3),
-    .timeline-card-new:nth-child(5),
-    .timeline-card-new:nth-child(10),
-    .timeline-card-new:nth-child(12) {
+    .timeline-card-new.card-odd {
+        grid-template-columns: 60px 1fr !important;
+    }
+    .timeline-card-new.card-odd .timeline-badge-new {
+        grid-column: 1 !important;
+    }
+    .timeline-card-new.card-odd h4 {
+        grid-column: 2 !important;
+        text-align: left !important;
+    }
+
+    .timeline-card-new.card-even {
         grid-template-columns: 1fr 60px !important;
     }
-
-    .timeline-card-new:nth-child(3) .timeline-badge-new,
-    .timeline-card-new:nth-child(5) .timeline-badge-new,
-    .timeline-card-new:nth-child(10) .timeline-badge-new,
-    .timeline-card-new:nth-child(12) .timeline-badge-new {
-        grid-column: 2;
+    .timeline-card-new.card-even .timeline-badge-new {
+        grid-column: 2 !important;
     }
-
-    .timeline-card-new:nth-child(3) h4,
-    .timeline-card-new:nth-child(5) h4,
-    .timeline-card-new:nth-child(10) h4,
-    .timeline-card-new:nth-child(12) h4 {
-        grid-column: 1;
+    .timeline-card-new.card-even h4 {
+        grid-column: 1 !important;
         text-align: right !important;
     }
 }

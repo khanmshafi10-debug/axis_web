@@ -107,10 +107,10 @@ export default function Home() {
         const r2 = b2.getBoundingClientRect();
         
         const x1 = r1.left - gridRect.left + r1.width / 2;
-        const y1 = r1.bottom - gridRect.top;
+        const y1 = r1.top - gridRect.top + r1.height / 2;
         
         const x2 = r2.left - gridRect.left + r2.width / 2;
-        const y2 = r2.top - gridRect.top;
+        const y2 = r2.top - gridRect.top + r2.height / 2;
         
         const radius = 20;
         const verticalDist = y2 - y1;
@@ -3014,19 +3014,19 @@ i.active-gold-global,
                         <div className="timeline-row1-road"></div>
                         
                         {/* Row 1: Steps 1 to 4 */}
-                        <div className="timeline-card-new fade-in-up">
+                        <div className="timeline-card-new card-odd fade-in-up">
                             <div className="timeline-badge-new">1</div>
                             <h4>Requirement Review</h4>
                         </div>
-                        <div className="timeline-card-new fade-in-up delay-1">
+                        <div className="timeline-card-new card-even fade-in-up delay-1">
                             <div className="timeline-badge-new">2</div>
                             <h4>Planning & Coordination</h4>
                         </div>
-                        <div className="timeline-card-new fade-in-up delay-2">
+                        <div className="timeline-card-new card-odd fade-in-up delay-2">
                             <div className="timeline-badge-new">3</div>
                             <h4>Resource Mobilization</h4>
                         </div>
-                        <div className="timeline-card-new fade-in-up delay-3" style={{ gridColumn: "4", gridRow: "1" }}>
+                        <div className="timeline-card-new card-even fade-in-up delay-3" style={{ gridColumn: "4", gridRow: "1" }}>
                             <div className="timeline-badge-new">4</div>
                             <h4>Site Execution</h4>
                         </div>
@@ -3068,19 +3068,19 @@ i.active-gold-global,
                         <div className="timeline-row3-road"></div>
 
                         {/* Row 3: Steps 5 to 8 */}
-                        <div className="timeline-card-new fade-in-up delay-4" style={{ marginTop: "30px" }}>
+                        <div className="timeline-card-new card-odd fade-in-up delay-4" style={{ marginTop: "30px" }}>
                             <div className="timeline-badge-new">5</div>
                             <h4>QA/QC Inspection</h4>
                         </div>
-                        <div className="timeline-card-new fade-in-up delay-5" style={{ marginTop: "30px" }}>
+                        <div className="timeline-card-new card-even fade-in-up delay-5" style={{ marginTop: "30px" }}>
                             <div className="timeline-badge-new">6</div>
                             <h4>Testing & Pre-Commissioning</h4>
                         </div>
-                        <div className="timeline-card-new fade-in-up delay-6" style={{ marginTop: "30px" }}>
+                        <div className="timeline-card-new card-odd fade-in-up delay-6" style={{ marginTop: "30px" }}>
                             <div className="timeline-badge-new">7</div>
                             <h4>Commissioning Support</h4>
                         </div>
-                        <div className="timeline-card-new fade-in-up delay-7" style={{ marginTop: "30px" }}>
+                        <div className="timeline-card-new card-even fade-in-up delay-7" style={{ marginTop: "30px" }}>
                             <div className="timeline-badge-new">8</div>
                             <h4>Handover & Docs</h4>
                         </div>
