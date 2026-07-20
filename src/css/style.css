@@ -358,7 +358,7 @@ img {
     margin-top: 3px;
 }
 
-/* Grid Layouts */
+/* Grid Layouts & Responsive Breakpoints (1000px to 1350px & Mobile) */
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -382,6 +382,34 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
+}
+
+@media (max-width: 1280px) {
+    .grid-4 {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 24px !important;
+    }
+    .two-column {
+        gap: 35px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .grid-3 {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px !important;
+    }
+    .two-column {
+        grid-template-columns: 1fr !important;
+        gap: 30px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-4, .grid-3, .grid-2 {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
 }
 
 /* ==========================================================================
@@ -790,7 +818,7 @@ body.inner-page #header {
 }
 
 /* Responsive Breakpoints for Header Navigation */
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
     .desktop-nav {
         display: none !important;
     }
@@ -802,10 +830,35 @@ body.inner-page #header {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1201px) {
     .mobile-menu-btn,
     .mobile-nav {
         display: none !important;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1380px) {
+    .header-container {
+        padding: 0 clamp(15px, 2.5vw, 40px) !important;
+    }
+    .brand-logo {
+        height: 52px !important;
+    }
+    .desktop-nav ul.nav-links {
+        gap: clamp(4px, 1vw, 12px) !important;
+    }
+    .desktop-nav .nav-link {
+        font-size: 0.85rem !important;
+        padding: 6px 8px !important;
+    }
+    .header-whatsapp-btn {
+        padding: 8px 12px !important;
+        font-size: 0.84rem !important;
+    }
+    .wa-icon-glow {
+        width: 24px !important;
+        height: 24px !important;
+        font-size: 0.95rem !important;
     }
 }
 
@@ -2643,8 +2696,8 @@ li:hover .anim-bullet.dots,
     to { background-position: center 24px; }
 }
 
-/* Mobile S-Curve Overrides (under 768px) */
-@media (max-width: 768px) {
+/* Mobile & Tablet S-Curve Overrides (under 1024px) */
+@media (max-width: 1024px) {
     .timeline-grid-new {
         display: flex !important;
         flex-direction: column !important;
