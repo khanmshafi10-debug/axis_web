@@ -2443,22 +2443,27 @@ li:hover .anim-bullet.dots,
     margin-bottom: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     transition: all var(--transition-fast);
+    position: relative;
+    z-index: 2;
 }
 
-.timeline-card-new:hover .timeline-badge-new {
-    background-color: var(--clr-blue);
-    color: var(--clr-white);
-    border-color: var(--clr-blue);
-    transform: scale(1.1);
+.timeline-card-new {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
-/* Horizontal Animated Road Line Connectors */
-.timeline-card-new.timeline-right::after {
-    content: '';
+/* Continuous Row 1 Road Line */
+.timeline-row1-road {
+    grid-column: 1 / 5;
+    grid-row: 1;
     position: absolute;
     top: 24px;
-    left: calc(50% + 30px);
-    width: calc(100% - 30px);
+    left: calc(12.5% + 30px);
+    right: calc(12.5% + 30px);
     height: 12px;
     box-sizing: border-box;
     background: 
@@ -2468,6 +2473,27 @@ li:hover .anim-bullet.dots,
     border-bottom: 2px solid var(--clr-blue);
     z-index: 1;
     animation: road-flow 1s linear infinite;
+    pointer-events: none;
+}
+
+/* Continuous Row 3 Road Line */
+.timeline-row3-road {
+    grid-column: 1 / 5;
+    grid-row: 3;
+    position: absolute;
+    top: 54px;
+    left: calc(12.5% + 30px);
+    right: calc(12.5% + 30px);
+    height: 12px;
+    box-sizing: border-box;
+    background: 
+        linear-gradient(to right, var(--clr-white) 50%, transparent 50%) repeat-x center / 12px 2px,
+        var(--clr-primary-navy);
+    border-top: 2px solid var(--clr-blue);
+    border-bottom: 2px solid var(--clr-blue);
+    z-index: 1;
+    animation: road-flow 1s linear infinite;
+    pointer-events: none;
 }
 
 .timeline-card-new:hover::after {
@@ -2626,7 +2652,7 @@ li:hover .anim-bullet.dots,
         padding: 10px 0;
     }
     
-    .step4-hook-wrapper, .timeline-middle-road-new, .step5-hook-wrapper {
+    .step4-hook-wrapper, .timeline-middle-road-new, .step5-hook-wrapper, .timeline-row1-road, .timeline-row3-road {
         display: none !important;
     }
 

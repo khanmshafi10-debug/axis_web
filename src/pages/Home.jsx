@@ -3010,17 +3010,19 @@ i.active-gold-global,
             <div className="timeline-container mt-5">
                 <div className="timeline-desktop-wrapper">
                     <div className="timeline-grid-new">
+                        {/* Continuous Road for Row 1 */}
+                        <div className="timeline-row1-road"></div>
                         
                         {/* Row 1: Steps 1 to 4 */}
-                        <div className="timeline-card-new timeline-right fade-in-up">
+                        <div className="timeline-card-new fade-in-up">
                             <div className="timeline-badge-new">1</div>
                             <h4>Requirement Review</h4>
                         </div>
-                        <div className="timeline-card-new timeline-right fade-in-up delay-1">
+                        <div className="timeline-card-new fade-in-up delay-1">
                             <div className="timeline-badge-new">2</div>
                             <h4>Planning & Coordination</h4>
                         </div>
-                        <div className="timeline-card-new timeline-right fade-in-up delay-2">
+                        <div className="timeline-card-new fade-in-up delay-2">
                             <div className="timeline-badge-new">3</div>
                             <h4>Resource Mobilization</h4>
                         </div>
@@ -3062,16 +3064,19 @@ i.active-gold-global,
                             <div className="hook-corner-patch patch-bl"></div>
                         </div>
 
+                        {/* Continuous Road for Row 3 */}
+                        <div className="timeline-row3-road"></div>
+
                         {/* Row 3: Steps 5 to 8 */}
-                        <div className="timeline-card-new timeline-right fade-in-up delay-4" style={{ marginTop: "30px" }}>
+                        <div className="timeline-card-new fade-in-up delay-4" style={{ marginTop: "30px" }}>
                             <div className="timeline-badge-new">5</div>
                             <h4>QA/QC Inspection</h4>
                         </div>
-                        <div className="timeline-card-new timeline-right fade-in-up delay-5" style={{ marginTop: "30px" }}>
+                        <div className="timeline-card-new fade-in-up delay-5" style={{ marginTop: "30px" }}>
                             <div className="timeline-badge-new">6</div>
                             <h4>Testing & Pre-Commissioning</h4>
                         </div>
-                        <div className="timeline-card-new timeline-right fade-in-up delay-6" style={{ marginTop: "30px" }}>
+                        <div className="timeline-card-new fade-in-up delay-6" style={{ marginTop: "30px" }}>
                             <div className="timeline-badge-new">7</div>
                             <h4>Commissioning Support</h4>
                         </div>
