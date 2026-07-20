@@ -147,6 +147,8 @@ export default function Home() {
     }
 
     drawMobileSnake();
+    window.addEventListener('resize', drawMobileSnake);
+    const timer = setTimeout(drawMobileSnake, 500);
     return () => {
       window.removeEventListener('resize', drawMobileSnake);
       clearTimeout(timer);
