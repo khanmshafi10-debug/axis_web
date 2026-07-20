@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AXIS INFINITY STRUCTURE — Organizational Chart</title>
+<style>
+  :root{
+    --bg-page: linear-gradient(180deg, #071325 0%, #0a192f 100%);
+    --exec-1:#0b2240; --exec-2:#061529; --exec-title:#FFFFFF; --exec-sub:#00d2ff;
+    --ops-1:#10b981;  --ops-2:#047857;  --ops-title:#FFFFFF; --ops-sub:#d1fae5;
+    --mgr-1:#0284c7;  --mgr-2:#0369a1;  --mgr-title:#FFFFFF; --mgr-sub:#e0f2fe;
+    --qa-1:#8b5cf6;   --qa-2:#6d28d9;   --qa-title:#FFFFFF;  --qa-sub:#ede9fe;
+    --con-1:#f97316;  --con-2:#c2410c;  --con-title:#FFFFFF; --con-sub:#ffedd5;
+    --lead-1:#eab308; --lead-2:#ca8a04; --lead-title:#0f172a; --lead-sub:#1e293b;
+    --safe-1:#22c55e; --safe-2:#15803d; --safe-title:#FFFFFF; --safe-sub:#dcfce7;
+    --ground-bg:#FFFFFF; --ground-border:#cbd5e1; --ground-title:#0b2240; --ground-sub:#64748b;
+    --line:#00d2ff;
+  }
+  *{box-sizing:border-box;}
+  body{ margin:0; font-family:"Segoe UI", system-ui, -apple-system, sans-serif; background: #071325; color: #fff; }
+
+  .oc-section{
+    background:var(--bg-page);
+    padding:35px 20px 45px;
+    min-height: 100vh;
+  }
+  .oc-heading{ text-align:center; margin:0 0 24px; }
+  .oc-heading h2{
+    margin:0; font-size:clamp(20px,2.5vw,30px); font-weight:800;
+    color:#FFFFFF; letter-spacing:.02em; text-transform: uppercase;
+  }
+  .oc-heading p{
+    margin:6px 0 0; font-size:clamp(12px,1.1vw,15px); color:rgba(255,255,255,0.75);
+  }
+
+  #oc-wrapper{
+    position:relative;
+    width:100%;
+    overflow-x:auto;
+    overflow-y:visible;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding: 20px 0;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  #oc-stage{
+    position:relative;
+    transform-origin:top center;
+    flex:none;
+    transition: transform 0.3s ease;
+  }
+  .node{
+    position:absolute;
+    width:168px;
+    padding:12px 14px;
+    border-radius:14px;
+    text-align:center;
+    box-shadow:0 8px 24px rgba(0,0,0,.3);
+    opacity:0;
+    transform:translateY(-10px) scale(.9);
+    animation:nodeIn .5s cubic-bezier(.2,.8,.2,1) forwards;
+    transition:box-shadow .2s ease-out, transform .2s ease-out;
+    cursor: pointer;
+  }
+  .node:hover{
+    box-shadow:0 14px 35px rgba(0, 210, 255, 0.35);
+    z-index:10;
+    transform:translateY(-4px) scale(1.04);
+  }
+  .node .title{
+    font-weight:800; font-size:clamp(10px,0.95vw,12px);
+    letter-spacing:.03em; text-transform:uppercase; line-height:1.3;
+  }
+  .node .sub{ font-size:clamp(9px,0.85vw,11px); margin-top:4px; font-weight:600; }
+  @keyframes nodeIn{ to{ opacity:1; transform:translateY(0) scale(1); } }
+
+  .t-exec{ background:linear-gradient(135deg,var(--exec-1),var(--exec-2)); color:var(--exec-title); border: 2px solid #00d2ff; }
+  .t-exec .sub{ color:var(--exec-sub); }
+  .t-ops{ background:linear-gradient(135deg,var(--ops-1),var(--ops-2)); color:var(--ops-title); border: 1.5px solid #34d399; }
+  .t-ops .sub{ color:var(--ops-sub); }
+  .t-mgr{ background:linear-gradient(135deg,var(--mgr-1),var(--mgr-2)); color:var(--mgr-title); border: 1.5px solid #38bdf8; }
+  .t-mgr .sub{ color:var(--mgr-sub); }
+  .t-qa{ background:linear-gradient(135deg,var(--qa-1),var(--qa-2)); color:var(--qa-title); border: 1.5px solid #a78bfa; }
+  .t-qa .sub{ color:var(--qa-sub); }
+  .t-con{ background:linear-gradient(135deg,var(--con-1),var(--con-2)); color:var(--con-title); border: 1.5px solid #fb923c; }
+  .t-con .sub{ color:var(--con-sub); }
+  .t-lead{ background:linear-gradient(135deg,var(--lead-1),var(--lead-2)); color:var(--lead-title); border: 1.5px solid #fde047; }
+  .t-lead .sub{ color:var(--lead-sub); }
+  .t-safe{ background:linear-gradient(135deg,var(--safe-1),var(--safe-2)); color:var(--safe-title); border: 1.5px solid #4ade80; }
+  .t-safe .sub{ color:var(--safe-sub); }
+  .t-ground{ background:var(--ground-bg); border:1.5px solid var(--ground-border); color:var(--ground-title); }
+  .t-ground .sub{ color:var(--ground-sub); }
+
+  #oc-lines{ position:absolute; top:0; left:0; overflow:visible; }
+  .edge{ fill:none; stroke:var(--line); stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; filter: drop-shadow(0 0 4px rgba(0,210,255,0.5)); }
+
+  @media (prefers-reduced-motion: reduce){
+    .node{ animation:none; opacity:1; transform:none; }
+  }
+</style>
+</head>
+<body>
+
+<section class="oc-section">
+  <div class="oc-heading">
+    <h2>AXIS INFINITY STRUCTURE</h2>
+    <p>Corporate Organizational Hierarchy</p>
+  </div>
+
+  <div id="oc-wrapper">
+    <div id="oc-stage">
+      <svg id="oc-lines"></svg>
+    </div>
+  </div>
+</section>
+
+<script>
+const tree = {
+  id:'partners', title:'PARTNERS', sub:'', tier:'t-exec',
+  children:[{
+    id:'ceo', title:'CEO', sub:'Mobeen Zia', tier:'t-exec',
+    children:[{
+      id:'md', title:'Managing Director (MD)', sub:'Mujeeb Ali', tier:'t-exec',
+      children:[{
+        id:'opmgr', title:'Operational Manager', sub:'Ch Kashif Naveed', tier:'t-ops',
+        children:[
+          { id:'deputy', title:'Deputy Manager', sub:'Sohail Akhtar', tier:'t-mgr', children:[] },
+          { id:'financehr', title:'Finance & HR Manager', sub:'Ch Tallal Majeed', tier:'t-mgr', children:[] },
+          { id:'projmgr', title:'Project Manager', sub:'Ch Moin Anwar', tier:'t-mgr',
+            children:[
+              { id:'qa', title:'QA Manager', sub:'Arif Dawood', tier:'t-qa', children:[] },
+              { id:'constmgr', title:'Construction Manager', sub:'Naeem', tier:'t-con',
+                children:[
+                  { id:'civil', title:'Civil Team Leader', sub:'Saifullah Khalid', tier:'t-lead',
+                    children:[{ id:'civilsup', title:'Supervisors / Foremen', sub:'', tier:'t-ground',
+                      children:[{ id:'civilwork', title:'Workers / Technicians', sub:'', tier:'t-ground', children:[] }] }] },
+                  { id:'mech', title:'Mechanical Team Leader', sub:'Sakhawat Ali', tier:'t-lead',
+                    children:[{ id:'mechsup', title:'Supervisors / Foremen', sub:'', tier:'t-ground',
+                      children:[{ id:'mechwork', title:'Workers / Technicians', sub:'', tier:'t-ground', children:[] }] }] },
+                  { id:'elec', title:'Electrical, Instrument & Telecom Leader', sub:'Saeed Imran', tier:'t-lead',
+                    children:[{ id:'elecsup', title:'Supervisors / Foremen', sub:'', tier:'t-ground',
+                      children:[{ id:'elecwork', title:'Workers / Technicians', sub:'', tier:'t-ground', children:[] }] }] }
+                ]
+              },
+              { id:'qc', title:'QC Manager', sub:'', tier:'t-qa', children:[] },
+              { id:'safetymgr', title:'Safety Manager', sub:'Tahir Zameer', tier:'t-safe',
+                children:[{ id:'safetyoff', title:'Safety Officer(s)', sub:'', tier:'t-safe', children:[] }] }
+            ]
+          }
+        ]
+      }]
+    }]
+  }]
+};
+
+// ---- Layout positioning ----
+const CARD_W = 168, GAP_X = 22, ROW_H = 115;
+const COL_W = CARD_W + GAP_X;
+const CARD_H_EST = 58;
+
+let leafCounter = 0;
+function assignX(node, depth){
+  node.depth = depth;
+  if(!node.children || node.children.length === 0){
+    node.x = leafCounter;
+    leafCounter++;
+    return;
+  }
+  node.children.forEach(c => assignX(c, depth + 1));
+  const xs = node.children.map(c => c.x);
+  node.x = xs.reduce((a,b)=>a+b,0) / xs.length;
+}
+assignX(tree, 0);
+
+(function compactOpMgrRow(){
+  const opmgr = tree.children[0].children[0].children[0];
+  if(opmgr && opmgr.children && opmgr.children.length >= 3){
+    const [deputy, financehr, projmgr] = opmgr.children;
+    const centerX = opmgr.x;
+    const sideGap = 1;
+    const dx = centerX - projmgr.x;
+    (function shift(n){
+      n.x += dx;
+      n.children.forEach(shift);
+    })(projmgr);
+    deputy.x = centerX - sideGap;
+    financehr.x = centerX + sideGap;
+  }
+})();
+
+let maxDepth = 0;
+let minX = Infinity, maxX = -Infinity;
+(function findBounds(n){
+  maxDepth = Math.max(maxDepth, n.depth);
+  minX = Math.min(minX, n.x);
+  maxX = Math.max(maxX, n.x);
+  n.children.forEach(findBounds);
+})(tree);
+
+(function normalize(n){ n.x -= minX; n.children.forEach(normalize); })(tree);
+maxX -= minX;
+
+const treeW = (maxX + 1) * COL_W;
+const treeH = (maxDepth + 1) * ROW_H + CARD_H_EST + 20;
+
+const stage = document.getElementById('oc-stage');
+const svg = document.getElementById('oc-lines');
+const wrapper = document.getElementById('oc-wrapper');
+stage.style.width = treeW + 'px';
+stage.style.height = treeH + 'px';
+svg.setAttribute('width', treeW);
+svg.setAttribute('height', treeH);
+
+function px(n){ return n.x * COL_W + COL_W/2; }
+function py(n){ return n.depth * ROW_H + 30; }
+
+const nodeEls = {};
+(function render(n){
+  const el = document.createElement('div');
+  el.className = 'node ' + n.tier;
+  const cx = px(n), cy = py(n);
+  el.style.left = (cx - CARD_W/2) + 'px';
+  el.style.top = cy + 'px';
+  el.style.animationDelay = (n.depth * 90) + 'ms';
+  el.innerHTML = '<div class="title">' + n.title + '</div>' +
+                 (n.sub ? '<div class="sub">' + n.sub + '</div>' : '');
+  stage.appendChild(el);
+  nodeEls[n.id] = el;
+  n.children.forEach(render);
+})(tree);
+
+function edgeD(x1, y1, x2, y2){
+  if (Math.abs(x1 - x2) < 1) {
+    return `M ${x1} ${y1} L ${x2} ${y2}`;
+  }
+  const midY = (y1 + y2) / 2;
+  return `M ${x1} ${y1} L ${x1} ${midY} L ${x2} ${midY} L ${x2} ${y2}`;
+}
+
+const drawQueue = [];
+(function buildEdges(n){
+  const realH = nodeEls[n.id].offsetHeight;
+  const x1 = px(n), y1 = py(n) + realH;
+  n.children.forEach(c => {
+    const x2 = px(c), y2 = py(c);
+    const path = document.createElementNS('http://www.w3.org/2000/svg','path');
+    path.setAttribute('d', edgeD(x1, y1, x2, y2));
+    path.setAttribute('class', 'edge');
+    svg.appendChild(path);
+    drawQueue.push({ path, delay: c.depth * 90 + 60 });
+    buildEdges(c);
+  });
+})(tree);
+
+drawQueue.forEach(item => {
+  const len = item.path.getTotalLength();
+  item.path.style.strokeDasharray = len;
+  item.path.style.strokeDashoffset = len;
+  item.path.style.transition = `stroke-dashoffset .45s ease-out ${item.delay}ms`;
+});
+requestAnimationFrame(() => requestAnimationFrame(() => {
+  drawQueue.forEach(item => { item.path.style.strokeDashoffset = 0; });
+}));
+
+function fitToContainer(){
+  const cw = wrapper.clientWidth - 40;
+  const scale = cw / treeW;
+  const s = Math.min(Math.max(scale, 0.4), 1.0);
+  stage.style.transform = `scale(${s})`;
+  wrapper.style.height = (treeH * s + 60) + 'px';
+}
+fitToContainer();
+
+if (window.ResizeObserver) {
+  const ro = new ResizeObserver(() => fitToContainer());
+  ro.observe(wrapper);
+} else {
+  window.addEventListener('resize', () => fitToContainer());
+}
+</script>
+</body>
+</html>
