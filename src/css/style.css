@@ -5302,4 +5302,19 @@ a.sector-card-link:hover i {
     margin-right: auto !important;
 }
 
+/* ==========================================================================
+   Project Inquiry CTA Banner #F5F7FA Section Background
+   ========================================================================== */
+.pro-cta-banner {
+    background-color: #F5F7FA !important;
+    padding: 90px 0 !important;
+    position: relative !important;
+}
+
+.pro-cta-banner .pro-cta-card {
+    background: linear-gradient(135deg, #0B1F3A 0%, #061122 100%) !important;
+    border: 1px solid rgba(11, 143, 200, 0.3) !important;
+    box-shadow: 0 25px 60px rgba(11, 31, 58, 0.18), inset 0 1px 1px rgba(255, 255, 255, 0.15) !important;
+}
+
 
