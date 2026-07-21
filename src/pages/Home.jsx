@@ -1254,8 +1254,8 @@ i.active-gold-global,
     font-size: 1rem;
 }
 @keyframes pulseTick {
-    0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(11, 143, 200, 0.4); }
-    50% { transform: scale(1.15); box-shadow: 0 0 0 10px rgba(11, 143, 200, 0); }
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.15); opacity: 0.85; }
 }
 .about-bullet-list li i {
     color: #0b8fc8;
@@ -2226,8 +2226,8 @@ i.active-gold-global,
     font-size: 1rem;
 }
 @keyframes pulseTick {
-    0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(11, 143, 200, 0.4); }
-    50% { transform: scale(1.15); box-shadow: 0 0 0 10px rgba(11, 143, 200, 0); }
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.15); opacity: 0.85; }
 }
 .about-bullet-list li i {
     color: #0b8fc8;
@@ -3420,7 +3420,7 @@ i.active-gold-global,
     </section>
 
     {/* Strong Project Inquiry CTA Banner */}
-    <section className="pro-cta-banner text-center">
+    <section className="pro-cta-banner text-center" style={{ backgroundColor: '#F5F7FA', background: '#F5F7FA', padding: '90px 0' }}>
         <div className="container fade-in-up">
             <div className="pro-cta-card">
                 <span className="section-label white-label mb-3 d-inline-block" style={{ color: '#E2940F' }}>
