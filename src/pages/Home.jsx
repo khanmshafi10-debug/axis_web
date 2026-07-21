@@ -2565,39 +2565,39 @@ i.active-gold-global,
             
             <div className="grid-4 mt-5">
                 {/* Value 1 */}
-                <div className="value-card fade-in-up" style={{"background":"var(--clr-navy)","border":"1px solid rgba(255,255,255,0.1)","padding":"35px 25px","borderRadius":"12px","textAlign":"center","transition":"all 0.3s ease","borderBottom":"4px solid transparent"}} onmouseover="this.style.transform='translateY(-10px)'; this.style.borderBottomColor='var(--clr-blue)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderBottomColor='transparent'; this.style.boxShadow='none';">
-                    <div style={{"width":"70px","height":"70px","background":"rgba(11,143,200,0.1)","borderRadius":"50%","display":"grid","placeItems":"center","margin":"0 auto 20px"}}>
+                <div className="value-card fade-in-up" style={{"background":"linear-gradient(145deg, #0b1a30 0%, #061122 100%)","border":"1px solid rgba(11, 143, 200, 0.2)","padding":"36px 24px","borderRadius":"16px","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","transition":"all 0.4s cubic-bezier(0.16, 1, 0.3, 1)","boxShadow":"0 12px 30px rgba(0,0,0,0.2)"}}>
+                    <div style={{"width":"72px","height":"72px","background":"linear-gradient(135deg, rgba(11,143,200,0.18) 0%, rgba(11,143,200,0.06) 100%)","border":"1.5px solid rgba(11,143,200,0.3)","borderRadius":"18px","display":"grid","placeItems":"center","margin":"0 auto 20px","boxShadow":"0 8px 20px rgba(11,143,200,0.15)"}}>
                         <i className="ph ph-shield-check" style={{"fontSize":"2.2rem","color":"#E2940F","lineHeight":"1","margin":"0","padding":"0"}}></i>
                     </div>
-                    <h3 style={{"fontSize":"1.25rem","color":"var(--clr-white)","marginBottom":"12px"}}>Safety First</h3>
-                    <p style={{"fontSize":"0.95rem","color":"rgba(255,255,255,0.8)","lineHeight":"1.6","margin":"0"}}>Uncompromising commitment to the health and safety of our workforce and sites.</p>
+                    <h3 style={{"fontSize":"1.3rem","fontWeight":"700","color":"#ffffff","marginBottom":"12px","textAlign":"center","width":"100%","fontFamily":"var(--font-heading)"}}>Safety First</h3>
+                    <p style={{"fontSize":"0.95rem","color":"rgba(255,255,255,0.78)","lineHeight":"1.65","margin":"0","textAlign":"center","width":"100%"}}>Uncompromising commitment to the health and safety of our workforce and sites.</p>
                 </div>
 
                 {/* Value 2 */}
-                <div className="value-card fade-in-up delay-1" style={{"background":"var(--clr-navy)","border":"1px solid rgba(255,255,255,0.1)","padding":"35px 25px","borderRadius":"12px","textAlign":"center","transition":"all 0.3s ease","borderBottom":"4px solid transparent"}} onmouseover="this.style.transform='translateY(-10px)'; this.style.borderBottomColor='var(--clr-blue)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderBottomColor='transparent'; this.style.boxShadow='none';">
-                    <div style={{"width":"70px","height":"70px","background":"rgba(11,143,200,0.1)","borderRadius":"50%","display":"grid","placeItems":"center","margin":"0 auto 20px"}}>
+                <div className="value-card fade-in-up delay-1" style={{"background":"linear-gradient(145deg, #0b1a30 0%, #061122 100%)","border":"1px solid rgba(11, 143, 200, 0.2)","padding":"36px 24px","borderRadius":"16px","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","transition":"all 0.4s cubic-bezier(0.16, 1, 0.3, 1)","boxShadow":"0 12px 30px rgba(0,0,0,0.2)"}}>
+                    <div style={{"width":"72px","height":"72px","background":"linear-gradient(135deg, rgba(11,143,200,0.18) 0%, rgba(11,143,200,0.06) 100%)","border":"1.5px solid rgba(11,143,200,0.3)","borderRadius":"18px","display":"grid","placeItems":"center","margin":"0 auto 20px","boxShadow":"0 8px 20px rgba(11,143,200,0.15)"}}>
                         <i className="ph ph-medal" style={{"fontSize":"2.2rem","color":"#E2940F","lineHeight":"1","margin":"0","padding":"0"}}></i>
                     </div>
-                    <h3 style={{"fontSize":"1.25rem","color":"var(--clr-white)","marginBottom":"12px"}}>Excellence</h3>
-                    <p style={{"fontSize":"0.95rem","color":"rgba(255,255,255,0.8)","lineHeight":"1.6","margin":"0"}}>Delivering the highest quality standards in engineering and construction execution.</p>
+                    <h3 style={{"fontSize":"1.3rem","fontWeight":"700","color":"#ffffff","marginBottom":"12px","textAlign":"center","width":"100%","fontFamily":"var(--font-heading)"}}>Excellence</h3>
+                    <p style={{"fontSize":"0.95rem","color":"rgba(255,255,255,0.78)","lineHeight":"1.65","margin":"0","textAlign":"center","width":"100%"}}>Delivering the highest quality standards in engineering and construction execution.</p>
                 </div>
                 
                 {/* Value 3 */}
-                <div className="value-card fade-in-up delay-2" style={{"background":"var(--clr-navy)","border":"1px solid rgba(255,255,255,0.1)","padding":"35px 25px","borderRadius":"12px","textAlign":"center","transition":"all 0.3s ease","borderBottom":"4px solid transparent"}} onmouseover="this.style.transform='translateY(-10px)'; this.style.borderBottomColor='var(--clr-blue)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderBottomColor='transparent'; this.style.boxShadow='none';">
-                    <div style={{"width":"70px","height":"70px","background":"rgba(11,143,200,0.1)","borderRadius":"50%","display":"grid","placeItems":"center","margin":"0 auto 20px"}}>
+                <div className="value-card fade-in-up delay-2" style={{"background":"linear-gradient(145deg, #0b1a30 0%, #061122 100%)","border":"1px solid rgba(11, 143, 200, 0.2)","padding":"36px 24px","borderRadius":"16px","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","transition":"all 0.4s cubic-bezier(0.16, 1, 0.3, 1)","boxShadow":"0 12px 30px rgba(0,0,0,0.2)"}}>
+                    <div style={{"width":"72px","height":"72px","background":"linear-gradient(135deg, rgba(11,143,200,0.18) 0%, rgba(11,143,200,0.06) 100%)","border":"1.5px solid rgba(11,143,200,0.3)","borderRadius":"18px","display":"grid","placeItems":"center","margin":"0 auto 20px","boxShadow":"0 8px 20px rgba(11,143,200,0.15)"}}>
                         <i className="ph ph-handshake" style={{"fontSize":"2.2rem","color":"#E2940F","lineHeight":"1","margin":"0","padding":"0"}}></i>
                     </div>
-                    <h3 style={{"fontSize":"1.25rem","color":"var(--clr-white)","marginBottom":"12px"}}>Integrity</h3>
-                    <p style={{"fontSize":"0.95rem","color":"rgba(255,255,255,0.8)","lineHeight":"1.6","margin":"0"}}>Conducting business with transparency, honesty, and accountability at all levels.</p>
+                    <h3 style={{"fontSize":"1.3rem","fontWeight":"700","color":"#ffffff","marginBottom":"12px","textAlign":"center","width":"100%","fontFamily":"var(--font-heading)"}}>Integrity</h3>
+                    <p style={{"fontSize":"0.95rem","color":"rgba(255,255,255,0.78)","lineHeight":"1.65","margin":"0","textAlign":"center","width":"100%"}}>Conducting business with transparency, honesty, and accountability at all levels.</p>
                 </div>
 
                 {/* Value 4 */}
-                <div className="value-card fade-in-up delay-3" style={{"background":"var(--clr-navy)","border":"1px solid rgba(255,255,255,0.1)","padding":"35px 25px","borderRadius":"12px","textAlign":"center","transition":"all 0.3s ease","borderBottom":"4px solid transparent"}} onmouseover="this.style.transform='translateY(-10px)'; this.style.borderBottomColor='var(--clr-blue)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderBottomColor='transparent'; this.style.boxShadow='none';">
-                    <div style={{"width":"70px","height":"70px","background":"rgba(11,143,200,0.1)","borderRadius":"50%","display":"grid","placeItems":"center","margin":"0 auto 20px"}}>
+                <div className="value-card fade-in-up delay-3" style={{"background":"linear-gradient(145deg, #0b1a30 0%, #061122 100%)","border":"1px solid rgba(11, 143, 200, 0.2)","padding":"36px 24px","borderRadius":"16px","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","transition":"all 0.4s cubic-bezier(0.16, 1, 0.3, 1)","boxShadow":"0 12px 30px rgba(0,0,0,0.2)"}}>
+                    <div style={{"width":"72px","height":"72px","background":"linear-gradient(135deg, rgba(11,143,200,0.18) 0%, rgba(11,143,200,0.06) 100%)","border":"1.5px solid rgba(11,143,200,0.3)","borderRadius":"18px","display":"grid","placeItems":"center","margin":"0 auto 20px","boxShadow":"0 8px 20px rgba(11,143,200,0.15)"}}>
                         <i className="ph ph-lightbulb" style={{"fontSize":"2.2rem","color":"#E2940F","lineHeight":"1","margin":"0","padding":"0"}}></i>
                     </div>
-                    <h3 style={{"fontSize":"1.25rem","color":"var(--clr-white)","marginBottom":"12px"}}>Innovation</h3>
-                    <p style={{"fontSize":"0.95rem","color":"rgba(255,255,255,0.8)","lineHeight":"1.6","margin":"0"}}>Continuously improving and adopting modern solutions to solve complex challenges.</p>
+                    <h3 style={{"fontSize":"1.3rem","fontWeight":"700","color":"#ffffff","marginBottom":"12px","textAlign":"center","width":"100%","fontFamily":"var(--font-heading)"}}>Innovation</h3>
+                    <p style={{"fontSize":"0.95rem","color":"rgba(255,255,255,0.78)","lineHeight":"1.65","margin":"0","textAlign":"center","width":"100%"}}>Continuously improving and adopting modern solutions to solve complex challenges.</p>
                 </div>
             </div>
         </div>

@@ -5275,4 +5275,31 @@ a.sector-card-link:hover i {
     }
 }
 
+/* ==========================================================================
+   Core Values Card Styling & Explicit Center Alignment
+   ========================================================================== */
+.value-card {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+}
+
+.value-card h3,
+.value-card h4,
+.value-card .value-card-title {
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.value-card p {
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 
