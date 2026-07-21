@@ -3497,8 +3497,8 @@ i.active-gold-global,
                         <a href="tel:+966507673009" className="btn btn-primary" style={{"display":"inline-flex","alignItems":"center","justifyContent":"center","gap":"12px","backgroundColor":"var(--clr-blue)","borderColor":"var(--clr-blue)","fontWeight":"700","width":"fit-content","minWidth":"280px","padding":"14px 24px"}}>
                             <i className="ph ph-phone-call" style={{"fontSize":"1.25rem"}}></i> +966 50 767 3009 (KSA)
                         </a>
-                        <a href="https://wa.me/923029203920" className="btn" target="_blank" style={{"display":"inline-flex","alignItems":"center","justifyContent":"center","gap":"12px","fontWeight":"700","width":"fit-content","minWidth":"280px","padding":"14px 24px","border":"2px solid #25D366","color":"#25D366","background":"rgba(37, 211, 102, 0.05)"}} onmouseover="this.style.backgroundColor='#25D366'; this.style.color='#fff';" onmouseout="this.style.backgroundColor='rgba(37, 211, 102, 0.05)'; this.style.color='#25D366';">
-                            <i className="ph ph-whatsapp-logo" style={{"fontSize":"1.4rem"}}></i> +92 302 9203920 (PAK)
+                        <a href="https://wa.me/923029203920" className="btn-whatsapp" target="_blank" rel="noopener noreferrer" style={{"width":"fit-content","minWidth":"280px"}}>
+                            <i className="ph ph-whatsapp-logo"></i> +92 302 9203920 (PAK)
                         </a>
                     </div>
                     
