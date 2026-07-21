@@ -3420,19 +3420,19 @@ i.active-gold-global,
     </section>
 
     {/* Strong Project Inquiry CTA Banner */}
-    <section className="pro-cta-banner text-center" style={{ backgroundColor: '#F5F7FA', padding: '90px 0' }}>
+    <section className="pro-cta-banner text-center">
         <div className="container fade-in-up">
             <div className="pro-cta-card">
-                <span className="section-label mb-3 d-inline-block" style={{ color: '#D97706', fontWeight: '700' }}>
+                <span className="section-label white-label mb-3 d-inline-block" style={{ color: '#E2940F' }}>
                     <span className="anim-bullet dots" style={{ display: 'inline-flex', gap: '3px', marginRight: '8px', transform: 'translateY(-2px)' }}>
                         <span></span><span></span><span></span>
                     </span>
                     Fast Response & Mobilization Guarantee
                 </span>
-                <h2 style={{ color: '#0B1F3A', fontSize: 'clamp(2rem, 4vw, 2.75rem)', marginBottom: '20px', fontWeight: '800', lineHeight: '1.2' }}>
+                <h2 style={{ color: 'var(--clr-white)', fontSize: 'clamp(2rem, 4vw, 2.75rem)', marginBottom: '20px', fontWeight: '800', lineHeight: '1.2' }}>
                     Need Reliable Engineering Support for Your Next Project?
                 </h2>
-                <p className="max-w-800 mx-auto" style={{ color: '#334155', fontSize: '1.125rem', lineHeight: '1.75', marginBottom: '35px' }}>
+                <p className="max-w-800 mx-auto" style={{ color: 'rgba(255, 255, 255, 0.88)', fontSize: '1.125rem', lineHeight: '1.75', marginBottom: '35px' }}>
                     Share your project scope, BOQ, manpower requirement, equipment need, transport requirement, or site support request. AXIS Infinity Structure will review your requirement and recommend the right project support solution.
                 </p>
                 <div className="hero-buttons justify-center" style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }}>
@@ -3440,7 +3440,7 @@ i.active-gold-global,
                         <span>Submit Project Requirement</span>
                         <i className="ph ph-paper-plane-right" style={{ marginLeft: '10px', fontSize: '1.2rem' }}></i>
                     </a>
-                    <a href="#contact" className="btn btn-outline-navy" style={{ padding: '15px 32px', fontSize: '1.05rem' }}>
+                    <a href="#contact" className="btn btn-outline-white" style={{ padding: '15px 32px', fontSize: '1.05rem' }}>
                         <span>Contact Technical Team</span>
                         <i className="ph ph-headset" style={{ marginLeft: '10px', fontSize: '1.2rem' }}></i>
                     </a>
