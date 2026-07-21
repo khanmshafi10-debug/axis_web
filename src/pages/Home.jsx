@@ -2259,29 +2259,12 @@ i.active-gold-global,
             <div className="premium-about-grid">
                 
                 {/* Left: Image Area */}
-                <div className="about-images-wrapper fade-in-left">
-                    <div className="about-img-main-outer">
-                        <div className="about-img-main-wrapper">
-                            <img src="images/about section.webp" alt="AXIS Infinity Structure Corporate Office" className="about-img-main"  width="900" height="600" loading="lazy" decoding="async" />
-                        </div>
-                        <style dangerouslySetInnerHTML={{ __html: `
-                            .interactive-stamp {
-                                width: 100%; height: 100%; 
-                                object-fit: cover; 
-                                border-radius: 50%;
-                                transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-                                cursor: pointer;
-                            }
-                            .interactive-stamp:hover {
-                                transform: rotate(-15deg) scale(1.05);
-                            }
-                            .interactive-stamp:active {
-                                transform: rotate(-25deg) scale(0.95);
-                            }
-                        ` }} />
-                        <div className="about-badge" style={{"position":"absolute","width":"140px","height":"140px","zIndex":"10","display":"flex","alignItems":"center","justifyContent":"center","boxShadow":"0 10px 30px rgba(0,0,0,0.15)","borderRadius":"50%","background":"white"}}>
-                            <img src="images/axis-stamp-clean.webp" alt="Axis Stamp" className="interactive-stamp"  width="810" height="810" loading="lazy" decoding="async" />
-                        </div>
+                <div className="axis-premium-image-card fade-in-left" style={{"maxWidth":"560px"}}>
+                    <div className="axis-premium-image-inner" style={{"height":"480px"}}>
+                        <img src="images/about section.webp" alt="AXIS Infinity Structure Corporate Office" width="900" height="600" loading="lazy" decoding="async" />
+                    </div>
+                    <div className="axis-premium-stamp-badge">
+                        <img src="images/axis-stamp-clean.webp" alt="Axis Stamp" width="810" height="810" loading="lazy" decoding="async" />
                     </div>
                 </div>
 
