@@ -30,7 +30,7 @@ export default function PreCommissioning() {
                 </div>
                 <div className="fade-in-right" style={{"padding":"20px"}}>
                     <div style={{"position":"relative","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/instrumentation_transmitter.png" alt="Pre-Commissioning & Handover" style={{"width":"100%","display":"block","borderRadius":"8px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)","position":"relative","zIndex":"2","height":"400px","objectFit":"cover"}} />
+                        <img src="images/instrumentation_transmitter.webp" alt="Pre-Commissioning & Handover" style={{"width":"100%","display":"block","borderRadius":"8px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)","position":"relative","zIndex":"2","height":"400px","objectFit":"cover"}} />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"8px","zIndex":"1"}}></div>
                     </div>
                 </div>

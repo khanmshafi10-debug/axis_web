@@ -29,7 +29,7 @@ export default function Vision2030() {
 .v2030-hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('images/vision_hero_bg_new.png');
+    background-image: url('images/vision_hero_bg_new.webp');
     background-size: cover;
     background-position: center;
     opacity: 0.4;
@@ -481,7 +481,7 @@ export default function Vision2030() {
 .v2030-mega-bg {
     position: absolute;
     inset: -10%;
-    background-image: url('images/vision_image.png');
+    background-image: url('images/vision_image.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -648,7 +648,7 @@ export default function Vision2030() {
         <div className="container">
             <div className="v2030-split-inner">
                 <div className="v2030-split-image anim-float fade-in-up">
-                    <img src="images/vision2030_riyadh.png" alt="Smart Infrastructure & Digital Transformation" />
+                    <img src="images/vision2030_riyadh.webp" alt="Smart Infrastructure & Digital Transformation" />
                 </div>
                 <div className="v2030-split-text fade-in-right">
                     <span className="v2030-section-label">Digital Future</span>
@@ -689,7 +689,7 @@ export default function Vision2030() {
                     </ul>
                 </div>
                 <div className="v2030-split-image fade-in-up" style={{"animation":"none","overflow":"hidden"}}>
-                    <img src="images/safety_ppe_engineers.png" alt="Empowering Local Talent" style={{"transition":"transform 0.6s ease"}} onmouseover="this.style.transform='scale(1.08)';" onmouseout="this.style.transform='scale(1)'" />
+                    <img src="images/safety_ppe_engineers.webp" alt="Empowering Local Talent" style={{"transition":"transform 0.6s ease"}} onmouseover="this.style.transform='scale(1.08)';" onmouseout="this.style.transform='scale(1)'" />
                 </div>
             </div>
         </div>
@@ -712,7 +712,7 @@ export default function Vision2030() {
                     </div>
                 </div>
                 <div className="v2030-project-card">
-                    <img src="images/sports_leisure_venue.png" alt="Sports &amp; Entertainment" />
+                    <img src="images/sports_leisure_venue.webp" alt="Sports &amp; Entertainment" />
                     <div className="v2030-project-overlay">
                         <span className="v2030-project-tag">Entertainment</span>
                         <h4>Sports &amp; Leisure Venues</h4>

@@ -11,7 +11,7 @@ export default function Fertilizer() {
     <>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/decommissioning.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/decommissioning.webp')"}}>
         <div className="container fade-in-up">
             <h1>Fertilizer Department</h1>
             <p>Providing specialized reformer maintenance, high-pressure piping, and heavy lift rigging.</p>
@@ -30,7 +30,7 @@ export default function Fertilizer() {
                 </div>
                 <div className="fade-in-right" style={{"padding":"20px"}}>
                     <div style={{"position":"relative","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/site-execution.png" alt="Fertilizer Plant Site Execution" style={{"width":"100%","display":"block","borderRadius":"8px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)","position":"relative","zIndex":"2","height":"400px","objectFit":"cover"}} />
+                        <img src="images/site-execution.webp" alt="Fertilizer Plant Site Execution" style={{"width":"100%","display":"block","borderRadius":"8px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)","position":"relative","zIndex":"2","height":"400px","objectFit":"cover"}} />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"8px","zIndex":"1"}}></div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ export default function Fertilizer() {
     </section>
 
     {/* CTA */}
-    <section className="cta-banner" style={{"backgroundImage":"url('images/decommissioning.png')"}}>
+    <section className="cta-banner" style={{"backgroundImage":"url('images/decommissioning.webp')"}}>
         <div className="container fade-in-up">
             <h2>Need expert engineering or shutdown manpower support for your Fertilizer plant?</h2>
             <p>Connect with our engineering division to discuss your scope of work and receive a comprehensive proposal.</p>

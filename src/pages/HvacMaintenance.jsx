@@ -11,7 +11,7 @@ export default function HvacMaintenance() {
     <>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/hvac_industrial.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/hvac_industrial.webp')"}}>
         <div className="container fade-in-up">
             <h1>HVAC & Maintenance</h1>
             <p>Complete HVAC Engineering and Integrated Facility Management Solutions.</p>
@@ -39,7 +39,7 @@ export default function HvacMaintenance() {
                 </div>
                 <div className="fade-in-right" style={{"padding":"20px"}}>
                     <div style={{"position":"relative","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/hvac_industrial.png" alt="Industrial HVAC System AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
+                        <img src="images/hvac_industrial.webp" alt="Industrial HVAC System AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"12px","zIndex":"1"}}></div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@ export default function HvacMaintenance() {
     </section>
 
     {/* CTA */}
-    <section className="cta-banner" style={{"backgroundImage":"url('images/hvac_industrial.png')"}}>
+    <section className="cta-banner" style={{"backgroundImage":"url('images/hvac_industrial.webp')"}}>
         <div className="container fade-in-up">
             <h2>Ready to Optimize Your HVAC & Facility Maintenance?</h2>
             <p>Contact our team for a detailed HVAC survey, AMC proposal, and energy-saving recommendations for your facility.</p>

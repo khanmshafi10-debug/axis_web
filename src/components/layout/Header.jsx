@@ -55,7 +55,7 @@ export default function Header() {
       <div className="container header-container">
         <div className="logo">
           <a href="index.html" className="logo-link">
-            <img src="images/axis logo.png" alt="Axis Infinity Structure, Engineering &amp; Infrastructure" className="brand-logo" />
+            <img src="images/axis logo.webp" alt="Axis Infinity Structure, Engineering &amp; Infrastructure" className="brand-logo" />
           </a>
         </div>
 

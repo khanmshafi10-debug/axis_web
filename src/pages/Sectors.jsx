@@ -213,7 +213,7 @@ export default function Sectors() {
 }
 ` }} />
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/project_industrial_park.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/project_industrial_park.webp')"}}>
         <div className="container fade-in-up">
             <h1>Sectors We Serve</h1>
                         <div style={{"marginTop":"35px","marginBottom":"20px"}}>
@@ -463,7 +463,7 @@ export default function Sectors() {
                 {/* Sector 2 */}
                 <div className="sector-card-premium fade-in-up scale-in delay-1">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/commercial-construction.jpg" alt="Commercial Buildings" />
+                        <img src="images/commercial-construction.webp" alt="Commercial Buildings" />
                         <div className="sector-card-badge"><i className="ph ph-buildings"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -567,7 +567,7 @@ export default function Sectors() {
                 {/* Sector 10 */}
                 <div className="sector-card-premium fade-in-up scale-in">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/oil and gas refineries.jpg" alt="Oil & Refinery" />
+                        <img src="images/oil and gas refineries.webp" alt="Oil & Refinery" />
                         <div className="sector-card-badge"><i className="ph ph-gas-pump"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -580,7 +580,7 @@ export default function Sectors() {
                 {/* Sector 11 */}
                 <div className="sector-card-premium fade-in-up scale-in delay-1">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/insulation.png" alt="Petrochemical" />
+                        <img src="images/insulation.webp" alt="Petrochemical" />
                         <div className="sector-card-badge"><i className="ph ph-factory"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -593,7 +593,7 @@ export default function Sectors() {
                 {/* Sector 12 */}
                 <div className="sector-card-premium fade-in-up scale-in delay-2">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/decommissioning.png" alt="Fertilizer Industry" />
+                        <img src="images/decommissioning.webp" alt="Fertilizer Industry" />
                         <div className="sector-card-badge"><i className="ph ph-leaf"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -647,7 +647,7 @@ export default function Sectors() {
                     </ul>
                 </div>
                 <div className="v2030-split-image fade-in-up" style={{"animation":"none","overflow":"hidden"}}>
-                    <img src="images/safety_first_industry.png" alt="Safety and Quality Standards" style={{"transition":"transform 0.6s ease"}} onmouseover="this.style.transform='scale(1.08)';" onmouseout="this.style.transform='scale(1)'" />
+                    <img src="images/safety_first_industry.webp" alt="Safety and Quality Standards" style={{"transition":"transform 0.6s ease"}} onmouseover="this.style.transform='scale(1.08)';" onmouseout="this.style.transform='scale(1)'" />
                 </div>
             </div>
         </div>
@@ -658,7 +658,7 @@ export default function Sectors() {
         <div className="container">
             <div className="v2030-split-inner">
                 <div className="v2030-split-image anim-float fade-in-up">
-                    <img src="images/transport_heavy_equipment.png" alt="Specialized Machinery & Workforce" />
+                    <img src="images/transport_heavy_equipment.webp" alt="Specialized Machinery & Workforce" />
                 </div>
                 <div className="v2030-split-text fade-in-right">
                     <span className="v2030-section-label" style={{"background":"var(--clr-blue)","color":"#fff","border":"none"}}>Resources</span>
@@ -676,7 +676,7 @@ export default function Sectors() {
 
     {/* Section 3: End-to-End Execution */}
     <section className="v2030-mega-banner fade-in-up">
-        <div className="v2030-mega-bg" style={{"backgroundImage":"url('images/project_industrial_park.png')"}}></div>
+        <div className="v2030-mega-bg" style={{"backgroundImage":"url('images/project_industrial_park.webp')"}}></div>
         <div className="v2030-mega-content">
             <span className="v2030-section-label" style={{"background":"rgba(11,143,200,0.2)","border":"1px solid rgba(11,143,200,0.4)","color":"#fff"}}>Lifecycle Support</span>
             <h2>End-to-End Project Execution</h2>
@@ -685,7 +685,7 @@ export default function Sectors() {
     </section>
 
     {/* CTA */}
-    <section className="cta-banner" style={{"backgroundImage":"url('images/project_industrial_park.png')"}}>
+    <section className="cta-banner" style={{"backgroundImage":"url('images/project_industrial_park.webp')"}}>
         <div className="container fade-in-up">
             <h2>Operating in Any of These Sectors?</h2>
             <p>Let AXIS INFINITY STRUCTURE become your trusted engineering and project support partner , from planning to handover.</p>

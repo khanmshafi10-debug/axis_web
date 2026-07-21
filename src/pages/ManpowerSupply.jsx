@@ -11,7 +11,7 @@ export default function ManpowerSupply() {
     <>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/manpower_supply_hero.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/manpower_supply_hero.webp')"}}>
         <div className="container fade-in-up">
             <h1>Manpower Supply</h1>
             <p>Certified Technical Workforce Solutions for Industrial & Construction Projects.</p>
@@ -39,7 +39,7 @@ export default function ManpowerSupply() {
                 </div>
                 <div className="fade-in-right" style={{"padding":"20px"}}>
                     <div style={{"position":"relative","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/manpower_supply_new.png" alt="Technical Manpower Supply AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
+                        <img src="images/manpower_supply_new.webp" alt="Technical Manpower Supply AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"12px","zIndex":"1"}}></div>
                     </div>
                 </div>
@@ -187,7 +187,7 @@ export default function ManpowerSupply() {
     </section>
 
     {/* CTA */}
-    <section className="cta-banner" style={{"backgroundImage":"url('images/manpower_supply_hero.png')"}}>
+    <section className="cta-banner" style={{"backgroundImage":"url('images/manpower_supply_hero.webp')"}}>
         <div className="container fade-in-up">
             <h2>Need a Qualified Industrial Workforce for Your Project?</h2>
             <p>Submit your manpower requirements to our team , we will provide a tailored staffing plan, competitive rates, and rapid mobilization timelines.</p>

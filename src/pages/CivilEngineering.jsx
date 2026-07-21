@@ -11,7 +11,7 @@ export default function CivilEngineering() {
     <>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/civil_engineering_banner.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/civil_engineering_banner.webp')"}}>
         <div className="container fade-in-up">
             <h1>Civil Engineering</h1>
             <p>Building the Foundations of Tomorrow , From Site Preparation to Structural Completion.</p>
@@ -48,7 +48,7 @@ export default function CivilEngineering() {
                 </div>
                 <div className="fade-in-right" style={{"padding":"20px"}}>
                     <div style={{"position":"relative","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/civil_engineering_site.png" alt="Civil Engineering Construction Site AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
+                        <img src="images/civil_engineering_site.webp" alt="Civil Engineering Construction Site AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"12px","zIndex":"1"}}></div>
                     </div>
                 </div>
@@ -212,7 +212,7 @@ export default function CivilEngineering() {
     </section>
 
     {/* CTA Banner */}
-    <section className="cta-banner" style={{"backgroundImage":"url('images/civil_engineering_banner.png')"}}>
+    <section className="cta-banner" style={{"backgroundImage":"url('images/civil_engineering_banner.webp')"}}>
         <div className="container fade-in-up">
             <h2>Ready to Start Your Next Civil Engineering Project in Saudi Arabia?</h2>
             <p>Connect with our civil engineering experts for a detailed technical proposal, BOQ estimation, and project timeline review.</p>

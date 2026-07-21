@@ -11,7 +11,7 @@ export default function Careers() {
     <>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/careers_homepage.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/careers_homepage.webp')"}}>
         <div className="container fade-in-up">
             <div style={{"marginTop":"35px","marginBottom":"20px"}}>
                 <p className="hero-desc"><strong>Join the AXIS Infinity Structure Team</strong></p>

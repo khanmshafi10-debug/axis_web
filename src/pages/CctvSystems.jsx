@@ -11,7 +11,7 @@ export default function CctvSystems() {
     <>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/cctv_hero_bg.png?v=2')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/cctv_hero_bg.webp?v=2')"}}>
         <div className="container fade-in-up">
             <h1>CCTV & Security Systems</h1>
             <p>Advanced Surveillance, Access Control, and Integrated Security Solutions for Maximum Protection.</p>
@@ -40,7 +40,7 @@ export default function CctvSystems() {
                 </div>
                 <div className="fade-in-right" style={{"padding":"20px"}}>
                     <div style={{"position":"relative","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/cctv-installation.jpg" alt="CCTV Camera Installation by AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
+                        <img src="images/cctv-installation.webp" alt="CCTV Camera Installation by AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"12px","zIndex":"1"}}></div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ export default function CctvSystems() {
     </section>
 
     {/* CTA */}
-    <section className="cta-banner" style={{"backgroundImage":"url('images/cctv-banner-bg.jpg')"}}>
+    <section className="cta-banner" style={{"backgroundImage":"url('images/cctv-banner-bg.webp')"}}>
         <div className="container fade-in-up">
             <h2>Secure Your Project Site Today</h2>
             <p>Contact our security experts to design a surveillance system that meets your operational and safety requirements.</p>

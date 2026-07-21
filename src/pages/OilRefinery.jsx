@@ -11,7 +11,7 @@ export default function OilRefinery() {
     <>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/project_refinery.png')","bgPosition":"center"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/project_refinery.webp')","bgPosition":"center"}}>
         <div className="container fade-in-up">
             <h1>Oil & Refinery Department</h1>
             <p>Delivering high-integrity construction, mechanical outfitting, and critical shutdown support.</p>
@@ -30,7 +30,7 @@ export default function OilRefinery() {
                 </div>
                 <div className="fade-in-right" style={{"padding":"20px"}}>
                     <div style={{"position":"relative","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/projects/red_sea_desalination.png" alt="Oil and Refinery Engineering" style={{"width":"100%","display":"block","borderRadius":"8px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)","position":"relative","zIndex":"2","height":"400px","objectFit":"cover"}} />
+                        <img src="images/projects/red_sea_desalination.webp" alt="Oil and Refinery Engineering" style={{"width":"100%","display":"block","borderRadius":"8px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)","position":"relative","zIndex":"2","height":"400px","objectFit":"cover"}} />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"8px","zIndex":"1"}}></div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ export default function OilRefinery() {
     </section>
 
     {/* CTA */}
-    <section className="cta-banner" style={{"backgroundImage":"url('images/project_refinery.png')"}}>
+    <section className="cta-banner" style={{"backgroundImage":"url('images/project_refinery.webp')"}}>
         <div className="container fade-in-up">
             <h2>Ready to discuss your Refinery engineering or manpower needs?</h2>
             <p>Connect with our technical division to review scope, specifications, and project logistics.</p>

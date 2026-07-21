@@ -171,7 +171,7 @@ export default function Footer() {
           <div className="footer-brand">
             <div className="logo mb-3">
               <Link to="/" className="logo-link brand-logo-wrapper">
-                <img src="images/axis logo.png" alt="Axis Infinity Structure, Engineering &amp; Infrastructure" className="brand-logo" />
+                <img src="images/axis logo.webp" alt="Axis Infinity Structure, Engineering &amp; Infrastructure" className="brand-logo" />
               </Link>
             </div>
             <p className="footer-tagline" style={{ marginBottom: "15px", fontSize: "1rem", fontWeight: "700", color: "#FFFFFF" }}>

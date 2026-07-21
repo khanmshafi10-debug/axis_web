@@ -12,7 +12,7 @@ export default function Services() {
     <AnimatedPage>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/hero_infrastructure.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/hero_infrastructure.webp')"}}>
         <div className="container fade-in-up">
             <h1>Our Engineering Services</h1>
                         <div style={{"marginTop":"35px","marginBottom":"20px"}}>
@@ -39,7 +39,7 @@ export default function Services() {
             <div className="grid-3" style={{"gap":"30px"}}>
                 {/* Civil */}
                 <div className="service-card fade-in-up" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                    <img src="images/civil_engineering_site.png" alt="Civil Engineering Construction Services AXIS INFINITY STRUCTURE" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                    <img src="images/civil_engineering_site.webp" alt="Civil Engineering Construction Services AXIS INFINITY STRUCTURE" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                     <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                         <div className="card-icon mb-3"><i className="ph ph-buildings"></i></div>
                         <h3>Civil Engineering</h3>
@@ -51,7 +51,7 @@ export default function Services() {
 
                 {/* Mechanical */}
                 <div className="service-card fade-in-up delay-1" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                    <img src="images/mechanical_works_pipes.png" alt="Mechanical Engineering" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                    <img src="images/mechanical_works_pipes.webp" alt="Mechanical Engineering" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                     <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                         <div className="card-icon mb-3"><i className="ph ph-wrench"></i></div>
                         <h3>Mechanical Works</h3>
@@ -63,7 +63,7 @@ export default function Services() {
 
                 {/* Electrical */}
                 <div className="service-card fade-in-up delay-2" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                    <img src="images/ei_works_panel.png" alt="Electrical and Instrumentation Works AXIS INFINITY STRUCTURE" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                    <img src="images/ei_works_panel.webp" alt="Electrical and Instrumentation Works AXIS INFINITY STRUCTURE" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                     <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                         <div className="card-icon mb-3"><i className="ph ph-lightning"></i></div>
                         <h3>Electrical & Instrumentation</h3>
@@ -75,7 +75,7 @@ export default function Services() {
 
                 {/* CCTV */}
                 <div className="service-card fade-in-up" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                    <img src="images/cctv-installation.jpg" alt="CCTV & Security Systems" style={{"width":"100%","height":"220px","objectFit":"cover","objectPosition":"center"}} />
+                    <img src="images/cctv-installation.webp" alt="CCTV & Security Systems" style={{"width":"100%","height":"220px","objectFit":"cover","objectPosition":"center"}} />
                     <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                         <div className="card-icon mb-3"><i className="ph ph-video-camera"></i></div>
                         <h3>CCTV & Security Systems</h3>
@@ -99,7 +99,7 @@ export default function Services() {
                 
                 {/* Manpower */}
                 <div className="service-card fade-in-up delay-1" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                    <img src="images/manpower_supply.png" alt="Manpower Supply" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                    <img src="images/manpower_supply.webp" alt="Manpower Supply" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                     <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                         <div className="card-icon mb-3"><i className="ph ph-users-three"></i></div>
                         <h3>Manpower Supply</h3>
@@ -111,7 +111,7 @@ export default function Services() {
 
                 {/* Transport */}
                 <div className="service-card fade-in-up delay-2" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                    <img src="images/user_transport.png" alt="Transport Rental" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                    <img src="images/user_transport.webp" alt="Transport Rental" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                     <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                         <div className="card-icon mb-3"><i className="ph ph-truck"></i></div>
                         <h3>Transport & Equipment</h3>
@@ -159,7 +159,7 @@ export default function Services() {
 
             {/* Service 10 */}
             <div className="service-card fade-in-up" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                <img src="images/hvac_maintenance_technician.png" alt="HVAC Maintenance" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                <img src="images/hvac_maintenance_technician.webp" alt="HVAC Maintenance" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                 <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                     <div className="card-icon mb-3"><i className="ph ph-wind"></i></div>
                     <h3>HVAC & Maintenance</h3>
@@ -183,7 +183,7 @@ export default function Services() {
 
             {/* Service 12 */}
             <div className="service-card fade-in-up delay-2" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                <img src="images/service_steel_fabrication.png" alt="Steel Fabrication" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                <img src="images/service_steel_fabrication.webp" alt="Steel Fabrication" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                 <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                     <div className="card-icon mb-3"><i className="ph ph-buildings"></i></div>
                     <h3>Steel Fabrication</h3>
@@ -195,7 +195,7 @@ export default function Services() {
 
             {/* Service 13 */}
             <div className="service-card fade-in-up" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                <img src="images/service_industrial_insulation.png" alt="Industrial Insulation" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                <img src="images/service_industrial_insulation.webp" alt="Industrial Insulation" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                 <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                     <div className="card-icon mb-3"><i className="ph ph-fire"></i></div>
                     <h3>Industrial Insulation</h3>
@@ -207,7 +207,7 @@ export default function Services() {
 
             {/* Service 14 */}
             <div className="service-card fade-in-up delay-1" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                <img src="images/service_ndt_inspection.png" alt="NDT & Inspection" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                <img src="images/service_ndt_inspection.webp" alt="NDT & Inspection" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                 <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                     <div className="card-icon mb-3"><i className="ph ph-magnifying-glass"></i></div>
                     <h3>NDT & Inspection</h3>
@@ -219,7 +219,7 @@ export default function Services() {
 
             {/* Service 15 */}
             <div className="service-card fade-in-up delay-2" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                <img src="images/service_marine_offshore.png" alt="Marine & Offshore" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                <img src="images/service_marine_offshore.webp" alt="Marine & Offshore" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                 <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                     <div className="card-icon mb-3"><i className="ph ph-anchor"></i></div>
                     <h3>Marine & Offshore</h3>
@@ -255,7 +255,7 @@ export default function Services() {
 
             {/* Service 18 */}
             <div className="service-card fade-in-up delay-2" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                <img src="images/service_water_wastewater.png" alt="Water Treatment" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                <img src="images/service_water_wastewater.webp" alt="Water Treatment" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                 <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                     <div className="card-icon mb-3"><i className="ph ph-drop"></i></div>
                     <h3>Water & Wastewater</h3>
@@ -267,7 +267,7 @@ export default function Services() {
 
             {/* Service 19 */}
             <div className="service-card fade-in-up" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                <img src="images/service_geotechnical.png" alt="Geotechnical Piling" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                <img src="images/service_geotechnical.webp" alt="Geotechnical Piling" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                 <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                     <div className="card-icon mb-3"><i className="ph ph-arrow-down"></i></div>
                     <h3>Geotechnical & Piling</h3>
@@ -303,7 +303,7 @@ export default function Services() {
 
             {/* Service 23 */}
             <div className="service-card fade-in-up" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                <img src="images/service_procurement.png" alt="Procurement and Supply Chain" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                <img src="images/service_procurement.webp" alt="Procurement and Supply Chain" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                 <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                     <div className="card-icon mb-3"><i className="ph ph-shopping-cart"></i></div>
                     <h3>Procurement & Supply Chain</h3>
@@ -314,7 +314,7 @@ export default function Services() {
 
             {/* Service 24 */}
             <div className="service-card fade-in-up delay-1" style={{"padding":"0","overflow":"hidden","display":"flex","flexDirection":"column","backgroundColor":"#f8f9fa"}}>
-                <img src="images/service_facility.png" alt="Facility Management" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
+                <img src="images/service_facility.webp" alt="Facility Management" style={{"width":"100%","height":"220px","objectFit":"cover"}} />
                 <div style={{"padding":"30px","flex":"1","display":"flex","flexDirection":"column"}}>
                     <div className="card-icon mb-3"><i className="ph ph-buildings"></i></div>
                     <h3>Facility Management</h3>

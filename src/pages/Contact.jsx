@@ -296,7 +296,7 @@ export default function Contact() {
       ` }} />
 
       {/* Page Banner */}
-      <section className="page-banner" style={{ "backgroundImage": "url('images/engineering5.jpg')" }}>
+      <section className="page-banner" style={{ "backgroundImage": "url('images/engineering5.webp')" }}>
         <div className="container fade-in-up">
           <h1>Contact Us</h1>
           <div style={{ "marginTop": "35px", "marginBottom": "20px" }}>

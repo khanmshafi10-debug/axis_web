@@ -1972,7 +1972,7 @@ i.active-gold-global,
             <div className="premium-hero-right">
                 <div className="premium-image-col">
                     <div className="img-wrapper">
-                        <img src="images/hero section image.png" alt="Civil Engineering Site Hero Image" />
+                        <img src="images/hero section image.webp" alt="Civil Engineering Site Hero Image" />
                     </div>
                     {/* Center Stamp: Blue premium badge style with play icon */}
                     <div className="premium-badge" style={{"position":"absolute","top":"50%","left":"50%","transform":"translate(-50%, -50%)","right":"auto","width":"140px","height":"140px"}}>
@@ -2222,7 +2222,7 @@ i.active-gold-global,
                 <div className="about-images-wrapper fade-in-left">
                     <div className="about-img-main-outer">
                         <div className="about-img-main-wrapper">
-                            <img src="images/about section.jpg" alt="AXIS Infinity Structure Corporate Office" className="about-img-main" />
+                            <img src="images/about section.webp" alt="AXIS Infinity Structure Corporate Office" className="about-img-main" />
                         </div>
                         <style dangerouslySetInnerHTML={{ __html: `
                             .interactive-stamp {
@@ -2240,7 +2240,7 @@ i.active-gold-global,
                             }
                         ` }} />
                         <div className="about-badge" style={{"position":"absolute","width":"140px","height":"140px","zIndex":"10","display":"flex","alignItems":"center","justifyContent":"center","boxShadow":"0 10px 30px rgba(0,0,0,0.15)","borderRadius":"50%","background":"white"}}>
-                            <img src="images/axis-stamp-clean.png" alt="Axis Stamp" className="interactive-stamp" />
+                            <img src="images/axis-stamp-clean.webp" alt="Axis Stamp" className="interactive-stamp" />
                         </div>
                     </div>
                 </div>
@@ -2494,7 +2494,7 @@ i.active-gold-global,
 
                 {/* Right: The image of engineers */}
                 <div className="why-header-image">
-                    <img src="images/why_choose_axis.jpg" alt="AXIS Infinity Structure Planning and Execution" />
+                    <img src="images/why_choose_axis.webp" alt="AXIS Infinity Structure Planning and Execution" />
                 </div>
             </div>
             
@@ -2577,7 +2577,7 @@ i.active-gold-global,
                 {/* Service 1: Civil Engineering */}
                 <div className="service-card-new fade-in-up" onclick="location.href='civil-engineering.html'">
                     <div className="service-card-img">
-                        <img src="images/cicil engineering.jpg" alt="Civil Engineering Site Construction" />
+                        <img src="images/cicil engineering.webp" alt="Civil Engineering Site Construction" />
                         <div className="service-card-icon-badge"><i className="ph ph-crane"></i></div>
                     </div>
                     <div className="service-card-body-new">
@@ -2595,7 +2595,7 @@ i.active-gold-global,
                 {/* Service 2: Mechanical Works */}
                 <div className="service-card-new fade-in-up delay-1" onclick="location.href='mechanical-works.html'">
                     <div className="service-card-img">
-                        <img src="images/mechanicalworks.jpg" alt="Industrial Mechanical Piping Works" />
+                        <img src="images/mechanicalworks.webp" alt="Industrial Mechanical Piping Works" />
                         <div className="service-card-icon-badge"><i className="ph ph-gear"></i></div>
                     </div>
                     <div className="service-card-body-new">
@@ -2613,7 +2613,7 @@ i.active-gold-global,
                 {/* Service 3: Electrical & Instrumentation */}
                 <div className="service-card-new fade-in-up delay-2" onclick="location.href='electrical-instrumentation.html'">
                     <div className="service-card-img">
-                        <img src="images/electrical and instrumentations.jpg" alt="Electrical Panel and Instrumentation" />
+                        <img src="images/electrical and instrumentations.webp" alt="Electrical Panel and Instrumentation" />
                         <div className="service-card-icon-badge"><i className="ph ph-lightning"></i></div>
                     </div>
                     <div className="service-card-body-new">
@@ -2631,7 +2631,7 @@ i.active-gold-global,
                 {/* CCTV */}
                 <div className="service-card-new fade-in-up" onclick="location.href='cctv-systems.html'">
                     <div className="service-card-img">
-                        <img src="images/cctv-installation.jpg" alt="CCTV and Security Systems" style={{"objectFit":"cover","objectPosition":"center"}} />
+                        <img src="images/cctv-installation.webp" alt="CCTV and Security Systems" style={{"objectFit":"cover","objectPosition":"center"}} />
                         <div className="service-card-icon-badge"><i className="ph ph-video-camera"></i></div>
                     </div>
                     <div className="service-card-body-new">
@@ -2651,7 +2651,7 @@ i.active-gold-global,
                 {/* Service 5: Manpower Supply */}
                 <div className="service-card-new fade-in-up delay-1" onclick="location.href='manpower-supply.html'">
                     <div className="service-card-img">
-                        <img src="images/manpower_supply_new.png" alt="Skilled Technical Manpower Workforce" />
+                        <img src="images/manpower_supply_new.webp" alt="Skilled Technical Manpower Workforce" />
                         <div className="service-card-icon-badge"><i className="ph ph-users-three"></i></div>
                     </div>
                     <div className="service-card-body-new">
@@ -2669,7 +2669,7 @@ i.active-gold-global,
                 {/* Service 6: Transport & Equipment Rental */}
                 <div className="service-card-new fade-in-up delay-2" onclick="location.href='transport-rental.html'">
                     <div className="service-card-img">
-                        <img src="images/user_transport.png?v=3" alt="Heavy Construction Equipment Rental Fleet" />
+                        <img src="images/user_transport.webp?v=3" alt="Heavy Construction Equipment Rental Fleet" />
                         <div className="service-card-icon-badge"><i className="ph ph-truck"></i></div>
                     </div>
                     <div className="service-card-body-new">
@@ -2812,7 +2812,7 @@ i.active-gold-global,
                 {/* Sector 1: Infrastructure Projects */}
                 <div className="sector-card-premium fade-in-up">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/project_highway.png" alt="Infrastructure Projects" />
+                        <img src="images/project_highway.webp" alt="Infrastructure Projects" />
                         <div className="sector-card-badge"><i className="ph ph-road-horizon"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -2825,7 +2825,7 @@ i.active-gold-global,
                 {/* Sector 2: Industrial Facilities */}
                 <div className="sector-card-premium fade-in-up delay-1">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/project_industrial_park.png" alt="Industrial Facilities" />
+                        <img src="images/project_industrial_park.webp" alt="Industrial Facilities" />
                         <div className="sector-card-badge"><i className="ph ph-factory"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -2838,7 +2838,7 @@ i.active-gold-global,
                 {/* Sector 3: Oil & Gas Refineries */}
                 <div className="sector-card-premium fade-in-up delay-2">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/oil and gas refineries.jpg" alt="Oil & Gas Refineries" />
+                        <img src="images/oil and gas refineries.webp" alt="Oil & Gas Refineries" />
                         <div className="sector-card-badge"><i className="ph ph-drop"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -2851,7 +2851,7 @@ i.active-gold-global,
                 {/* Sector 4: Fertilizer Plants */}
                 <div className="sector-card-premium fade-in-up">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/project_shutdown.png" alt="Fertilizer Plants" />
+                        <img src="images/project_shutdown.webp" alt="Fertilizer Plants" />
                         <div className="sector-card-badge"><i className="ph ph-shield-warning"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -2864,7 +2864,7 @@ i.active-gold-global,
                 {/* Sector 5: Petrochemical */}
                 <div className="sector-card-premium fade-in-up delay-1">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/project_automation.png" alt="Petrochemical" />
+                        <img src="images/project_automation.webp" alt="Petrochemical" />
                         <div className="sector-card-badge"><i className="ph ph-atom"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -2877,7 +2877,7 @@ i.active-gold-global,
                 {/* Sector 6: Commercial Construction */}
                 <div className="sector-card-premium fade-in-up delay-2">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/commercial-construction.jpg" alt="Commercial Construction" />
+                        <img src="images/commercial-construction.webp" alt="Commercial Construction" />
                         <div className="sector-card-badge"><i className="ph ph-buildings"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -2908,7 +2908,7 @@ i.active-gold-global,
                 {/* Project 1 */}
                 <div className="project-card-new fade-in-up">
                     <div className="project-card-img">
-                        <img src="images/projects/dha_road_work.jpg" alt="DHA Multan Civil and Infrastructure Development" />
+                        <img src="images/projects/dha_road_work.webp" alt="DHA Multan Civil and Infrastructure Development" />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -2930,7 +2930,7 @@ i.active-gold-global,
                 {/* Project 2 */}
                 <div className="project-card-new fade-in-up delay-1">
                     <div className="project-card-img">
-                        <img src="images/projects/e_and_i.jpg" alt="DHA Multan Electrical and Instrumentation Works" />
+                        <img src="images/projects/e_and_i.webp" alt="DHA Multan Electrical and Instrumentation Works" />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -2952,7 +2952,7 @@ i.active-gold-global,
                 {/* Project 3 */}
                 <div className="project-card-new fade-in-up delay-2">
                     <div className="project-card-img">
-                        <img src="images/projects/wasa.png" alt="Punjab WASA Municipal Water Infrastructure" />
+                        <img src="images/projects/wasa.webp" alt="Punjab WASA Municipal Water Infrastructure" />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -2974,7 +2974,7 @@ i.active-gold-global,
                                 {/* Project 4: CCTV */}
                 <div className="project-card-new fade-in-up">
                     <div className="project-card-img">
-                        <img src="images/cctv-camera.jpg" alt="IT Office CCTV Setup" style={{"width":"100%","height":"100%","objectFit":"cover","objectPosition":"center"}} />
+                        <img src="images/cctv-camera.webp" alt="IT Office CCTV Setup" style={{"width":"100%","height":"100%","objectFit":"cover","objectPosition":"center"}} />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -3237,7 +3237,7 @@ i.active-gold-global,
                 </div>
                 <div className="fade-in-right col-image" style={{"position":"relative"}}>
                     <div className="blueprint-pattern" style={{"position":"absolute","top":"-20px","left":"-20px","width":"100%","height":"100%","zIndex":"-1","backgroundSize":"20px 20px"}}></div>
-                    <img src="images/safety and quality iamge.png" alt="AXIS Infinity Structure Safety QA/QC site inspection" style={{"width":"100%","height":"350px","objectFit":"cover","borderRadius":"12px","boxShadow":"0 20px 40px rgba(0,0,0,0.15)"}} />
+                    <img src="images/safety and quality iamge.webp" alt="AXIS Infinity Structure Safety QA/QC site inspection" style={{"width":"100%","height":"350px","objectFit":"cover","borderRadius":"12px","boxShadow":"0 20px 40px rgba(0,0,0,0.15)"}} />
                     <div style={{"position":"absolute","bottom":"-20px","right":"-20px","backgroundColor":"var(--clr-primary-navy)","padding":"20px 30px","borderRadius":"12px","boxShadow":"0 15px 30px rgba(0,0,0,0.2)","display":"flex","alignItems":"center","gap":"15px","border":"1px solid rgba(255,255,255,0.1)","zIndex":"10"}}>
                         <i className="ph ph-shield-check" style={{"color":"#E2940F","fontSize":"2.5rem"}}></i>
                         <p style={{"color":"var(--clr-white)","fontWeight":"700","margin":"0","fontSize":"1.1rem","fontFamily":"var(--font-heading)","lineHeight":"1.2"}}>Zero-Harm<br />HSE Practice</p>
@@ -3256,7 +3256,7 @@ i.active-gold-global,
                 <div className="fade-in-left col-image" style={{"maxWidth":"90%","margin":"0 auto","height":"100%","position":"relative"}}>
                     <div style={{"position":"absolute","top":"20px","left":"-20px","right":"20px","bottom":"-20px","border":"2px solid rgba(11,143,200,0.3)","borderRadius":"16px","zIndex":"1"}}></div>
                     <div style={{"borderRadius":"16px","overflow":"hidden","boxShadow":"0 30px 60px rgba(0,0,0,0.4)","position":"relative","zIndex":"2","height":"100%"}}>
-                        <img src="images/saudi_tower_vertical.png" alt="Riyadh towers representing KSA Vision 2030" style={{"width":"100%","height":"100%","objectFit":"cover","display":"block","minHeight":"500px"}} />
+                        <img src="images/saudi_tower_vertical.webp" alt="Riyadh towers representing KSA Vision 2030" style={{"width":"100%","height":"100%","objectFit":"cover","display":"block","minHeight":"500px"}} />
                         <div style={{"position":"absolute","inset":"0","background":"linear-gradient(to top, rgba(11, 31, 58, 0.8) 0%, transparent 50%)"}}></div>
                         <div style={{"position":"absolute","bottom":"25px","left":"25px"}}>
                             <div style={{"background":"var(--clr-blue)","color":"#fff","fontSize":"0.75rem","fontWeight":"700","letterSpacing":"0.1em","textTransform":"uppercase","padding":"4px 12px","borderRadius":"50px","display":"inline-block","marginBottom":"5px"}}>Aligned</div>
@@ -3396,7 +3396,7 @@ i.active-gold-global,
                 
                 {/* Left: Image */}
                 <div className="ceo-card-img-col">
-                    <img src="images/team/ceo_and_gm_mobeen_zia.png" alt="Mobeen Zia" />
+                    <img src="images/team/ceo_and_gm_mobeen_zia.webp" alt="Mobeen Zia" />
                 </div>
 
                 {/* Right: Content */}
@@ -3428,7 +3428,7 @@ i.active-gold-global,
         <div className="container">
             <div className="two-column" style={{"gap":"50px","alignItems":"center"}}>
                 <div className="col-image fade-in-up">
-                    <img src="images/careers_homepage.png" alt="Join AXIS INFINITY STRUCTURE" style={{"width":"100%","borderRadius":"12px","boxShadow":"0 10px 40px rgba(0,0,0,0.4)"}} />
+                    <img src="images/careers_homepage.webp" alt="Join AXIS INFINITY STRUCTURE" style={{"width":"100%","borderRadius":"12px","boxShadow":"0 10px 40px rgba(0,0,0,0.4)"}} />
                 </div>
                 <div className="col-text fade-in-up delay-1">
                     <span className="section-label" style={{"color":"var(--clr-orange)"}}>Join Our Team</span>

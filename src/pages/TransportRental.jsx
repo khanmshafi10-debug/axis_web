@@ -11,7 +11,7 @@ export default function TransportRental() {
     <>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/transport_equipment_fleet.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/transport_equipment_fleet.webp')"}}>
         <div className="container fade-in-up">
             <h1>Transport & Equipment Rental</h1>
             <p>Your Reliable Heavy Equipment & Project Logistics Partner in Saudi Arabia.</p>
@@ -48,7 +48,7 @@ export default function TransportRental() {
                 </div>
                 <div className="fade-in-right" style={{"padding":"20px"}}>
                     <div style={{"position":"relative","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/user_transport.png?v=3" alt="Heavy Equipment Crane Fleet AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
+                        <img src="images/user_transport.webp?v=3" alt="Heavy Equipment Crane Fleet AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"12px","zIndex":"1"}}></div>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ export default function TransportRental() {
     </section>
 
     {/* CTA */}
-    <section className="cta-banner" style={{"backgroundImage":"url('images/transport_equipment_fleet.png')"}}>
+    <section className="cta-banner" style={{"backgroundImage":"url('images/transport_equipment_fleet.webp')"}}>
         <div className="container fade-in-up">
             <h2>Need Heavy Equipment or Transport for Your Project?</h2>
             <p>Contact our fleet operations team for immediate availability checks, lift studies, and competitive rental quotations.</p>

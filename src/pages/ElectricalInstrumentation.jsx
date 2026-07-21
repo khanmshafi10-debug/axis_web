@@ -11,7 +11,7 @@ export default function ElectricalInstrumentation() {
     <>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/ei_works_panel.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/ei_works_panel.webp')"}}>
         <div className="container fade-in-up">
             <h1>Electrical & Instrumentation Works</h1>
             <p>From High-Voltage Substations to DCS Loop Commissioning , Full E&I Scope Delivery.</p>
@@ -40,7 +40,7 @@ export default function ElectricalInstrumentation() {
                 </div>
                 <div className="fade-in-right" style={{"padding":"20px"}}>
                     <div style={{"position":"relative","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/ei_works_panel.png" alt="Electrical Instrumentation Control Room AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
+                        <img src="images/ei_works_panel.webp" alt="Electrical Instrumentation Control Room AXIS INFINITY STRUCTURE" style={{"width":"100%","display":"block","borderRadius":"12px","boxShadow":"0 15px 40px rgba(0,0,0,0.12)","position":"relative","zIndex":"2","height":"420px","objectFit":"cover"}} />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"12px","zIndex":"1"}}></div>
                     </div>
                 </div>
@@ -164,7 +164,7 @@ export default function ElectricalInstrumentation() {
     </section>
 
     {/* CTA */}
-    <section className="cta-banner" style={{"backgroundImage":"url('images/electrical_panelboard.png')"}}>
+    <section className="cta-banner" style={{"backgroundImage":"url('images/electrical_panelboard.webp')"}}>
         <div className="container fade-in-up">
             <h2>Ready to Commission Your Electrical & Instrumentation Scope?</h2>
             <p>Talk to our E&I specialists for loop testing schedules, scope estimation, and commissioning support planning.</p>

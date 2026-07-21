@@ -11,7 +11,7 @@ export default function Petrochemical() {
     <>
       
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/insulation.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/insulation.webp')"}}>
         <div className="container fade-in-up">
             <h1>Petrochemical Department</h1>
             <p>Providing specialized modular construction, chemical piping, and DCS control system integration.</p>
@@ -30,7 +30,7 @@ export default function Petrochemical() {
                 </div>
                 <div className="fade-in-right" style={{"padding":"20px"}}>
                     <div style={{"position":"relative","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/project_automation.png" alt="Petrochemical Automation & Control" style={{"width":"100%","display":"block","borderRadius":"8px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)","position":"relative","zIndex":"2","height":"400px","objectFit":"cover"}} />
+                        <img src="images/project_automation.webp" alt="Petrochemical Automation & Control" style={{"width":"100%","display":"block","borderRadius":"8px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)","position":"relative","zIndex":"2","height":"400px","objectFit":"cover"}} />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"8px","zIndex":"1"}}></div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ export default function Petrochemical() {
     </section>
 
     {/* CTA */}
-    <section className="cta-banner" style={{"backgroundImage":"url('images/insulation.png')"}}>
+    <section className="cta-banner" style={{"backgroundImage":"url('images/insulation.webp')"}}>
         <div className="container fade-in-up">
             <h2>Ready to start your next Petrochemical plant expansion or shutdown?</h2>
             <p>Connect with our technical team to discuss your project requirements and receive a detailed, customized proposal.</p>

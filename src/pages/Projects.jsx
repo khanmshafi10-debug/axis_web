@@ -441,7 +441,7 @@ export default function Projects() {
 }
 ` }} />
       {/* Page Banner */}
-    <section className="page-banner" style={{"backgroundImage":"url('images/projects/dha_civil.png')"}}>
+    <section className="page-banner" style={{"backgroundImage":"url('images/projects/dha_civil.webp')"}}>
         <div className="container fade-in-up">
             <h1>Our Engineering Project Portfolio</h1>
             <p>Proven execution across civil, mechanical, electrical, and instrumentation disciplines, delivering world-class results in Saudi Arabia and beyond.</p>
@@ -462,7 +462,7 @@ export default function Projects() {
 {/* Project 1 */}
                 <div className="project-card-new fade-in-up">
                     <div className="project-card-img">
-                        <img src="images/projects/dha_road_work.jpg" alt="DHA Multan Civil and Infrastructure Development" />
+                        <img src="images/projects/dha_road_work.webp" alt="DHA Multan Civil and Infrastructure Development" />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -484,7 +484,7 @@ export default function Projects() {
                 {/* Project 2 */}
                 <div className="project-card-new fade-in-up delay-1">
                     <div className="project-card-img">
-                        <img src="images/projects/e_and_i.jpg" alt="DHA Multan Electrical and Instrumentation Works" />
+                        <img src="images/projects/e_and_i.webp" alt="DHA Multan Electrical and Instrumentation Works" />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -506,7 +506,7 @@ export default function Projects() {
                 {/* Project 3 */}
                 <div className="project-card-new fade-in-up delay-2">
                     <div className="project-card-img">
-                        <img src="images/projects/wasa.png" alt="Punjab WASA Municipal Water Infrastructure" />
+                        <img src="images/projects/wasa.webp" alt="Punjab WASA Municipal Water Infrastructure" />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -528,7 +528,7 @@ export default function Projects() {
                 {/* Project 4: CCTV */}
                 <div className="project-card-new fade-in-up">
                     <div className="project-card-img">
-                        <img src="images/cctv-camera.jpg" alt="IT Office CCTV Setup" style={{"width":"100%","height":"100%","objectFit":"cover","objectPosition":"center"}} />
+                        <img src="images/cctv-camera.webp" alt="IT Office CCTV Setup" style={{"width":"100%","height":"100%","objectFit":"cover","objectPosition":"center"}} />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -748,7 +748,7 @@ export default function Projects() {
             <div className="proj-ei-grid">
                 <div className="proj-ei-card fade-in-up">
                     <div className="proj-ei-img">
-                        <img src="images/projects/e_and_i.jpg" alt="Electrical and Instrumentation Works" />
+                        <img src="images/projects/e_and_i.webp" alt="Electrical and Instrumentation Works" />
                     </div>
                     <div className="proj-ei-body">
                         <div className="proj-ei-icon"><i className="ph ph-lightning"></i></div>
@@ -758,7 +758,7 @@ export default function Projects() {
                 </div>
                 <div className="proj-ei-card fade-in-up delay-1">
                     <div className="proj-ei-img">
-                        <img src="images/site-execution.png" alt="SCADA and DCS Control Systems" />
+                        <img src="images/site-execution.webp" alt="SCADA and DCS Control Systems" />
                     </div>
                     <div className="proj-ei-body">
                         <div className="proj-ei-icon"><i className="ph ph-cpu"></i></div>
@@ -768,7 +768,7 @@ export default function Projects() {
                 </div>
                 <div className="proj-ei-card fade-in-up delay-2">
                     <div className="proj-ei-img">
-                        <img src="images/safety_first_industry.png" alt="Fire and Gas Detection Systems" />
+                        <img src="images/safety_first_industry.webp" alt="Fire and Gas Detection Systems" />
                     </div>
                     <div className="proj-ei-body">
                         <div className="proj-ei-icon"><i className="ph ph-fire"></i></div>
@@ -782,7 +782,7 @@ export default function Projects() {
 
     {/* Post-Portfolio: Section 5 - Track Record - Full-Width Impact Banner */}
     <section className="impact-banner fade-in-up">
-        <div className="impact-banner-bg" style={{"backgroundImage":"url('images/track_record_success.png')"}}></div>
+        <div className="impact-banner-bg" style={{"backgroundImage":"url('images/track_record_success.webp')"}}></div>
         <div className="impact-overlay"></div>
         <div className="impact-content">
             <span className="v2030-section-label" style={{"background":"rgba(11,143,200,0.25)","border":"1px solid rgba(11,143,200,0.5)","color":"#fff","marginBottom":"25px","display":"inline-block"}}>Our Commitment</span>
