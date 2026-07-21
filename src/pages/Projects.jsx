@@ -462,7 +462,7 @@ export default function Projects() {
 {/* Project 1 */}
                 <div className="project-card-new fade-in-up">
                     <div className="project-card-img">
-                        <img src="images/projects/dha_road_work.webp" alt="DHA Multan Civil and Infrastructure Development" />
+                        <img src="images/projects/dha_road_work.webp" alt="DHA Multan Civil and Infrastructure Development"  width="736" height="552" loading="lazy" decoding="async" />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -484,7 +484,7 @@ export default function Projects() {
                 {/* Project 2 */}
                 <div className="project-card-new fade-in-up delay-1">
                     <div className="project-card-img">
-                        <img src="images/projects/e_and_i.webp" alt="DHA Multan Electrical and Instrumentation Works" />
+                        <img src="images/projects/e_and_i.webp" alt="DHA Multan Electrical and Instrumentation Works"  width="669" height="298" loading="lazy" decoding="async" />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -506,7 +506,7 @@ export default function Projects() {
                 {/* Project 3 */}
                 <div className="project-card-new fade-in-up delay-2">
                     <div className="project-card-img">
-                        <img src="images/projects/wasa.webp" alt="Punjab WASA Municipal Water Infrastructure" />
+                        <img src="images/projects/wasa.webp" alt="Punjab WASA Municipal Water Infrastructure"  width="800" height="480" loading="lazy" decoding="async" />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -528,7 +528,7 @@ export default function Projects() {
                 {/* Project 4: CCTV */}
                 <div className="project-card-new fade-in-up">
                     <div className="project-card-img">
-                        <img src="images/cctv-camera.webp" alt="IT Office CCTV Setup" style={{"width":"100%","height":"100%","objectFit":"cover","objectPosition":"center"}} />
+                        <img src="images/cctv-camera.webp" alt="IT Office CCTV Setup" style={{"width":"100%","height":"100%","objectFit":"cover","objectPosition":"center"}}  width="1024" height="1024" loading="lazy" decoding="async" />
                         <div className="project-status-tag">Active</div>
                     </div>
                     <div className="project-card-body-new">
@@ -748,7 +748,7 @@ export default function Projects() {
             <div className="proj-ei-grid">
                 <div className="proj-ei-card fade-in-up">
                     <div className="proj-ei-img">
-                        <img src="images/projects/e_and_i.webp" alt="Electrical and Instrumentation Works" />
+                        <img src="images/projects/e_and_i.webp" alt="Electrical and Instrumentation Works"  width="669" height="298" loading="lazy" decoding="async" />
                     </div>
                     <div className="proj-ei-body">
                         <div className="proj-ei-icon"><i className="ph ph-lightning"></i></div>
@@ -758,7 +758,7 @@ export default function Projects() {
                 </div>
                 <div className="proj-ei-card fade-in-up delay-1">
                     <div className="proj-ei-img">
-                        <img src="images/site-execution.webp" alt="SCADA and DCS Control Systems" />
+                        <img src="images/site-execution.webp" alt="SCADA and DCS Control Systems"  width="1024" height="1024" loading="lazy" decoding="async" />
                     </div>
                     <div className="proj-ei-body">
                         <div className="proj-ei-icon"><i className="ph ph-cpu"></i></div>
@@ -768,7 +768,7 @@ export default function Projects() {
                 </div>
                 <div className="proj-ei-card fade-in-up delay-2">
                     <div className="proj-ei-img">
-                        <img src="images/safety_first_industry.webp" alt="Fire and Gas Detection Systems" />
+                        <img src="images/safety_first_industry.webp" alt="Fire and Gas Detection Systems"  width="1024" height="1024" loading="lazy" decoding="async" />
                     </div>
                     <div className="proj-ei-body">
                         <div className="proj-ei-icon"><i className="ph ph-fire"></i></div>

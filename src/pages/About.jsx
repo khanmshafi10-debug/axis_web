@@ -216,7 +216,7 @@ export default function About() {
                 {/* CEO Profile */}
                 <div style={{"flex":"1 1 350px","position":"relative","background":"white","borderRadius":"24px","padding":"20px","boxShadow":"0 20px 40px rgba(0,0,0,0.04)","border":"2px solid #e2e8f0","transition":"all 0.4s ease"}} onMouseOver={e => { e.currentTarget.style.transform='translateY(-10px)'; e.currentTarget.style.boxShadow='0 30px 60px rgba(11, 143, 200, 0.15)'; e.currentTarget.style.borderColor='var(--clr-blue)'; }} onMouseOut={e => { e.currentTarget.style.transform='translateY(0)'; e.currentTarget.style.boxShadow='0 20px 40px rgba(0,0,0,0.04)'; e.currentTarget.style.borderColor='#e2e8f0'; }}>
                     <div style={{"position":"relative","height":"380px","borderRadius":"16px","overflow":"hidden","background":"linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%)"}}>
-                        <img src="images/team/ceo_and_gm_mobeen_zia.webp" alt="Mobeen Zia, CEO" style={{"width":"100%","height":"100%","objectFit":"cover","objectPosition":"center"}} />
+                        <img src="images/team/ceo_and_gm_mobeen_zia.webp" alt="Mobeen Zia, CEO" style={{"width":"100%","height":"100%","objectFit":"cover","objectPosition":"center"}}  width="1200" height="1200" loading="lazy" decoding="async" />
                         <div style={{"position":"absolute","bottom":"0","left":"0","right":"0","height":"150px","background":"linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 100%)"}}></div>
                     </div>
                     <div style={{"padding":"30px 10px 10px","textAlign":"left"}}>
@@ -231,7 +231,7 @@ export default function About() {
                 {/* MD Profile */}
                 <div style={{"flex":"1 1 350px","position":"relative","background":"white","borderRadius":"24px","padding":"20px","boxShadow":"0 20px 40px rgba(0,0,0,0.04)","border":"2px solid #e2e8f0","transition":"all 0.4s ease"}} onMouseOver={e => { e.currentTarget.style.transform='translateY(-10px)'; e.currentTarget.style.boxShadow='0 30px 60px rgba(11, 143, 200, 0.15)'; e.currentTarget.style.borderColor='var(--clr-blue)'; }} onMouseOut={e => { e.currentTarget.style.transform='translateY(0)'; e.currentTarget.style.boxShadow='0 20px 40px rgba(0,0,0,0.04)'; e.currentTarget.style.borderColor='#e2e8f0'; }}>
                     <div style={{"position":"relative","height":"380px","borderRadius":"16px","overflow":"hidden","background":"linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%)"}}>
-                        <img src="images/team/partner_mujeeb_ali.webp" alt="Mujeeb Ali, Co-Founder and MD" style={{"width":"100%","height":"100%","objectFit":"contain","objectPosition":"bottom center","filter":"contrast(1.05)","paddingTop":"20px"}} />
+                        <img src="images/team/partner_mujeeb_ali.webp" alt="Mujeeb Ali, Co-Founder and MD" style={{"width":"100%","height":"100%","objectFit":"contain","objectPosition":"bottom center","filter":"contrast(1.05)","paddingTop":"20px"}}  width="400" height="533" loading="lazy" decoding="async" />
                         <div style={{"position":"absolute","bottom":"0","left":"0","right":"0","height":"150px","background":"linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 100%)"}}></div>
                     </div>
                     <div style={{"padding":"30px 10px 10px","textAlign":"left"}}>
@@ -262,11 +262,10 @@ export default function About() {
                 {/* Left: Framed Photo with Stylish Offset Blue Frame */}
                 <div className="fade-in-left" style={{"position":"relative","padding":"18px 0 0 18px","margin":"10px"}}>
                     <div style={{"position":"absolute","top":"0","left":"0","width":"calc(100% - 18px)","height":"calc(100% - 18px)","border":"3.5px solid var(--clr-blue)","borderRadius":"22px","zIndex":"0"}}></div>
-                    <img
-                        src="images/team/ceo_and_gm_mobeen_zia.webp"
+                    <img src="images/team/ceo_and_gm_mobeen_zia.webp"
                         alt="CEO AXIS INFINITY STRUCTURE"
                         style={{"width":"100%","aspectRatio":"1 / 1","objectFit":"cover","objectPosition":"center","background":"#fff","borderRadius":"18px","display":"block","position":"relative","zIndex":"1","boxShadow":"0 20px 60px rgba(22,46,92,0.18)"}}
-                     />
+                      width="1200" height="1200" loading="lazy" decoding="async" />
                     {/* Badge on photo */}
                     <div style={{"position":"absolute","bottom":"24px","right":"-20px","zIndex":"2","background":"var(--clr-navy)","borderRadius":"12px","padding":"18px 24px","textAlign":"center","boxShadow":"0 8px 24px rgba(22,46,92,0.3)","border":"3px solid var(--clr-white)"}}>
                         <div style={{"fontSize":"1.6rem","fontWeight":"800","color":"var(--clr-blue)","fontFamily":"var(--font-heading)"}}>100%</div>

@@ -463,7 +463,7 @@ export default function Sectors() {
                 {/* Sector 2 */}
                 <div className="sector-card-premium fade-in-up scale-in delay-1">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/commercial-construction.webp" alt="Commercial Buildings" />
+                        <img src="images/commercial-construction.webp" alt="Commercial Buildings"  width="736" height="736" loading="lazy" decoding="async" />
                         <div className="sector-card-badge"><i className="ph ph-buildings"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -567,7 +567,7 @@ export default function Sectors() {
                 {/* Sector 10 */}
                 <div className="sector-card-premium fade-in-up scale-in">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/oil and gas refineries.webp" alt="Oil & Refinery" />
+                        <img src="images/oil and gas refineries.webp" alt="Oil & Refinery"  width="736" height="786" loading="lazy" decoding="async" />
                         <div className="sector-card-badge"><i className="ph ph-gas-pump"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -580,7 +580,7 @@ export default function Sectors() {
                 {/* Sector 11 */}
                 <div className="sector-card-premium fade-in-up scale-in delay-1">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/insulation.webp" alt="Petrochemical" />
+                        <img src="images/insulation.webp" alt="Petrochemical"  width="1024" height="1024" loading="lazy" decoding="async" />
                         <div className="sector-card-badge"><i className="ph ph-factory"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -593,7 +593,7 @@ export default function Sectors() {
                 {/* Sector 12 */}
                 <div className="sector-card-premium fade-in-up scale-in delay-2">
                     <div className="sector-card-img-wrapper">
-                        <img src="images/decommissioning.webp" alt="Fertilizer Industry" />
+                        <img src="images/decommissioning.webp" alt="Fertilizer Industry"  width="1024" height="1024" loading="lazy" decoding="async" />
                         <div className="sector-card-badge"><i className="ph ph-leaf"></i></div>
                     </div>
                     <div className="sector-card-content">
@@ -647,7 +647,7 @@ export default function Sectors() {
                     </ul>
                 </div>
                 <div className="v2030-split-image fade-in-up" style={{"animation":"none","overflow":"hidden"}}>
-                    <img src="images/safety_first_industry.webp" alt="Safety and Quality Standards" style={{"transition":"transform 0.6s ease"}} onmouseover="this.style.transform='scale(1.08)';" onmouseout="this.style.transform='scale(1)'" />
+                    <img src="images/safety_first_industry.webp" alt="Safety and Quality Standards" style={{"transition":"transform 0.6s ease"}} onmouseover="this.style.transform='scale(1.08)';" onmouseout="this.style.transform='scale(1)'"  width="1024" height="1024" loading="lazy" decoding="async" />
                 </div>
             </div>
         </div>
@@ -658,7 +658,7 @@ export default function Sectors() {
         <div className="container">
             <div className="v2030-split-inner">
                 <div className="v2030-split-image anim-float fade-in-up">
-                    <img src="images/transport_heavy_equipment.webp" alt="Specialized Machinery & Workforce" />
+                    <img src="images/transport_heavy_equipment.webp" alt="Specialized Machinery & Workforce"  width="1024" height="1024" loading="lazy" decoding="async" />
                 </div>
                 <div className="v2030-split-text fade-in-right">
                     <span className="v2030-section-label" style={{"background":"var(--clr-blue)","color":"#fff","border":"none"}}>Resources</span>

@@ -55,7 +55,7 @@ export default function Header() {
       <div className="container header-container">
         <div className="logo">
           <a href="index.html" className="logo-link">
-            <img src="images/axis logo.webp" alt="Axis Infinity Structure, Engineering &amp; Infrastructure" className="brand-logo" />
+            <img src="images/axis logo.webp" alt="Axis Infinity Structure, Engineering &amp; Infrastructure" className="brand-logo" width="1057" height="443" fetchpriority="high" decoding="async" style={{ width: "auto", height: "62px", aspectRatio: "1057 / 443", objectFit: "contain" }}  loading="lazy" />
           </a>
         </div>
 

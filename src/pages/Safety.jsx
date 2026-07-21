@@ -59,7 +59,7 @@ export default function Safety() {
             <div className="two-column safety-commitment-grid" style={{"alignItems":"stretch","gap":"60px"}}>
                 <div className="fade-in-left" style={{"display":"flex","flexDirection":"column"}}>
                     <div style={{"position":"relative","height":"380px","marginTop":"12px","paddingBottom":"20px","paddingRight":"20px"}}>
-                        <img src="images/safety.webp" alt="HSE Safety" style={{"width":"100%","height":"100%","objectFit":"cover","display":"block","borderRadius":"8px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)","position":"relative","zIndex":"2"}} />
+                        <img src="images/safety.webp" alt="HSE Safety" style={{"width":"100%","height":"100%","objectFit":"cover","display":"block","borderRadius":"8px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)","position":"relative","zIndex":"2"}}  width="736" height="414" loading="lazy" decoding="async" />
                         <div style={{"position":"absolute","bottom":"0","right":"0","width":"95%","height":"95%","border":"3px solid var(--clr-blue)","borderRadius":"8px","zIndex":"1"}}></div>
                     </div>
                     
@@ -164,7 +164,7 @@ export default function Safety() {
         <div className="container">
             <div className="two-column" style={{"alignItems":"stretch","gap":"50px"}}>
                 <div className="fade-in-left" style={{"display":"flex","flexDirection":"column"}}>
-                    <img src="images/safetyreponsibility.webp" alt="Safety Culture" style={{"width":"100%","height":"calc(100% - 45px)","minHeight":"300px","marginTop":"45px","objectFit":"cover","borderRadius":"12px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)"}} />
+                    <img src="images/safetyreponsibility.webp" alt="Safety Culture" style={{"width":"100%","height":"calc(100% - 45px)","minHeight":"300px","marginTop":"45px","objectFit":"cover","borderRadius":"12px","boxShadow":"0 10px 30px rgba(0,0,0,0.1)"}}  width="735" height="387" loading="lazy" decoding="async" />
                 </div>
                 <div className="fade-in-right" style={{"display":"flex","flexDirection":"column","justifyContent":"flex-start"}}>
                     <span className="section-label">Our Culture</span>

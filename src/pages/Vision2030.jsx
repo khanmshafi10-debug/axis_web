@@ -648,7 +648,7 @@ export default function Vision2030() {
         <div className="container">
             <div className="v2030-split-inner">
                 <div className="v2030-split-image anim-float fade-in-up">
-                    <img src="images/vision2030_riyadh.webp" alt="Smart Infrastructure & Digital Transformation" />
+                    <img src="images/vision2030_riyadh.webp" alt="Smart Infrastructure & Digital Transformation"  width="738" height="414" loading="lazy" decoding="async" />
                 </div>
                 <div className="v2030-split-text fade-in-right">
                     <span className="v2030-section-label">Digital Future</span>
@@ -689,7 +689,7 @@ export default function Vision2030() {
                     </ul>
                 </div>
                 <div className="v2030-split-image fade-in-up" style={{"animation":"none","overflow":"hidden"}}>
-                    <img src="images/safety_ppe_engineers.webp" alt="Empowering Local Talent" style={{"transition":"transform 0.6s ease"}} onmouseover="this.style.transform='scale(1.08)';" onmouseout="this.style.transform='scale(1)'" />
+                    <img src="images/safety_ppe_engineers.webp" alt="Empowering Local Talent" style={{"transition":"transform 0.6s ease"}} onmouseover="this.style.transform='scale(1.08)';" onmouseout="this.style.transform='scale(1)'"  width="1024" height="1024" loading="lazy" decoding="async" />
                 </div>
             </div>
         </div>
@@ -712,7 +712,7 @@ export default function Vision2030() {
                     </div>
                 </div>
                 <div className="v2030-project-card">
-                    <img src="images/sports_leisure_venue.webp" alt="Sports &amp; Entertainment" />
+                    <img src="images/sports_leisure_venue.webp" alt="Sports &amp; Entertainment"  width="678" height="452" loading="lazy" decoding="async" />
                     <div className="v2030-project-overlay">
                         <span className="v2030-project-tag">Entertainment</span>
                         <h4>Sports &amp; Leisure Venues</h4>

@@ -461,6 +461,8 @@ body.inner-page #header {
 .brand-logo {
     height: 62px;
     width: auto;
+    aspect-ratio: 1057 / 443;
+    object-fit: contain;
     display: block;
     background: none !important;
     background-color: transparent !important;
