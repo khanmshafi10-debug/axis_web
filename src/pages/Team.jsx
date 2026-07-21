@@ -1158,14 +1158,26 @@ export default function Team() {
                 </div>
                 <div className="polaroid-grid" style={{"maxWidth":"750px"}}>
                     <div className="polaroid-card">
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/ceo_and_gm_mobeen_zia.png" alt="Mobeen Zia" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/ceo_and_gm_mobeen_zia.png" alt="Mobeen Zia" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Mobeen Zia</h4>
                             <div className="polaroid-role">CEO & Founder</div>
                         </div>
                     </div>
                     <div className="polaroid-card">
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/partner_mujeeb_ali.png" alt="Mujeeb Ali" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/partner_mujeeb_ali.png" alt="Mujeeb Ali" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Mujeeb Ali</h4>
                             <div className="polaroid-role">Co-Founder & MD</div>
@@ -1181,28 +1193,50 @@ export default function Team() {
                 </div>
                 <div className="polaroid-grid" style={{"maxWidth":"100%","gap":"20px"}}>
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/Kashif naveed operational manger.png" alt="Ch Kashif Naveed" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/Kashif naveed operational manger.png" alt="Ch Kashif Naveed" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Ch Kashif Naveed</h4>
                             <div className="polaroid-role">Operations Manager</div>
                         </div>
                     </div>
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/deputy_manager_pak_sohail_akhtar.png" alt="Sohail Akhtar" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/deputy_manager_pak_sohail_akhtar.png" alt="Sohail Akhtar" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Sohail Akhtar</h4>
                             <div className="polaroid-role">Deputy Manager</div>
                         </div>
                     </div>
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/hr and fiance manger tallal majeed.png" alt="Tallal Majeed" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/hr and fiance manger tallal majeed.png" alt="Tallal Majeed" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Ch Tallal Majeed</h4>
                             <div className="polaroid-role">Finance & HR Manager</div>
                         </div>
                     </div>
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/project_manager_pak_moin_anwar.png" alt="Moin Anwar" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/project_manager_pak_moin_anwar.png" alt="Moin Anwar" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Ch Moin Anwar</h4>
                             <div className="polaroid-role">Project Manager</div>
@@ -1218,42 +1252,74 @@ export default function Team() {
                 </div>
                 <div className="polaroid-grid">
                     <div className="polaroid-card">
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/qa_qc_manager_mdawood_arif_ksa.png" alt="Arif Dawood" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/qa_qc_manager_mdawood_arif_ksa.png" alt="Arif Dawood" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Arif Dawood</h4>
                             <div className="polaroid-role">QA / QC Manager</div>
                         </div>
                     </div>
                     <div className="polaroid-card">
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/construction_manager_pak_naeem_ahmad.png" alt="Naeem" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/construction_manager_pak_naeem_ahmad.png" alt="Naeem" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Naeem</h4>
                             <div className="polaroid-role">Construction Manager</div>
                         </div>
                     </div>
                     <div className="polaroid-card">
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/civil_team_leader_pak_saifullah_khalid.png" alt="Saifullah Khalid" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/civil_team_leader_pak_saifullah_khalid.png" alt="Saifullah Khalid" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Saifullah Khalid</h4>
                             <div className="polaroid-role">Civil Team Leader</div>
                         </div>
                     </div>
                     <div className="polaroid-card">
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/mechanical_leader.png" alt="Sakhawat Ali" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/mechanical_leader.png" alt="Sakhawat Ali" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Sakhawat Ali</h4>
                             <div className="polaroid-role">Mechanical Team Leader</div>
                         </div>
                     </div>
                     <div className="polaroid-card">
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/eiand_t_team_leader_ksa_saeed_imran.png" alt="Saeed Imran" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/eiand_t_team_leader_ksa_saeed_imran.png" alt="Saeed Imran" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Saeed Imran</h4>
                             <div className="polaroid-role">E, I & Telecom Leader</div>
                         </div>
                     </div>
                     <div className="polaroid-card">
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/hse_manager_kse_tahir_zameer.png" alt="Tahir Zameer" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/hse_manager_kse_tahir_zameer.png" alt="Tahir Zameer" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Tahir Zameer</h4>
                             <div className="polaroid-role">Safety Manager</div>
@@ -1269,28 +1335,51 @@ export default function Team() {
                 </div>
                 <div className="polaroid-grid" style={{"maxWidth":"100%","gap":"20px"}}>
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/technical_manager_mep_basit_aslam.png" alt="Basit Aslam" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/technical_manager_mep_basit_aslam.png" alt="Basit Aslam" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Basit Aslam</h4>
                             <div className="polaroid-role">Technical Manager MEP</div>
                         </div>
                     </div>
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/transporation_haed_pak_imarn_soomro.png" alt="Imran Soomro" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/transporation_haed_pak_imarn_soomro.png" alt="Imran Soomro" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Imran Soomro</h4>
                             <div className="polaroid-role">Transportation Head</div>
                         </div>
                     </div>
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/marketing manager abdullah akhtar.png" style={{"objectPosition":"bottom"}} alt="Abdullah Akhtar" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/marketing manager abdullah akhtar.png" style={{"objectPosition":"bottom"}} alt="Abdullah Akhtar" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">Abdullah Akhtar</h4>
                             <div className="polaroid-role">Marketing Manager</div>
                         </div>
                     </div>
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
-                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}><img src="images/team/M rashad hr & coordinTOR.png" alt="M Rashad" /></div>
+                        <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
+                            <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
+                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                            </div>
+                            <img src="images/team/M rashad hr & coordinTOR.png" alt="M Rashad" />
+                        </div>
                         <div className="polaroid-info">
                             <h4 className="polaroid-name">M Rashad</h4>
                             <div className="polaroid-role">HR & Coordinator</div>
