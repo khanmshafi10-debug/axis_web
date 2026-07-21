@@ -2698,11 +2698,12 @@ li:hover .anim-bullet.dots,
     to { background-position: center 24px; }
 }
 
-/* Mobile & Tablet S-Curve Overrides (under 1200px - covers 754px to 1090px & all mobile) */
+/* Mobile & Tablet S-Curve Overrides (under 1200px - covers all mobile & tablet) */
 @media (max-width: 1200px) {
     .timeline-desktop-wrapper {
-        max-width: 650px !important;
+        max-width: 500px !important;
         margin: 0 auto !important;
+        padding: 0 15px !important;
     }
 
     .timeline-grid-new {
@@ -2712,15 +2713,16 @@ li:hover .anim-bullet.dots,
         padding: 10px 0;
     }
     
-    .step4-hook-wrapper, .timeline-middle-road-new, .step5-hook-wrapper, .timeline-row1-road, .antimeline-row3-road {
+    .step4-hook-wrapper, .timeline-middle-road-new, .step5-hook-wrapper, .timeline-row1-road, .timeline-row3-road {
         display: none !important;
     }
 
     .timeline-card-new {
         width: 100% !important;
         display: grid !important;
-        column-gap: 15px !important;
-        margin-bottom: 85px !important;
+        column-gap: 16px !important;
+        row-gap: 4px !important;
+        margin-bottom: 60px !important;
         margin-top: 0 !important;
         align-items: center !important;
         position: relative;
@@ -2731,15 +2733,17 @@ li:hover .anim-bullet.dots,
         z-index: 5 !important;
         background: #ffffff !important;
         position: relative !important;
+        flex-shrink: 0;
     }
 
     .timeline-card-new h4 {
-        font-size: clamp(1rem, 2.2vw, 1.15rem) !important;
-        line-height: 1.35 !important;
+        font-size: clamp(0.95rem, 3.5vw, 1.1rem) !important;
+        line-height: 1.3 !important;
         margin: 0 !important;
         padding: 0 !important;
         z-index: 5 !important;
         position: relative !important;
+        white-space: normal;
     }
 
     /* Alternating layout for mobile snake curve */
@@ -2748,10 +2752,13 @@ li:hover .anim-bullet.dots,
     }
     .timeline-card-new.card-odd .timeline-badge-new {
         grid-column: 1 !important;
+        justify-self: start !important;
     }
-    .timeline-card-new.card-odd h4 {
+    .timeline-card-new.card-odd h4,
+    .timeline-card-new.card-odd p {
         grid-column: 2 !important;
         text-align: left !important;
+        justify-self: start !important;
     }
 
     .timeline-card-new.card-even {
@@ -2759,10 +2766,13 @@ li:hover .anim-bullet.dots,
     }
     .timeline-card-new.card-even .timeline-badge-new {
         grid-column: 2 !important;
+        justify-self: end !important;
     }
-    .timeline-card-new.card-even h4 {
+    .timeline-card-new.card-even h4,
+    .timeline-card-new.card-even p {
         grid-column: 1 !important;
         text-align: right !important;
+        justify-self: end !important;
     }
 }
 
@@ -4193,6 +4203,11 @@ i[class^="ph"], i[class*=" ph-"] {
 
 /* Custom Mobile Snake Timeline S-Curve */
 @media (max-width: 768px) {
+    .timeline-desktop-wrapper {
+        max-width: 100% !important;
+        padding: 0 10px !important;
+    }
+
     .timeline-grid-new {
         display: flex !important;
         flex-direction: column !important;
@@ -4200,89 +4215,65 @@ i[class^="ph"], i[class*=" ph-"] {
         padding: 10px 0;
     }
     
-    .step4-hook-wrapper, .timeline-middle-road-new, .step5-hook-wrapper {
+    .step4-hook-wrapper, .timeline-middle-road-new, .step5-hook-wrapper, .timeline-row1-road, .timeline-row3-road {
         display: none !important;
     }
 
     .timeline-card-new {
         width: 100% !important;
         display: grid !important;
-        grid-template-columns: 60px 1fr !important;
-        grid-template-rows: auto auto !important;
-        column-gap: 20px !important;
-        row-gap: 5px !important;
-        margin-bottom: 40px !important;
+        row-gap: 4px !important;
+        margin-bottom: 45px !important;
         position: relative;
         margin-top: 0 !important;
+        align-items: center !important;
     }
 
-    .timeline-badge-new {
-        grid-column: 1;
-        grid-row: 1 / 3;
+    .timeline-card-new.card-odd {
+        grid-template-columns: 60px 1fr !important;
+        column-gap: 14px !important;
+    }
+
+    .timeline-card-new.card-odd .timeline-badge-new {
+        grid-column: 1 !important;
+        grid-row: 1 / 3 !important;
         margin: 0 !important;
-        align-self: flex-start;
-        z-index: 2;
-        position: relative;
+        justify-self: start !important;
+        z-index: 5 !important;
+        position: relative !important;
     }
 
-    .timeline-card-new h4 {
-        grid-column: 2;
-        grid-row: 1;
+    .timeline-card-new.card-odd h4,
+    .timeline-card-new.card-odd p {
+        grid-column: 2 !important;
         text-align: left !important;
-        margin: 0 !important;
-        padding-top: 5px;
-    }
-
-    .timeline-card-new p {
-        grid-column: 2;
-        grid-row: 2;
-        text-align: left !important;
+        justify-self: start !important;
         margin: 0 !important;
     }
 
-    /* Even Cards: 2, 4, 6, 8 -> child 2, 4, 9, 11 */
-    .timeline-card-new:nth-child(3),
-    .timeline-card-new:nth-child(5),
-    .timeline-card-new:nth-child(10),
-    .timeline-card-new:nth-child(12) {
+    .timeline-card-new.card-even {
         grid-template-columns: 1fr 60px !important;
+        column-gap: 14px !important;
     }
 
-    .timeline-card-new:nth-child(3) .timeline-badge-new,
-    .timeline-card-new:nth-child(5) .timeline-badge-new,
-    .timeline-card-new:nth-child(10) .timeline-badge-new,
-    .timeline-card-new:nth-child(12) .timeline-badge-new {
-        grid-column: 2;
+    .timeline-card-new.card-even .timeline-badge-new {
+        grid-column: 2 !important;
+        grid-row: 1 / 3 !important;
+        margin: 0 !important;
+        justify-self: end !important;
+        z-index: 5 !important;
+        position: relative !important;
     }
 
-    .timeline-card-new:nth-child(3) h4,
-    .timeline-card-new:nth-child(5) h4,
-    .timeline-card-new:nth-child(10) h4,
-    .timeline-card-new:nth-child(12) h4,
-    .timeline-card-new:nth-child(3) p,
-    .timeline-card-new:nth-child(5) p,
-    .timeline-card-new:nth-child(10) p,
-    .timeline-card-new:nth-child(12) p {
-        grid-column: 1;
-        text-align: right !important; justify-content: flex-end !important;
+    .timeline-card-new.card-even h4,
+    .timeline-card-new.card-even p {
+        grid-column: 1 !important;
+        text-align: right !important;
+        justify-self: end !important;
+        margin: 0 !important;
     }
 
-    /* Hide desktop vertical line */
-    .timeline-card-new::after {
-        display: none !important;
-        animation: none !important;
-        background: none !important;
-        border: none !important;
-    }
-    .timeline-card-new::before {
-        display: none !important;
-        animation: none !important;
-        background: none !important;
-        border: none !important;
-    }
-
-            /* --- Snake Curves Mobile SVG --- */
-    /* Mobile lines are drawn dynamically by JavaScript using SVG for proper animation and curves */
+    /* Hide desktop lines & pseudo elements */
     .timeline-card-new::before,
     .timeline-card-new::after,
     .timeline-badge-new::before,
@@ -4290,32 +4281,6 @@ i[class^="ph"], i[class*=" ph-"] {
         display: none !important;
         border: none !important;
         background: none !important;
-    }
-    
-    .timeline-card-new:nth-child(3),
-    .timeline-card-new:nth-child(5),
-    .timeline-card-new:nth-child(10),
-    .timeline-card-new:nth-child(12) {
-        grid-template-columns: 1fr 60px !important;
-    }
-
-    .timeline-card-new:nth-child(3) .timeline-badge-new,
-    .timeline-card-new:nth-child(5) .timeline-badge-new,
-    .timeline-card-new:nth-child(10) .timeline-badge-new,
-    .timeline-card-new:nth-child(12) .timeline-badge-new {
-        grid-column: 2;
-    }
-
-    .timeline-card-new:nth-child(3) h4,
-    .timeline-card-new:nth-child(5) h4,
-    .timeline-card-new:nth-child(10) h4,
-    .timeline-card-new:nth-child(12) h4,
-    .timeline-card-new:nth-child(3) p,
-    .timeline-card-new:nth-child(5) p,
-    .timeline-card-new:nth-child(10) p,
-    .timeline-card-new:nth-child(12) p {
-        grid-column: 1;
-        text-align: right !important; justify-content: flex-end !important;
     }
 }
 
