@@ -152,6 +152,15 @@ export default function App() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  // 0. Handle SPA 404 Fallback Query Params (for static hosting deep links)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const redirectPath = params.get('redirect');
+    if (redirectPath) {
+      navigate(redirectPath, { replace: true });
+    }
+  }, [navigate]);
+
   // 1. Global Link Intercept Event
   useEffect(() => {
     const handleGlobalClick = (e) => {
@@ -462,6 +471,9 @@ export default function App() {
         
         <Route path="/water-treatment" element={<WaterTreatment />} />
         <Route path="/water-treatment.html" element={<WaterTreatment />} />
+
+        {/* Wildcard Fallback Route */}
+        <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
       <FloatingActions />
