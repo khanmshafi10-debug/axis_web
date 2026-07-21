@@ -5303,7 +5303,7 @@ a.sector-card-link:hover i {
 }
 
 /* ==========================================================================
-   Project Inquiry CTA Banner #F5F7FA Section Background
+   Project Inquiry CTA Banner #F5F7FA Section & Card Background
    ========================================================================== */
 .pro-cta-banner {
     background-color: #F5F7FA !important;
@@ -5312,9 +5312,41 @@ a.sector-card-link:hover i {
 }
 
 .pro-cta-banner .pro-cta-card {
-    background: linear-gradient(135deg, #0B1F3A 0%, #061122 100%) !important;
-    border: 1px solid rgba(11, 143, 200, 0.3) !important;
-    box-shadow: 0 25px 60px rgba(11, 31, 58, 0.18), inset 0 1px 1px rgba(255, 255, 255, 0.15) !important;
+    background: #ffffff !important;
+    border: 1.5px solid rgba(11, 143, 200, 0.25) !important;
+    border-radius: 28px !important;
+    padding: clamp(35px, 5vw, 60px) !important;
+    box-shadow: 0 20px 50px rgba(11, 31, 58, 0.08), 0 4px 12px rgba(0, 0, 0, 0.03) !important;
+}
+
+.pro-cta-banner .pro-cta-card h2 {
+    color: #0B1F3A !important;
+}
+
+.pro-cta-banner .pro-cta-card p {
+    color: #334155 !important;
+}
+
+.pro-cta-banner .pro-cta-card .section-label {
+    background: rgba(226, 148, 15, 0.12) !important;
+    border: 1px solid rgba(226, 148, 15, 0.3) !important;
+    color: #D97706 !important;
+    padding: 6px 16px !important;
+    border-radius: 50px !important;
+}
+
+.pro-cta-banner .btn-outline-navy {
+    background: transparent !important;
+    color: #0B1F3A !important;
+    border: 2px solid #0B1F3A !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+}
+
+.pro-cta-banner .btn-outline-navy:hover {
+    background: #0B1F3A !important;
+    color: #ffffff !important;
 }
 
 
