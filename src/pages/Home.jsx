@@ -1345,29 +1345,45 @@ i.active-gold-global,
     align-items: center;
 }
 .btn-new-style {
-    background: #0b8fc8;
-    color: #fff;
-    padding: 10px 10px 10px 25px;
-    border-radius: 40px;
-    text-decoration: none;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    transition: 0.3s;
+    background: linear-gradient(135deg, #0b8fc8 0%, #0072ff 100%) !important;
+    color: #ffffff !important;
+    padding: 12px 14px 12px 28px !important;
+    border-radius: 50px !important;
+    text-decoration: none !important;
+    font-weight: 700 !important;
+    font-size: 0.98rem !important;
+    letter-spacing: 0.02em !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 14px !important;
+    border: 1px solid rgba(0, 210, 255, 0.4) !important;
+    box-shadow: 0 6px 20px rgba(11, 143, 200, 0.35) !important;
+    transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
 }
 .btn-new-style:hover {
-    background: #0a192f;
+    background: linear-gradient(135deg, #00d2ff 0%, #0b8fc8 100%) !important;
+    color: #ffffff !important;
+    transform: translateY(-3px) scale(1.03) !important;
+    box-shadow: 0 10px 30px rgba(0, 210, 255, 0.5) !important;
+    border-color: #00d2ff !important;
 }
 .btn-new-style .icon-circle {
-    background: #ffffff;
-    color: #0b8fc8;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #ffffff !important;
+    color: #0b8fc8 !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+.btn-new-style .icon-circle i {
+    color: #0b8fc8 !important;
+    font-size: 1.1rem !important;
+    transition: transform 0.35s ease, color 0.35s ease !important;
 }
 .sector-card-badge {
     position: absolute;
@@ -1385,15 +1401,15 @@ i.active-gold-global,
     color: #fff !important;
     font-size: 2rem;
 }
-.btn-new-style .icon-circle {
-    transition: 0.3s;
-}
 .btn-new-style:hover .icon-circle {
-    background: #0b8fc8;
-    color: #ffffff;
+    background: #0b2240 !important;
+    color: #00d2ff !important;
+    transform: scale(1.12) rotate(8deg) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
 }
 .btn-new-style:hover .icon-circle i {
-    color: #ffffff !important;
+    color: #00d2ff !important;
+    transform: translateX(2px) !important;
 }
 
 @keyframes floatImage {
@@ -2323,29 +2339,45 @@ i.active-gold-global,
     align-items: center;
 }
 .btn-new-style {
-    background: #0b8fc8;
-    color: #fff;
-    padding: 10px 10px 10px 25px;
-    border-radius: 40px;
-    text-decoration: none;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    transition: 0.3s;
+    background: linear-gradient(135deg, #0b8fc8 0%, #0072ff 100%) !important;
+    color: #ffffff !important;
+    padding: 12px 14px 12px 28px !important;
+    border-radius: 50px !important;
+    text-decoration: none !important;
+    font-weight: 700 !important;
+    font-size: 0.98rem !important;
+    letter-spacing: 0.02em !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 14px !important;
+    border: 1px solid rgba(0, 210, 255, 0.4) !important;
+    box-shadow: 0 6px 20px rgba(11, 143, 200, 0.35) !important;
+    transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
 }
 .btn-new-style:hover {
-    background: #0a192f;
+    background: linear-gradient(135deg, #00d2ff 0%, #0b8fc8 100%) !important;
+    color: #ffffff !important;
+    transform: translateY(-3px) scale(1.03) !important;
+    box-shadow: 0 10px 30px rgba(0, 210, 255, 0.5) !important;
+    border-color: #00d2ff !important;
 }
 .btn-new-style .icon-circle {
-    background: #ffffff;
-    color: #0b8fc8;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #ffffff !important;
+    color: #0b8fc8 !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+.btn-new-style .icon-circle i {
+    color: #0b8fc8 !important;
+    font-size: 1.1rem !important;
+    transition: transform 0.35s ease, color 0.35s ease !important;
 }
 .sector-card-badge {
     position: absolute;
@@ -2363,15 +2395,15 @@ i.active-gold-global,
     color: #fff !important;
     font-size: 2rem;
 }
-.btn-new-style .icon-circle {
-    transition: 0.3s;
-}
 .btn-new-style:hover .icon-circle {
-    background: #0b8fc8;
-    color: #ffffff;
+    background: #0b2240 !important;
+    color: #00d2ff !important;
+    transform: scale(1.12) rotate(8deg) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
 }
 .btn-new-style:hover .icon-circle i {
-    color: #ffffff !important;
+    color: #00d2ff !important;
+    transform: translateX(2px) !important;
 }
 
 @keyframes floatImage {
