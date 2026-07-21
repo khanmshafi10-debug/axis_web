@@ -35,6 +35,20 @@
     <link rel="preload" as="image" href="/images/axis logo.webp" type="image/webp" fetchpriority="high" />
     <link rel="preload" as="image" href="/images/hero section image.webp" type="image/webp" fetchpriority="high" />
 
+    <!-- Critical Inline FCP CSS for Instant 0.1s First Contentful Paint -->
+    <style id="critical-fcp-css">
+      body { margin: 0; padding: 0; background-color: #0B1F3A; font-family: 'Inter', system-ui, -apple-system, sans-serif; color: #ffffff; }
+      .premium-hero-wrapper { background: #0B1F3A; padding: 120px 20px 60px; min-height: 80vh; box-sizing: border-box; }
+      .premium-hero-card { background-color: #ffffff; border-radius: 30px; max-width: 1300px; margin: 0 auto; padding: 40px; box-shadow: 0 15px 40px rgba(0,0,0,0.2); }
+      .premium-hero-title { font-size: 2.8rem; font-weight: 800; color: #2b3a4a; line-height: 1.15; margin-bottom: 15px; }
+      @media (max-width: 768px) {
+        .premium-hero-wrapper { padding: 85px 14px 30px !important; }
+        .premium-hero-card { padding: 22px 18px 0px 18px !important; border-radius: 20px !important; }
+        .premium-hero-title { font-size: 1.75rem !important; line-height: 1.25 !important; margin-bottom: 12px !important; }
+        .premium-hero-text { font-size: 0.92rem !important; line-height: 1.55 !important; margin-bottom: 20px !important; color: #4a5568 !important; }
+      }
+    </style>
+
     <!-- Google Fonts Preconnect & Async Optimization -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
