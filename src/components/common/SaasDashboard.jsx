@@ -598,7 +598,7 @@ export default function SaasDashboard() {
           <span>AXIS Cloud Intelligence System • ISO 9001:2015 & OSHA Compliant</span>
         </div>
         <div style={{ display: 'flex', gap: '15px' }}>
-          <a href="contact.html" style={{ color: '#00D2FF', textDecoration: 'none', fontWeight: 600 }}>Request Live Demo →</a>
+          <a href="/contact" style={{ color: '#00D2FF', textDecoration: 'none', fontWeight: 600 }}>Request Live Demo →</a>
         </div>
       </div>
     </div>

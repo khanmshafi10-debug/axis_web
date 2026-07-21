@@ -42,7 +42,7 @@ export default function Careers() {
                     </div>
                     <p className="mb-3 text-muted"><i className="ph ph-map-pin mr-2"></i> Riyadh, KSA</p>
                     <p className="mb-4">Lead major civil construction projects, ensuring compliance with structural requirements and safety protocols.</p>
-                    <a href="contact.html" className="btn btn-outline-blue w-100 text-center">Apply Now</a>
+                    <a href="/contact" className="btn btn-outline-blue w-100 text-center">Apply Now</a>
                 </div>
 
                 {/* Job 2 */}
@@ -53,7 +53,7 @@ export default function Careers() {
                     </div>
                     <p className="mb-3 text-muted"><i className="ph ph-map-pin mr-2"></i> NEOM, KSA</p>
                     <p className="mb-4">Oversee and enforce site safety policies to achieve our Zero-Harm objective across all active construction sites.</p>
-                    <a href="contact.html" className="btn btn-outline-blue w-100 text-center">Apply Now</a>
+                    <a href="/contact" className="btn btn-outline-blue w-100 text-center">Apply Now</a>
                 </div>
 
                 {/* Job 3 */}
@@ -64,7 +64,7 @@ export default function Careers() {
                     </div>
                     <p className="mb-3 text-muted"><i className="ph ph-map-pin mr-2"></i> Jubail, KSA</p>
                     <p className="mb-4">Conduct rigorous quality inspections for piping and mechanical installations in petrochemical facilities.</p>
-                    <a href="contact.html" className="btn btn-outline-blue w-100 text-center">Apply Now</a>
+                    <a href="/contact" className="btn btn-outline-blue w-100 text-center">Apply Now</a>
                 </div>
 
                 {/* Job 4 */}
@@ -75,7 +75,7 @@ export default function Careers() {
                     </div>
                     <p className="mb-3 text-muted"><i className="ph ph-map-pin mr-2"></i> Multan, Pakistan</p>
                     <p className="mb-4">Prepare precise BOQs and cost estimates for upcoming international infrastructure tenders.</p>
-                    <a href="contact.html" className="btn btn-outline-blue w-100 text-center">Apply Now</a>
+                    <a href="/contact" className="btn btn-outline-blue w-100 text-center">Apply Now</a>
                 </div>
             </div>
         </div>

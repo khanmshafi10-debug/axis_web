@@ -45,7 +45,7 @@ export default function Services() {
                         <h3>Civil Engineering</h3>
                         <p className="mb-3" style={{"flex":"1"}}>Our civil division forms the bedrock of AXIS Infinity Structure. We handle massive earthworks, complex structural foundations, and high-rise commercial structures.</p>
                         
-                        <a href="civil-engineering.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                        <a href="/civil-engineering" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@ export default function Services() {
                         <h3>Mechanical Works</h3>
                         <p className="mb-3" style={{"flex":"1"}}>Precision mechanical support is crucial for industrial success. We specialize in fabrication, equipment installation, and complex piping systems.</p>
                         
-                        <a href="mechanical-works.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                        <a href="/mechanical-works" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -69,7 +69,7 @@ export default function Services() {
                         <h3>Electrical & Instrumentation</h3>
                         <p className="mb-3" style={{"flex":"1"}}>Powering your infrastructure with cutting-edge electrical systems, safety controls, and highly calibrated instrumentation grids.</p>
                         
-                        <a href="electrical-instrumentation.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                        <a href="/electrical-instrumentation" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -81,7 +81,7 @@ export default function Services() {
                         <h3>CCTV & Security Systems</h3>
                         <p className="mb-3" style={{"flex":"1"}}>Advanced surveillance, access control, and integrated security solutions to protect your critical infrastructure.</p>
                         
-                        <a href="cctv-systems.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                        <a href="/cctv-systems" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -93,7 +93,7 @@ export default function Services() {
                         <h3>Pre-Commissioning</h3>
                         <p className="mb-3" style={{"flex":"1"}}>Ensuring every system operates flawlessly before launch. We manage the delicate transition from construction to live operation.</p>
                         
-                        <a href="pre-commissioning.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                        <a href="/pre-commissioning" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
                 
@@ -105,7 +105,7 @@ export default function Services() {
                         <h3>Manpower Supply</h3>
                         <p className="mb-3" style={{"flex":"1"}}>We provide skilled and experienced manpower to support construction, engineering, safety, quality, and operational project requirements.</p>
                         
-                        <a href="manpower-supply.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                        <a href="/manpower-supply" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -117,7 +117,7 @@ export default function Services() {
                         <h3>Transport & Equipment</h3>
                         <p className="mb-3" style={{"flex":"1"}}>AXIS Infinity Structure provides transport solutions on a rental basis with or without drivers, supporting both project operations and executive mobility.</p>
                         
-                        <a href="transport-rental.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                        <a href="/transport-rental" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
             
@@ -129,7 +129,7 @@ export default function Services() {
                     <h3>Scaffolding & Rigging</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Safe, certified access and heavy lifting solutions for complex industrial environments.</p>
                     
-                    <a href="scaffolding-rigging.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/scaffolding-rigging" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -141,7 +141,7 @@ export default function Services() {
                     <h3>Industrial Painting</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Advanced surface preparation and protective anti-corrosion coating systems.</p>
                     
-                    <a href="industrial-painting.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/industrial-painting" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -153,7 +153,7 @@ export default function Services() {
                     <h3>Plant Shutdowns</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Rapid, 24/7 execution to minimize downtime and maximize production during turnarounds.</p>
                     
-                    <a href="plant-shutdowns.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/plant-shutdowns" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -165,7 +165,7 @@ export default function Services() {
                     <h3>HVAC & Maintenance</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Heavy industrial climate control and ongoing facility maintenance contracts.</p>
                     
-                    <a href="hvac-maintenance.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/hvac-maintenance" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -177,7 +177,7 @@ export default function Services() {
                     <h3>Piping & Pipeline</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Industrial piping fabrication and cross-country pipeline construction.</p>
                     
-                    <a href="piping-pipeline.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/piping-pipeline" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -189,7 +189,7 @@ export default function Services() {
                     <h3>Steel Fabrication</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Heavy structural steel fabrication and precise site erection services.</p>
                     
-                    <a href="steel-fabrication.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/steel-fabrication" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -201,7 +201,7 @@ export default function Services() {
                     <h3>Industrial Insulation</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Thermal, acoustic, and cryogenic insulation for extreme industrial environments.</p>
                     
-                    <a href="industrial-insulation.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/industrial-insulation" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -213,7 +213,7 @@ export default function Services() {
                     <h3>NDT & Inspection</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Comprehensive Non-Destructive Testing and structural integrity analysis.</p>
                     
-                    <a href="ndt-inspection.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/ndt-inspection" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -225,7 +225,7 @@ export default function Services() {
                     <h3>Marine & Offshore</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Engineering and construction for offshore platforms and marine infrastructure.</p>
                     
-                    <a href="marine-offshore.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/marine-offshore" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -237,7 +237,7 @@ export default function Services() {
                     <h3>Decommissioning</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Safe, environmentally responsible industrial plant demolition and dismantling.</p>
                     
-                    <a href="decommissioning.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/decommissioning" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -249,7 +249,7 @@ export default function Services() {
                     <h3>Renewable Energy</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Construction and installation of utility-scale solar and wind facilities.</p>
                     
-                    <a href="renewable-energy.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/renewable-energy" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -261,7 +261,7 @@ export default function Services() {
                     <h3>Water & Wastewater</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Engineering and construction of water treatment and desalination plants.</p>
                     
-                    <a href="water-treatment.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/water-treatment" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -273,7 +273,7 @@ export default function Services() {
                     <h3>Geotechnical & Piling</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Deep foundations, piling, and advanced geotechnical engineering.</p>
                     
-                    <a href="geotechnical-piling.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/geotechnical-piling" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -285,7 +285,7 @@ export default function Services() {
                     <h3>Automation & Control</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Industrial automation, DCS, PLC, and SCADA system integration.</p>
                     
-                    <a href="automation-control.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/automation-control" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -297,7 +297,7 @@ export default function Services() {
                     <h3>Project Management & Support</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Comprehensive project management, site supervision, and execution support.</p>
                     
-                    <a href="project-management.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/project-management" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -308,7 +308,7 @@ export default function Services() {
                     <div className="card-icon mb-3"><i className="ph ph-shopping-cart"></i></div>
                     <h3>Procurement & Supply Chain</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Global sourcing, materials management, and logistics for complex industrial and construction projects.</p>
-                    <a href="services.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/services" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -319,7 +319,7 @@ export default function Services() {
                     <div className="card-icon mb-3"><i className="ph ph-buildings"></i></div>
                     <h3>Facility Management</h3>
                     <p className="mb-3" style={{"flex":"1"}}>Comprehensive operation, maintenance, and facility management services for long-term asset reliability.</p>
-                    <a href="services.html" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/services" className="btn btn-outline-blue w-100 text-center" style={{"display":"block"}}>Explore Details <i className="ph ph-arrow-right"></i></a>
                 </div>
             </div>
 

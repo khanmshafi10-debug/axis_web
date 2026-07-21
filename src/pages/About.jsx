@@ -56,7 +56,7 @@ export default function About() {
                     <h2>Engineering with Purpose and Integrity</h2>
                     <p className="mb-4" style={{"color":"#475569","lineHeight":"1.75","fontSize":"1.02rem"}}>AXIS INFINITY STRUCTURE was founded with a singular vision: to elevate the standard of multi-disciplinary engineering and construction services in the region. We identified a critical market gap , clients needed a single, accountable partner capable of managing civil, mechanical, and electrical disciplines with equal proficiency and a unified quality standard.</p>
                     <p className="mb-4" style={{"color":"#475569","lineHeight":"1.75","fontSize":"1.02rem"}}>We don't just execute blueprints; we optimize them. Our approach combines rigorous engineering principles with practical site intelligence, ensuring every structure and system we support stands the test of time, regulatory scrutiny, and operational demand.</p>
-                    <a href="contact.html" className="btn btn-primary" style={{"display":"inline-flex","alignItems":"center","gap":"10px","padding":"16px 36px","fontSize":"1.05rem","fontWeight":"700","borderRadius":"50px","boxShadow":"0 12px 28px rgba(11, 143, 200, 0.25)"}}>Work With Us</a>
+                    <a href="/contact" className="btn btn-primary" style={{"display":"inline-flex","alignItems":"center","gap":"10px","padding":"16px 36px","fontSize":"1.05rem","fontWeight":"700","borderRadius":"50px","boxShadow":"0 12px 28px rgba(11, 143, 200, 0.25)"}}>Work With Us</a>
                 </div>
             </div>
         </div>
@@ -246,7 +246,7 @@ export default function About() {
             </div>
 
             <div style={{"marginTop":"60px"}}>
-                <a href="team.html" className="btn btn-primary" style={{"display":"inline-flex","alignItems":"center","gap":"10px","padding":"18px 45px","fontSize":"1.05rem","fontWeight":"700","borderRadius":"50px","boxShadow":"0 15px 30px rgba(11, 143, 200, 0.25)","textTransform":"uppercase","letterSpacing":"1px","transition":"all 0.3s ease"}}>
+                <a href="/team" className="btn btn-primary" style={{"display":"inline-flex","alignItems":"center","gap":"10px","padding":"18px 45px","fontSize":"1.05rem","fontWeight":"700","borderRadius":"50px","boxShadow":"0 15px 30px rgba(11, 143, 200, 0.25)","textTransform":"uppercase","letterSpacing":"1px","transition":"all 0.3s ease"}}>
                     <span>Explore Our Full Team</span>
                     <i className="ph ph-arrow-right"></i>
                 </a>
@@ -309,8 +309,8 @@ export default function About() {
                 <h2>Ready to Build Something Exceptional?</h2>
                 <p>Partner with a team that delivers engineering excellence across every discipline, every stage, and every challenge.</p>
                 <div style={{"display":"flex","gap":"20px","justifyContent":"center","flexWrap":"wrap"}}>
-                    <a href="contact.html" className="btn btn-primary">Start a Project</a>
-                    <a href="services.html" className="btn btn-outline-white">Explore Services</a>
+                    <a href="/contact" className="btn btn-primary">Start a Project</a>
+                    <a href="/services" className="btn btn-outline-white">Explore Services</a>
                 </div>
             </div>
         </div>

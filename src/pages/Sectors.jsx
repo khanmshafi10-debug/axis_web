@@ -573,7 +573,7 @@ export default function Sectors() {
                     <div className="sector-card-content">
                         <h3 className="sector-card-title">Oil & Refinery</h3>
                         <p className="sector-card-text">High-pressure piping, static/rotating equipment rigging, mechanical shutdowns, and specialized refinery manpower supply.</p>
-                        <a href="oil-refinery.html" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
+                        <a href="/oil-refinery" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -586,7 +586,7 @@ export default function Sectors() {
                     <div className="sector-card-content">
                         <h3 className="sector-card-title">Petrochemical</h3>
                         <p className="sector-card-text">Advanced chemical piping, process skid integration, instrumentation loop checks, and intrinsically safe E&I distribution.</p>
-                        <a href="petrochemical.html" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
+                        <a href="/petrochemical" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -599,7 +599,7 @@ export default function Sectors() {
                     <div className="sector-card-content">
                         <h3 className="sector-card-title">Fertilizer Industry</h3>
                         <p className="sector-card-text">Primary reformer catalyst tube welding, heavy equipment rigging, toxic gas safety compliance, and ASME certified welders.</p>
-                        <a href="fertilizer.html" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
+                        <a href="/fertilizer" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -625,7 +625,7 @@ export default function Sectors() {
             <h2>Industry-Specific Solutions. Unified Quality Standard.</h2>
             <p>No matter which sector your project falls into, AXIS Infinity Structure applies the same rigorous quality control, safety management, and engineering professionalism. We adapt our methodology to your industry's specific regulatory requirements and operational demands.</p>
             <p>Our multi-disciplinary structure means we can rapidly mobilize specialized teams , civil, mechanical, electrical , simultaneously, slashing project timelines without compromising standards.</p>
-            <a href="contact.html" className="btn btn-primary mt-4" style={{"marginTop":"20px","display":"inline-flex"}}>Discuss Your Project</a>
+            <a href="/contact" className="btn btn-primary mt-4" style={{"marginTop":"20px","display":"inline-flex"}}>Discuss Your Project</a>
         </div>
         <div className="dis-image">
             <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1200&auto=format&fit=crop" alt="Engineering work" />

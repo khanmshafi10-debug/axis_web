@@ -169,8 +169,8 @@ export default function ElectricalInstrumentation() {
             <h2>Ready to Commission Your Electrical & Instrumentation Scope?</h2>
             <p>Talk to our E&I specialists for loop testing schedules, scope estimation, and commissioning support planning.</p>
             <div style={{"display":"flex","gap":"15px","flexWrap":"wrap","justifyContent":"center"}}>
-                <a href="contact.html" className="btn btn-primary">Request a Consultation</a>
-                <a href="projects.html" className="btn btn-secondary">View Our Projects</a>
+                <a href="/contact" className="btn btn-primary">Request a Consultation</a>
+                <a href="/projects" className="btn btn-secondary">View Our Projects</a>
             </div>
         </div>
     </section>

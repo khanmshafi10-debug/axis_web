@@ -477,7 +477,7 @@ export default function Projects() {
                             <span><i className="ph ph-map-pin"></i> Multan</span>
                             <span><i className="ph ph-clock"></i> In Progress</span>
                         </div>
-                        <a href="projects.html" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
+                        <a href="/projects" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
                     </div>
                 </div>
 
@@ -499,7 +499,7 @@ export default function Projects() {
                             <span><i className="ph ph-map-pin"></i> Multan</span>
                             <span><i className="ph ph-clock"></i> In Progress</span>
                         </div>
-                        <a href="projects.html" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
+                        <a href="/projects" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
                     </div>
                 </div>
 
@@ -521,7 +521,7 @@ export default function Projects() {
                             <span><i className="ph ph-map-pin"></i> Punjab</span>
                             <span><i className="ph ph-clock"></i> In Progress</span>
                         </div>
-                        <a href="projects.html" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
+                        <a href="/projects" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
                     </div>
                 </div>
 
@@ -543,7 +543,7 @@ export default function Projects() {
                             <span><i className="ph ph-map-pin"></i> DHA</span>
                             <span><i className="ph ph-clock"></i> In Progress</span>
                         </div>
-                        <a href="projects.html" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
+                        <a href="/projects" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
                     </div>
                 </div>
                 <div className="fade-in-up" style={{"background":"white","borderRadius":"12px","overflow":"hidden","boxShadow":"0 10px 30px rgba(0,0,0,0.05)","transition":"transform 0.3s ease"}} onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
@@ -732,7 +732,7 @@ export default function Projects() {
                 </div>
             </div>
             <div style={{"textAlign":"center","marginTop":"35px"}}>
-                <a href="mechanical-works.html" className="btn btn-outline-blue">Explore Mechanical Services &rarr;</a>
+                <a href="/mechanical-works" className="btn btn-outline-blue">Explore Mechanical Services &rarr;</a>
             </div>
         </div>
     </section>
@@ -788,7 +788,7 @@ export default function Projects() {
             <span className="v2030-section-label" style={{"background":"rgba(11,143,200,0.25)","border":"1px solid rgba(11,143,200,0.5)","color":"#fff","marginBottom":"25px","display":"inline-block"}}>Our Commitment</span>
             <h2>Trusted. Proven. Delivering Excellence at Every Scale.</h2>
             <p>From small-scope maintenance contracts to multi-million-dollar industrial developments, AXIS INFINITY STRUCTURE brings the same level of professionalism, precision, and dedication to every engagement. Our clients trust us because we deliver on time, within budget, and to the highest quality standards, every single time.</p>
-            <a href="contact.html" className="btn btn-primary" style={{"marginTop":"25px","fontSize":"1rem","padding":"14px 40px"}}>Start Your Project Today</a>
+            <a href="/contact" className="btn btn-primary" style={{"marginTop":"25px","fontSize":"1rem","padding":"14px 40px"}}>Start Your Project Today</a>
         </div>
     </section>
 

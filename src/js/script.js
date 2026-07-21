@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // =========================================================
     // 7. Active Nav Link Highlight
     // =========================================================
-    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const currentPage = window.location.pathname.split('/').pop() || 'index';
     document.querySelectorAll('.desktop-nav a, .mobile-nav a').forEach(link => {
         const href = link.getAttribute('href');
         if (href === currentPage) link.classList.add('active');
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // =========================================================
     // 10. Scroll Position Restoration for Back Navigation
     // =========================================================
-    const isHomepage = window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/') || window.location.pathname === '';
+    const isHomepage = window.location.pathname.endsWith('index') || window.location.pathname.endsWith('/') || window.location.pathname === '';
     if (isHomepage) {
         const savedScroll = sessionStorage.getItem('homepage_scroll_pos');
         if (savedScroll) {

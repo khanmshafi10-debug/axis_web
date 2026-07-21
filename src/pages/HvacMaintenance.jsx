@@ -165,8 +165,8 @@ export default function HvacMaintenance() {
             <h2>Ready to Optimize Your HVAC & Facility Maintenance?</h2>
             <p>Contact our team for a detailed HVAC survey, AMC proposal, and energy-saving recommendations for your facility.</p>
             <div style={{"display":"flex","gap":"15px","flexWrap":"wrap","justifyContent":"center"}}>
-                <a href="contact.html" className="btn btn-primary">Request a Consultation</a>
-                <a href="projects.html" className="btn btn-secondary">View Our Projects</a>
+                <a href="/contact" className="btn btn-primary">Request a Consultation</a>
+                <a href="/projects" className="btn btn-secondary">View Our Projects</a>
             </div>
         </div>
     </section>

@@ -113,7 +113,7 @@ export default function Decommissioning() {
         <div className="container fade-in-up">
             <h2>Ready to start your next Facility Decommissioning project?</h2>
             <p>Connect with our technical team to discuss your specific requirements and receive a customized proposal.</p>
-            <a href="contact.html" className="btn btn-primary">Request a Consultation</a>
+            <a href="/contact" className="btn btn-primary">Request a Consultation</a>
         </div>
     </section>
 

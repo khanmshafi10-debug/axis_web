@@ -1963,8 +1963,8 @@ i.active-gold-global,
                     Fuel your project's success with our integrated civil, mechanical, electrical, instrumentation, manpower, transport, and support solutions for infrastructure development.
                 </p>
                 <div className="premium-hero-actions">
-                    <a href="contact.html" className="premium-btn-primary">Start a Project</a>
-                    <a href="services.html" className="premium-btn-secondary">Our Services</a>
+                    <a href="/contact" className="premium-btn-primary">Start a Project</a>
+                    <a href="/services" className="premium-btn-secondary">Our Services</a>
                 </div>
 
             </div>
@@ -2259,7 +2259,7 @@ i.active-gold-global,
                         <li><i className="ph ph-check"></i> Manpower Supply</li>
                     </ul>
 
-                    <a href="about.html" className="btn-new-style" style={{"display":"inline-flex","width":"fit-content"}}>
+                    <a href="/about" className="btn-new-style" style={{"display":"inline-flex","width":"fit-content"}}>
                         Learn More About Us
                         <span className="icon-circle"><i className="ph ph-arrow-right"></i></span>
                     </a>
@@ -2486,7 +2486,7 @@ i.active-gold-global,
                     <span className="section-label-new">Why Choose Us</span>
                     <h2>From Planning to Execution. <br /><span style={{"color":"#0b8fc8"}}>One Reliable Team.</span></h2>
                     <p className="text-justify-mobile-left" style={{"marginTop":"15px","marginBottom":"25px","textAlign":"justify","lineHeight":"1.7","color":"rgba(255, 255, 255, 0.85)"}}>Unlike fragmented multi-contractor approaches, AXIS Infinity Structure provides complete engineering coverage under a single management structure. No coordination gaps, no blame-shifting, just unified delivery responsibility from mobilization to handover.</p>
-                    <a href="about.html" className="btn-new-style" style={{"display":"inline-flex","alignItems":"center","justifyContent":"center","marginTop":"5px","width":"fit-content"}}>
+                    <a href="/about" className="btn-new-style" style={{"display":"inline-flex","alignItems":"center","justifyContent":"center","marginTop":"5px","width":"fit-content"}}>
                         Discover Our Story
                         <span className="icon-circle"><i className="ph ph-arrow-right"></i></span>
                     </a>
@@ -2572,10 +2572,9 @@ i.active-gold-global,
                 <h2 style={{"color":"var(--clr-white)"}}>Expertise That Moves Projects Forward</h2>
                 <p className="max-w-800 mx-auto" style={{"color":"rgba(255,255,255,0.8)"}}>From civil works and MEP support to manpower, transport, equipment, and commissioning, AXIS Infinity Structure provides coordinated project support under one accountable structure.</p>
             </div>
-            
-            <div className="grid-3 mt-5">
+                       <div className="grid-3 mt-5">
                 {/* Service 1: Civil Engineering */}
-                <div className="service-card-new fade-in-up" onclick="location.href='civil-engineering.html'">
+                <div className="service-card-new fade-in-up">
                     <div className="service-card-img">
                         <img src="images/cicil engineering.webp" alt="Civil Engineering Site Construction"  width="736" height="1051" loading="lazy" decoding="async" />
                         <div className="service-card-icon-badge"><i className="ph ph-crane"></i></div>
@@ -2588,12 +2587,12 @@ i.active-gold-global,
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>RCC works</li>
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Road networks</li>
                         </ul>
-                        <a href="civil-engineering.html" className="service-card-cta">View Civil Works <i className="ph ph-arrow-right"></i></a>
+                        <a href="/civil-engineering" className="service-card-cta">View Civil Works <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
                 {/* Service 2: Mechanical Works */}
-                <div className="service-card-new fade-in-up delay-1" onclick="location.href='mechanical-works.html'">
+                <div className="service-card-new fade-in-up delay-1">
                     <div className="service-card-img">
                         <img src="images/mechanicalworks.webp" alt="Industrial Mechanical Piping Works"  width="1200" height="1200" loading="lazy" decoding="async" />
                         <div className="service-card-icon-badge"><i className="ph ph-gear"></i></div>
@@ -2606,12 +2605,12 @@ i.active-gold-global,
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Piping support</li>
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Maintenance works</li>
                         </ul>
-                        <a href="mechanical-works.html" className="service-card-cta">View Mechanical Works <i className="ph ph-arrow-right"></i></a>
+                        <a href="/mechanical-works" className="service-card-cta">View Mechanical Works <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
                 {/* Service 3: Electrical & Instrumentation */}
-                <div className="service-card-new fade-in-up delay-2" onclick="location.href='electrical-instrumentation.html'">
+                <div className="service-card-new fade-in-up delay-2">
                     <div className="service-card-img">
                         <img src="images/electrical and instrumentations.webp" alt="Electrical Panel and Instrumentation"  width="505" height="500" loading="lazy" decoding="async" />
                         <div className="service-card-icon-badge"><i className="ph ph-lightning"></i></div>
@@ -2624,12 +2623,12 @@ i.active-gold-global,
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Testing support</li>
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Control systems</li>
                         </ul>
-                        <a href="electrical-instrumentation.html" className="service-card-cta">View E&I Services <i className="ph ph-arrow-right"></i></a>
+                        <a href="/electrical-instrumentation" className="service-card-cta">View E&I Services <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
                 {/* CCTV */}
-                <div className="service-card-new fade-in-up" onclick="location.href='cctv-systems.html'">
+                <div className="service-card-new fade-in-up">
                     <div className="service-card-img">
                         <img src="images/cctv-installation.webp" alt="CCTV and Security Systems" style={{"objectFit":"cover","objectPosition":"center"}}  width="450" height="483" loading="lazy" decoding="async" />
                         <div className="service-card-icon-badge"><i className="ph ph-video-camera"></i></div>
@@ -2642,14 +2641,12 @@ i.active-gold-global,
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Access Control</li>
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Security Integration</li>
                         </ul>
-                        <a href="cctv-systems.html" className="service-card-cta">View CCTV Services <i className="ph ph-arrow-right"></i></a>
+                        <a href="/cctv-systems" className="service-card-cta">View CCTV Services <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
-
-
                 {/* Service 5: Manpower Supply */}
-                <div className="service-card-new fade-in-up delay-1" onclick="location.href='manpower-supply.html'">
+                <div className="service-card-new fade-in-up delay-1">
                     <div className="service-card-img">
                         <img src="images/manpower_supply_new.webp" alt="Skilled Technical Manpower Workforce"  width="665" height="481" loading="lazy" decoding="async" />
                         <div className="service-card-icon-badge"><i className="ph ph-users-three"></i></div>
@@ -2662,12 +2659,12 @@ i.active-gold-global,
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Site supervision</li>
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Flexible deployment</li>
                         </ul>
-                        <a href="manpower-supply.html" className="service-card-cta">Request Manpower Support <i className="ph ph-arrow-right"></i></a>
+                        <a href="/manpower-supply" className="service-card-cta">Request Manpower Support <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
                 {/* Service 6: Transport & Equipment Rental */}
-                <div className="service-card-new fade-in-up delay-2" onclick="location.href='transport-rental.html'">
+                <div className="service-card-new fade-in-up delay-2">
                     <div className="service-card-img">
                         <img src="images/user_transport.webp?v=3" alt="Heavy Construction Equipment Rental Fleet" />
                         <div className="service-card-icon-badge"><i className="ph ph-truck"></i></div>
@@ -2680,13 +2677,13 @@ i.active-gold-global,
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Equipment rental</li>
                             <li><span className="anim-bullet dots"><span></span><span></span><span></span></span>Site logistics</li>
                         </ul>
-                        <a href="transport-rental.html" className="service-card-cta">Request Equipment Support <i className="ph ph-arrow-right"></i></a>
+                        <a href="/transport-rental" className="service-card-cta">Request Equipment Support <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
 
             <div className="text-center mt-5 fade-in-up" style={{"marginTop":"40px","marginBottom":"20px"}}>
-                <a href="services.html" className="btn btn-primary" style={{"padding":"12px 30px","fontWeight":"600"}}>More Services</a>
+                <a href="/services" className="btn btn-primary" style={{"padding":"12px 30px","fontWeight":"600"}}>More Services</a>
             </div>
         </div>
     </section>
@@ -2818,7 +2815,7 @@ i.active-gold-global,
                     <div className="sector-card-content">
                         <h3 className="sector-card-title">Infrastructure Projects</h3>
                         <p className="sector-card-text">Civil, roadworks, utilities, drainage, manpower, equipment, and site support for infrastructure development.</p>
-                        <a href="sectors.html" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
+                        <a href="/sectors" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -2831,7 +2828,7 @@ i.active-gold-global,
                     <div className="sector-card-content">
                         <h3 className="sector-card-title">Industrial Facilities</h3>
                         <p className="sector-card-text">Industrial facility construction, MEP support, structural steel works, and specialized site services.</p>
-                        <a href="sectors.html" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
+                        <a href="/sectors" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -2844,7 +2841,7 @@ i.active-gold-global,
                     <div className="sector-card-content">
                         <h3 className="sector-card-title">Oil & Gas Refineries</h3>
                         <p className="sector-card-text">Support for refinery construction, maintenance, E&I works, mechanical works, manpower, transport, and commissioning assistance.</p>
-                        <a href="oil-refinery.html" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
+                        <a href="/oil-refinery" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -2857,7 +2854,7 @@ i.active-gold-global,
                     <div className="sector-card-content">
                         <h3 className="sector-card-title">Fertilizer Plants</h3>
                         <p className="sector-card-text">Engineering, industrial maintenance, plant support, skilled manpower, equipment, and site execution support.</p>
-                        <a href="fertilizer.html" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
+                        <a href="/fertilizer" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -2870,7 +2867,7 @@ i.active-gold-global,
                     <div className="sector-card-content">
                         <h3 className="sector-card-title">Petrochemical</h3>
                         <p className="sector-card-text">Advanced chemical piping, process skid integration, instrumentation loop checks, and safe E&I distribution.</p>
-                        <a href="petrochemical.html" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
+                        <a href="/petrochemical" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -2883,13 +2880,13 @@ i.active-gold-global,
                     <div className="sector-card-content">
                         <h3 className="sector-card-title">Commercial Construction</h3>
                         <p className="sector-card-text">High-rise buildings, business parks, offices, retail developments, civil works, and comprehensive HVAC/E&I support.</p>
-                        <a href="sectors.html" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
+                        <a href="/sectors" className="sector-card-link">Learn more <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             
             <div className="text-center mt-5 fade-in-up" style={{"marginTop":"40px"}}>
-                <a href="sectors.html" className="btn btn-solid-blue" style={{"padding":"12px 30px","fontWeight":"600","borderWidth":"2px"}}>More Sectors</a>
+                <a href="/sectors" className="btn btn-solid-blue" style={{"padding":"12px 30px","fontWeight":"600","borderWidth":"2px"}}>More Sectors</a>
             </div>
         </div>
     </section>
@@ -2923,7 +2920,7 @@ i.active-gold-global,
                             <span><i className="ph ph-map-pin"></i> Multan</span>
                             <span><i className="ph ph-clock"></i> In Progress</span>
                         </div>
-                        <a href="projects.html" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
+                        <a href="/projects" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
                     </div>
                 </div>
 
@@ -2945,7 +2942,7 @@ i.active-gold-global,
                             <span><i className="ph ph-map-pin"></i> Multan</span>
                             <span><i className="ph ph-clock"></i> In Progress</span>
                         </div>
-                        <a href="projects.html" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
+                        <a href="/projects" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
                     </div>
                 </div>
 
@@ -2967,7 +2964,7 @@ i.active-gold-global,
                             <span><i className="ph ph-map-pin"></i> Punjab</span>
                             <span><i className="ph ph-clock"></i> In Progress</span>
                         </div>
-                        <a href="projects.html" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
+                        <a href="/projects" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
                     </div>
                 </div>
 
@@ -2989,13 +2986,13 @@ i.active-gold-global,
                             <span><i className="ph ph-map-pin"></i> DHA</span>
                             <span><i className="ph ph-clock"></i> In Progress</span>
                         </div>
-                        <a href="projects.html" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
+                        <a href="/projects" className="btn btn-outline-blue w-100 mt-3" style={{"fontSize":"0.875rem"}}>View Project Details</a>
                     </div>
                 </div>
             </div>
 
             <div className="text-center mt-5 fade-in-up" style={{"marginTop":"40px","marginBottom":"20px"}}>
-                <a href="projects.html" className="btn btn-solid-blue" style={{"padding":"12px 30px","fontWeight":"600","borderWidth":"2px"}}>More Projects</a>
+                <a href="/projects" className="btn btn-solid-blue" style={{"padding":"12px 30px","fontWeight":"600","borderWidth":"2px"}}>More Projects</a>
             </div>
 
             {/* Milestone and CTA after Projects */}
@@ -3233,7 +3230,7 @@ i.active-gold-global,
                         </div>
                     </div>
                     
-                    <a href="safety.html" className="btn btn-outline-blue">View Safety & Quality System</a>
+                    <a href="/safety" className="btn btn-outline-blue">View Safety & Quality System</a>
                 </div>
                 <div className="fade-in-right col-image" style={{"position":"relative"}}>
                     <div className="blueprint-pattern" style={{"position":"absolute","top":"-20px","left":"-20px","width":"100%","height":"100%","zIndex":"-1","backgroundSize":"20px 20px"}}></div>
@@ -3285,7 +3282,7 @@ i.active-gold-global,
                         </div>
                     </div>
                     
-                    <a href="vision-2030.html" className="btn btn-primary">Explore Vision 2030 Commitment</a>
+                    <a href="/vision-2030" className="btn btn-primary">Explore Vision 2030 Commitment</a>
                 </div>
             </div>
         </div>
@@ -3440,7 +3437,7 @@ i.active-gold-global,
                         <li style={{"display":"flex","alignItems":"center","gap":"12px","fontWeight":"600","fontSize":"1rem"}}><i className="ph ph-chart-line-up" style={{"color":"var(--clr-orange)","fontSize":"1.35rem","flexShrink":"0"}}></i> Continuous Training & Growth Opportunities</li>
                     </ul>
                     <div className="career-btn-wrapper">
-                        <a href="careers.html" className="btn btn-primary mt-3" style={{"display":"inline-flex","alignItems":"center","gap":"8px"}}>Explore Open Positions <i className="ph ph-arrow-right"></i></a>
+                        <a href="/careers" className="btn btn-primary mt-3" style={{"display":"inline-flex","alignItems":"center","gap":"8px"}}>Explore Open Positions <i className="ph ph-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -3473,7 +3470,7 @@ i.active-gold-global,
                         </a>
                     </div>
                     
-                    <a href="contact.html" className="btn btn-outline-blue" style={{"display":"inline-flex","alignItems":"center","gap":"8px"}}>Full Contact Details <i className="ph ph-arrow-right"></i></a>
+                    <a href="/contact" className="btn btn-outline-blue" style={{"display":"inline-flex","alignItems":"center","gap":"8px"}}>Full Contact Details <i className="ph ph-arrow-right"></i></a>
                 </div>
                 <div className="col-form fade-in-up delay-1" style={{"width":"100%"}}>
                     <div className="form-card" style={{"boxShadow":"0 30px 60px rgba(0,0,0,0.2)","border":"1px solid rgba(255,255,255,0.1)","backgroundColor":"var(--clr-white)","borderRadius":"8px"}}>

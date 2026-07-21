@@ -162,8 +162,8 @@ export default function TransportRental() {
             <h2>Need Heavy Equipment or Transport for Your Project?</h2>
             <p>Contact our fleet operations team for immediate availability checks, lift studies, and competitive rental quotations.</p>
             <div style={{"display":"flex","gap":"15px","flexWrap":"wrap","justifyContent":"center"}}>
-                <a href="contact.html" className="btn btn-primary">Request Equipment Rental</a>
-                <a href="projects.html" className="btn btn-secondary">View Our Projects</a>
+                <a href="/contact" className="btn btn-primary">Request Equipment Rental</a>
+                <a href="/projects" className="btn btn-secondary">View Our Projects</a>
             </div>
         </div>
     </section>

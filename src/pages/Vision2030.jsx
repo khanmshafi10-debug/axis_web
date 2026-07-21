@@ -520,7 +520,7 @@ export default function Vision2030() {
             <p>AXIS INFINITY STRUCTURE is committed to contributing to Saudi Arabia's ambitious national transformation , delivering world-class engineering, infrastructure, and construction solutions that drive economic diversification and sustainable development.</p>
             <div className="v2030-hero-cta">
                 <a href="#pillars" className="btn btn-primary">Explore Our Alignment</a>
-                <a href="contact.html" className="btn btn-secondary">Partner With Us</a>
+                <a href="/contact" className="btn btn-secondary">Partner With Us</a>
             </div>
         </div>
     </section>
@@ -748,7 +748,7 @@ export default function Vision2030() {
                 </div>
             </div>
             <div className="text-center mt-5">
-                <a href="projects.html" className="btn btn-primary" style={{"padding":"14px 40px","fontSize":"1rem"}}>View All Projects <i className="ph ph-arrow-right"></i></a>
+                <a href="/projects" className="btn btn-primary" style={{"padding":"14px 40px","fontSize":"1rem"}}>View All Projects <i className="ph ph-arrow-right"></i></a>
             </div>
         </div>
     </section>
@@ -760,8 +760,8 @@ export default function Vision2030() {
             <h2>Partner With AXIS Infinity Structure for Vision 2030 Projects</h2>
             <p>Whether you are a developer, government entity, or main contractor working on Vision 2030 initiatives , AXIS Infinity Structure is your trusted engineering and construction partner.</p>
             <div className="v2030-cta-btns">
-                <a href="contact.html" className="btn btn-primary" style={{"padding":"14px 35px","fontSize":"1rem"}}>Get in Touch <i className="ph ph-paper-plane-tilt"></i></a>
-                <a href="services.html" className="btn btn-outline-blue">Our Services</a>
+                <a href="/contact" className="btn btn-primary" style={{"padding":"14px 35px","fontSize":"1rem"}}>Get in Touch <i className="ph ph-paper-plane-tilt"></i></a>
+                <a href="/services" className="btn btn-outline-blue">Our Services</a>
             </div>
         </div>
     </section>

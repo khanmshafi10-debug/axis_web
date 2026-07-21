@@ -177,8 +177,8 @@ export default function MechanicalWorks() {
             <h2>Ready to Execute Your Industrial Mechanical Scope?</h2>
             <p>Contact our mechanical engineering team for technical consultation, detailed estimation, and project planning support.</p>
             <div style={{"display":"flex","gap":"15px","flexWrap":"wrap","justifyContent":"center"}}>
-                <a href="contact.html" className="btn btn-primary">Request a Consultation</a>
-                <a href="projects.html" className="btn btn-secondary">View Our Projects</a>
+                <a href="/contact" className="btn btn-primary">Request a Consultation</a>
+                <a href="/projects" className="btn btn-secondary">View Our Projects</a>
             </div>
         </div>
     </section>

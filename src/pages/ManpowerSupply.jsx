@@ -192,8 +192,8 @@ export default function ManpowerSupply() {
             <h2>Need a Qualified Industrial Workforce for Your Project?</h2>
             <p>Submit your manpower requirements to our team , we will provide a tailored staffing plan, competitive rates, and rapid mobilization timelines.</p>
             <div style={{"display":"flex","gap":"15px","flexWrap":"wrap","justifyContent":"center"}}>
-                <a href="contact.html" className="btn btn-primary">Submit Manpower Request</a>
-                <a href="careers.html" className="btn btn-secondary">View Current Openings</a>
+                <a href="/contact" className="btn btn-primary">Submit Manpower Request</a>
+                <a href="/careers" className="btn btn-secondary">View Current Openings</a>
             </div>
         </div>
     </section>

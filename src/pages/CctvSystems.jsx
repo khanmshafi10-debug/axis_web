@@ -109,8 +109,8 @@ export default function CctvSystems() {
             <h2>Secure Your Project Site Today</h2>
             <p>Contact our security experts to design a surveillance system that meets your operational and safety requirements.</p>
             <div style={{"display":"flex","gap":"15px","flexWrap":"wrap","justifyContent":"center"}}>
-                <a href="contact.html" className="btn btn-primary">Request a Consultation</a>
-                <a href="projects.html" className="btn btn-secondary">View Our Projects</a>
+                <a href="/contact" className="btn btn-primary">Request a Consultation</a>
+                <a href="/projects" className="btn btn-secondary">View Our Projects</a>
             </div>
         </div>
     </section>
