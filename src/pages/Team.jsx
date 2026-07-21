@@ -1160,8 +1160,8 @@ export default function Team() {
                     <div className="polaroid-card">
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/ceo_and_gm_mobeen_zia.webp" alt="Mobeen Zia"  width="1200" height="1200" loading="lazy" decoding="async" />
                         </div>
@@ -1173,8 +1173,8 @@ export default function Team() {
                     <div className="polaroid-card">
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/partner_mujeeb_ali.webp" alt="Mujeeb Ali"  width="400" height="533" loading="lazy" decoding="async" />
                         </div>
@@ -1195,8 +1195,8 @@ export default function Team() {
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/Kashif naveed operational manger.webp" alt="Ch Kashif Naveed"  width="1086" height="1448" loading="lazy" decoding="async" />
                         </div>
@@ -1208,7 +1208,7 @@ export default function Team() {
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/deputy_manager_pak_sohail_akhtar.webp" alt="Sohail Akhtar"  width="400" height="533" loading="lazy" decoding="async" />
                         </div>
@@ -1220,8 +1220,8 @@ export default function Team() {
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/hr and fiance manger tallal majeed.webp" alt="Tallal Majeed"  width="1200" height="1007" loading="lazy" decoding="async" />
                         </div>
@@ -1233,7 +1233,7 @@ export default function Team() {
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/project_manager_pak_moin_anwar.webp" alt="Moin Anwar"  width="400" height="533" loading="lazy" decoding="async" />
                         </div>
@@ -1254,8 +1254,8 @@ export default function Team() {
                     <div className="polaroid-card">
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/qa_qc_manager_mdawood_arif_ksa.webp" alt="Arif Dawood"  width="400" height="500" loading="lazy" decoding="async" />
                         </div>
@@ -1267,7 +1267,7 @@ export default function Team() {
                     <div className="polaroid-card">
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/construction_manager_pak_naeem_ahmad.webp" alt="Naeem"  width="400" height="533" loading="lazy" decoding="async" />
                         </div>
@@ -1279,7 +1279,7 @@ export default function Team() {
                     <div className="polaroid-card">
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/civil_team_leader_pak_saifullah_khalid.webp" alt="Saifullah Khalid"  width="400" height="533" loading="lazy" decoding="async" />
                         </div>
@@ -1291,8 +1291,8 @@ export default function Team() {
                     <div className="polaroid-card">
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/mechanical_leader.webp" alt="Sakhawat Ali"  width="400" height="400" loading="lazy" decoding="async" />
                         </div>
@@ -1304,7 +1304,7 @@ export default function Team() {
                     <div className="polaroid-card">
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/eiand_t_team_leader_ksa_saeed_imran.webp" alt="Saeed Imran"  width="400" height="533" loading="lazy" decoding="async" />
                         </div>
@@ -1316,7 +1316,7 @@ export default function Team() {
                     <div className="polaroid-card">
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/hse_manager_kse_tahir_zameer.webp" alt="Tahir Zameer"  width="400" height="533" loading="lazy" decoding="async" />
                         </div>
@@ -1337,8 +1337,8 @@ export default function Team() {
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/technical_manager_mep_basit_aslam.webp" alt="Basit Aslam"  width="400" height="335" loading="lazy" decoding="async" />
                         </div>
@@ -1350,7 +1350,7 @@ export default function Team() {
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/transporation_haed_pak_imarn_soomro.webp" alt="Imran Soomro"  width="400" height="430" loading="lazy" decoding="async" />
                         </div>
@@ -1362,8 +1362,8 @@ export default function Team() {
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/marketing manager abdullah akhtar.webp" style={{"objectPosition":"bottom"}} alt="Abdullah Akhtar"  width="1023" height="1537" loading="lazy" decoding="async" />
                         </div>
@@ -1375,8 +1375,8 @@ export default function Team() {
                     <div className="polaroid-card" style={{"flexBasis":"260px"}}>
                         <div className="polaroid-img-wrapper" style={{"position":"relative"}}>
                             <div style={{"position":"absolute","top":"15px","right":"15px","zIndex":"10","display":"flex","gap":"8px"}}>
-                                <img src="https://flagcdn.com/w40/pk.png" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
-                                <img src="https://flagcdn.com/w40/sa.png" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/pk.svg" alt="PAK" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
+                                <img src="/images/flags/sa.svg" alt="KSA" style={{"width":"36px","height":"24px","borderRadius":"3px","boxShadow":"0 4px 8px rgba(0,0,0,0.8)","border":"2px solid white"}} />
                             </div>
                             <img src="images/team/M rashad hr & coordinTOR.webp" alt="M Rashad"  width="1086" height="1448" loading="lazy" decoding="async" />
                         </div>
