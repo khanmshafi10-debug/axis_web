@@ -43,11 +43,19 @@ export default function About() {
         <div className="container">
             <div className="staggered-row" style={{"alignItems":"center","display":"grid","gridTemplateColumns":"repeat(auto-fit, minmax(320px, 1fr))","gap":"50px"}}>
                 
-                {/* Left: Stylish Offset Blue Border Frame matching second reference image */}
-                <div className="staggered-img fade-in-left" style={{"position":"relative","padding":"18px 0 0 18px","margin":"10px 10px 20px 10px"}}>
-                    {/* Stylish Offset Blue Border Frame */}
-                    <div style={{"position":"absolute","top":"0","left":"0","width":"calc(100% - 18px)","height":"calc(100% - 18px)","border":"3.5px solid var(--clr-blue)","borderRadius":"22px","zIndex":"0"}}></div>
-                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop" alt="AXIS Infinity Structure Engineering Team at Work" style={{"width":"100%","display":"block","minHeight":"400px","objectFit":"cover","borderRadius":"18px","position":"relative","zIndex":"1","boxShadow":"0 20px 50px rgba(11, 34, 64, 0.18)"}} />
+                {/* Left: Symmetrical Blue Outline Frame with Circular AXIS Stamp Badge */}
+                <div className="staggered-img fade-in-left" style={{"position":"relative","margin":"15px 15px 25px 15px"}}>
+                    <div style={{"position":"relative","zIndex":"2"}}>
+                        {/* Symmetrical Outer Blue Frame */}
+                        <div style={{"position":"absolute","top":"-12px","left":"-12px","right":"-12px","bottom":"-12px","border":"3.5px solid var(--clr-blue)","borderRadius":"28px","zIndex":"-1","pointerEvents":"none"}}></div>
+                        <div style={{"borderRadius":"20px","overflow":"hidden","boxShadow":"0 20px 50px rgba(11, 34, 64, 0.18)"}}>
+                            <img src="images/about_axis.webp" alt="AXIS Infinity Structure Engineering Team at Work" style={{"width":"100%","display":"block","minHeight":"400px","objectFit":"cover","borderRadius":"18px"}} />
+                        </div>
+                        {/* Official Circular AXIS Stamp Badge */}
+                        <div style={{"position":"absolute","bottom":"-22px","right":"-22px","width":"130px","height":"130px","zIndex":"10","display":"flex","alignItems":"center","justifyContent":"center","boxShadow":"0 10px 30px rgba(0,0,0,0.18)","borderRadius":"50%","background":"#ffffff","border":"3px solid #ffffff","padding":"2px"}}>
+                            <img src="images/axis-stamp-clean.webp" alt="Axis Stamp" style={{"width":"100%","height":"100%","objectFit":"contain","borderRadius":"50%"}} width="810" height="810" loading="lazy" decoding="async" />
+                        </div>
+                    </div>
                 </div>
 
                 {/* Right: Text Content */}
@@ -259,17 +267,20 @@ export default function About() {
         <div className="container">
             <div className="two-column" style={{"gap":"60px","alignItems":"center"}}>
 
-                {/* Left: Framed Photo with Stylish Offset Blue Frame */}
-                <div className="fade-in-left" style={{"position":"relative","padding":"18px 0 0 18px","margin":"10px"}}>
-                    <div style={{"position":"absolute","top":"0","left":"0","width":"calc(100% - 18px)","height":"calc(100% - 18px)","border":"3.5px solid var(--clr-blue)","borderRadius":"22px","zIndex":"0"}}></div>
-                    <img src="images/team/ceo_and_gm_mobeen_zia.webp"
-                        alt="CEO AXIS INFINITY STRUCTURE"
-                        style={{"width":"100%","aspectRatio":"1 / 1","objectFit":"cover","objectPosition":"center","background":"#fff","borderRadius":"18px","display":"block","position":"relative","zIndex":"1","boxShadow":"0 20px 60px rgba(22,46,92,0.18)"}}
-                      width="1200" height="1200" loading="lazy" decoding="async" />
-                    {/* Badge on photo */}
-                    <div style={{"position":"absolute","bottom":"24px","right":"-20px","zIndex":"2","background":"var(--clr-navy)","borderRadius":"12px","padding":"18px 24px","textAlign":"center","boxShadow":"0 8px 24px rgba(22,46,92,0.3)","border":"3px solid var(--clr-white)"}}>
-                        <div style={{"fontSize":"1.6rem","fontWeight":"800","color":"var(--clr-blue)","fontFamily":"var(--font-heading)"}}>100%</div>
-                        <div style={{"fontSize":"0.72rem","color":"rgba(255,255,255,0.75)","textTransform":"uppercase","letterSpacing":"0.08em","marginTop":"4px"}}>Excellence</div>
+                {/* Left: Framed Photo with Symmetrical Blue Outline Frame and Circular AXIS Stamp */}
+                <div className="fade-in-left" style={{"position":"relative","margin":"15px 15px 25px 15px"}}>
+                    <div style={{"position":"relative","zIndex":"2"}}>
+                        <div style={{"position":"absolute","top":"-12px","left":"-12px","right":"-12px","bottom":"-12px","border":"3.5px solid var(--clr-blue)","borderRadius":"28px","zIndex":"-1","pointerEvents":"none"}}></div>
+                        <div style={{"borderRadius":"20px","overflow":"hidden","boxShadow":"0 20px 60px rgba(22,46,92,0.18)"}}>
+                            <img src="images/team/ceo_and_gm_mobeen_zia.webp"
+                                alt="CEO AXIS INFINITY STRUCTURE"
+                                style={{"width":"100%","aspectRatio":"1 / 1","objectFit":"cover","objectPosition":"center","background":"#fff","borderRadius":"18px","display":"block"}}
+                              width="1200" height="1200" loading="lazy" decoding="async" />
+                        </div>
+                        {/* Official Circular AXIS Stamp Badge */}
+                        <div style={{"position":"absolute","bottom":"-22px","right":"-22px","width":"130px","height":"130px","zIndex":"10","display":"flex","alignItems":"center","justifyContent":"center","boxShadow":"0 10px 30px rgba(0,0,0,0.18)","borderRadius":"50%","background":"#ffffff","border":"3px solid #ffffff","padding":"2px"}}>
+                            <img src="images/axis-stamp-clean.webp" alt="Axis Stamp" style={{"width":"100%","height":"100%","objectFit":"contain","borderRadius":"50%"}} width="810" height="810" loading="lazy" decoding="async" />
+                        </div>
                     </div>
                 </div>
 
