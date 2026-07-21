@@ -34,13 +34,16 @@
     <!-- Critical Resource Preloads -->
     <link rel="preload" as="image" href="/images/hero section image.webp" type="image/webp" fetchpriority="high" />
 
-    <!-- Google Fonts Preconnect & Optimization -->
+    <!-- Google Fonts Preconnect & Async Optimization -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="dns-prefetch" href="https://unpkg.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" /></noscript>
 
-    <!-- Phosphor Icons -->
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <!-- Phosphor Icons Async Loading -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css" /></noscript>
 
     <!-- Structured Data / JSON-LD for Google SEO -->
     <script type="application/ld+json">

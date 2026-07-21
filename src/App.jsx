@@ -1,45 +1,73 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import FloatingActions from './components/layout/FloatingActions';
 
-// Import Page Components
-import About from './pages/About';
-import AutomationControl from './pages/AutomationControl';
-import Careers from './pages/Careers';
-import CctvSystems from './pages/CctvSystems';
-import CivilEngineering from './pages/CivilEngineering';
-import Contact from './pages/Contact';
-import Decommissioning from './pages/Decommissioning';
-import ElectricalInstrumentation from './pages/ElectricalInstrumentation';
-import Fertilizer from './pages/Fertilizer';
-import GeotechnicalPiling from './pages/GeotechnicalPiling';
-import HvacMaintenance from './pages/HvacMaintenance';
+// Eager load Home page for instant initial rendering
 import Home from './pages/Home';
-import IndustrialInsulation from './pages/IndustrialInsulation';
-import IndustrialPainting from './pages/IndustrialPainting';
-import ManpowerSupply from './pages/ManpowerSupply';
-import MarineOffshore from './pages/MarineOffshore';
-import MechanicalWorks from './pages/MechanicalWorks';
-import NdtInspection from './pages/NdtInspection';
-import OilRefinery from './pages/OilRefinery';
-import Petrochemical from './pages/Petrochemical';
-import PipingPipeline from './pages/PipingPipeline';
-import PlantShutdowns from './pages/PlantShutdowns';
-import PreCommissioning from './pages/PreCommissioning';
-import ProjectManagement from './pages/ProjectManagement';
-import Projects from './pages/Projects';
-import RenewableEnergy from './pages/RenewableEnergy';
-import Safety from './pages/Safety';
-import ScaffoldingRigging from './pages/ScaffoldingRigging';
-import Sectors from './pages/Sectors';
-import Services from './pages/Services';
-import SteelFabrication from './pages/SteelFabrication';
-import Team from './pages/Team';
-import TransportRental from './pages/TransportRental';
-import Vision2030 from './pages/Vision2030';
-import WaterTreatment from './pages/WaterTreatment';
+
+// Lazy load subpages for maximum initial loading speed on slow networks
+const About = lazy(() => import('./pages/About'));
+const AutomationControl = lazy(() => import('./pages/AutomationControl'));
+const Careers = lazy(() => import('./pages/Careers'));
+const CctvSystems = lazy(() => import('./pages/CctvSystems'));
+const CivilEngineering = lazy(() => import('./pages/CivilEngineering'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Decommissioning = lazy(() => import('./pages/Decommissioning'));
+const ElectricalInstrumentation = lazy(() => import('./pages/ElectricalInstrumentation'));
+const Fertilizer = lazy(() => import('./pages/Fertilizer'));
+const GeotechnicalPiling = lazy(() => import('./pages/GeotechnicalPiling'));
+const HvacMaintenance = lazy(() => import('./pages/HvacMaintenance'));
+const IndustrialInsulation = lazy(() => import('./pages/IndustrialInsulation'));
+const IndustrialPainting = lazy(() => import('./pages/IndustrialPainting'));
+const ManpowerSupply = lazy(() => import('./pages/ManpowerSupply'));
+const MarineOffshore = lazy(() => import('./pages/MarineOffshore'));
+const MechanicalWorks = lazy(() => import('./pages/MechanicalWorks'));
+const NdtInspection = lazy(() => import('./pages/NdtInspection'));
+const OilRefinery = lazy(() => import('./pages/OilRefinery'));
+const Petrochemical = lazy(() => import('./pages/Petrochemical'));
+const PipingPipeline = lazy(() => import('./pages/PipingPipeline'));
+const PlantShutdowns = lazy(() => import('./pages/PlantShutdowns'));
+const PreCommissioning = lazy(() => import('./pages/PreCommissioning'));
+const ProjectManagement = lazy(() => import('./pages/ProjectManagement'));
+const Projects = lazy(() => import('./pages/Projects'));
+const RenewableEnergy = lazy(() => import('./pages/RenewableEnergy'));
+const Safety = lazy(() => import('./pages/Safety'));
+const ScaffoldingRigging = lazy(() => import('./pages/ScaffoldingRigging'));
+const Sectors = lazy(() => import('./pages/Sectors'));
+const Services = lazy(() => import('./pages/Services'));
+const SteelFabrication = lazy(() => import('./pages/SteelFabrication'));
+const Team = lazy(() => import('./pages/Team'));
+const TransportRental = lazy(() => import('./pages/TransportRental'));
+const Vision2030 = lazy(() => import('./pages/Vision2030'));
+const WaterTreatment = lazy(() => import('./pages/WaterTreatment'));
+
+// Smooth Loading Spinner Component for Slow Networks
+function PageLoader() {
+  return (
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      minHeight: '50vh',
+      width: '100%',
+      gap: '16px'
+    }}>
+      <div style={{
+        width: '42px',
+        height: '42px',
+        border: '3.5px solid rgba(11, 143, 200, 0.15)',
+        borderTopColor: '#0b8fc8',
+        borderRadius: '50%',
+        animation: 'axis-spin 0.7s linear infinite'
+      }} />
+      <span style={{ fontSize: '0.9rem', color: '#0b8fc8', fontWeight: '600', letterSpacing: '0.5px' }}>Loading...</span>
+      <style>{`@keyframes axis-spin { to { transform: rotate(360deg); } }`}</style>
+    </div>
+  );
+}
 
 function drawMobileSnake() {
   const grid = document.querySelector('.timeline-grid-new');
@@ -365,116 +393,118 @@ export default function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/index" element={<Home />} />
-        <Route path="/index.html" element={<Home />} />
-        
-        <Route path="/about" element={<About />} />
-        <Route path="/about.html" element={<About />} />
-        
-        <Route path="/automation-control" element={<AutomationControl />} />
-        <Route path="/automation-control.html" element={<AutomationControl />} />
-        
-        <Route path="/careers" element={<Careers />} />
-        <Route path="/careers.html" element={<Careers />} />
-        
-        <Route path="/cctv-systems" element={<CctvSystems />} />
-        <Route path="/cctv-systems.html" element={<CctvSystems />} />
-        
-        <Route path="/civil-engineering" element={<CivilEngineering />} />
-        <Route path="/civil-engineering.html" element={<CivilEngineering />} />
-        
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/contact.html" element={<Contact />} />
-        
-        <Route path="/decommissioning" element={<Decommissioning />} />
-        <Route path="/decommissioning.html" element={<Decommissioning />} />
-        
-        <Route path="/electrical-instrumentation" element={<ElectricalInstrumentation />} />
-        <Route path="/electrical-instrumentation.html" element={<ElectricalInstrumentation />} />
-        
-        <Route path="/fertilizer" element={<Fertilizer />} />
-        <Route path="/fertilizer.html" element={<Fertilizer />} />
-        
-        <Route path="/geotechnical-piling" element={<GeotechnicalPiling />} />
-        <Route path="/geotechnical-piling.html" element={<GeotechnicalPiling />} />
-        
-        <Route path="/hvac-maintenance" element={<HvacMaintenance />} />
-        <Route path="/hvac-maintenance.html" element={<HvacMaintenance />} />
-        
-        <Route path="/industrial-insulation" element={<IndustrialInsulation />} />
-        <Route path="/industrial-insulation.html" element={<IndustrialInsulation />} />
-        
-        <Route path="/industrial-painting" element={<IndustrialPainting />} />
-        <Route path="/industrial-painting.html" element={<IndustrialPainting />} />
-        
-        <Route path="/manpower-supply" element={<ManpowerSupply />} />
-        <Route path="/manpower-supply.html" element={<ManpowerSupply />} />
-        
-        <Route path="/marine-offshore" element={<MarineOffshore />} />
-        <Route path="/marine-offshore.html" element={<MarineOffshore />} />
-        
-        <Route path="/mechanical-works" element={<MechanicalWorks />} />
-        <Route path="/mechanical-works.html" element={<MechanicalWorks />} />
-        
-        <Route path="/ndt-inspection" element={<NdtInspection />} />
-        <Route path="/ndt-inspection.html" element={<NdtInspection />} />
-        
-        <Route path="/oil-refinery" element={<OilRefinery />} />
-        <Route path="/oil-refinery.html" element={<OilRefinery />} />
-        
-        <Route path="/petrochemical" element={<Petrochemical />} />
-        <Route path="/petrochemical.html" element={<Petrochemical />} />
-        
-        <Route path="/piping-pipeline" element={<PipingPipeline />} />
-        <Route path="/piping-pipeline.html" element={<PipingPipeline />} />
-        
-        <Route path="/plant-shutdowns" element={<PlantShutdowns />} />
-        <Route path="/plant-shutdowns.html" element={<PlantShutdowns />} />
-        
-        <Route path="/pre-commissioning" element={<PreCommissioning />} />
-        <Route path="/pre-commissioning.html" element={<PreCommissioning />} />
-        
-        <Route path="/project-management" element={<ProjectManagement />} />
-        <Route path="/project-management.html" element={<ProjectManagement />} />
-        
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/projects.html" element={<Projects />} />
-        
-        <Route path="/renewable-energy" element={<RenewableEnergy />} />
-        <Route path="/renewable-energy.html" element={<RenewableEnergy />} />
-        
-        <Route path="/safety" element={<Safety />} />
-        <Route path="/safety.html" element={<Safety />} />
-        
-        <Route path="/scaffolding-rigging" element={<ScaffoldingRigging />} />
-        <Route path="/scaffolding-rigging.html" element={<ScaffoldingRigging />} />
-        
-        <Route path="/sectors" element={<Sectors />} />
-        <Route path="/sectors.html" element={<Sectors />} />
-        
-        <Route path="/services" element={<Services />} />
-        <Route path="/services.html" element={<Services />} />
-        
-        <Route path="/steel-fabrication" element={<SteelFabrication />} />
-        <Route path="/steel-fabrication.html" element={<SteelFabrication />} />
-        
-        <Route path="/team" element={<Team />} />
-        <Route path="/team.html" element={<Team />} />
-        
-        <Route path="/transport-rental" element={<TransportRental />} />
-        <Route path="/transport-rental.html" element={<TransportRental />} />
-        
-        <Route path="/vision-2030" element={<Vision2030 />} />
-        <Route path="/vision-2030.html" element={<Vision2030 />} />
-        
-        <Route path="/water-treatment" element={<WaterTreatment />} />
-        <Route path="/water-treatment.html" element={<WaterTreatment />} />
+      <Suspense fallback={<PageLoader />}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/index" element={<Home />} />
+          <Route path="/index.html" element={<Home />} />
+          
+          <Route path="/about" element={<About />} />
+          <Route path="/about.html" element={<About />} />
+          
+          <Route path="/automation-control" element={<AutomationControl />} />
+          <Route path="/automation-control.html" element={<AutomationControl />} />
+          
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/careers.html" element={<Careers />} />
+          
+          <Route path="/cctv-systems" element={<CctvSystems />} />
+          <Route path="/cctv-systems.html" element={<CctvSystems />} />
+          
+          <Route path="/civil-engineering" element={<CivilEngineering />} />
+          <Route path="/civil-engineering.html" element={<CivilEngineering />} />
+          
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact.html" element={<Contact />} />
+          
+          <Route path="/decommissioning" element={<Decommissioning />} />
+          <Route path="/decommissioning.html" element={<Decommissioning />} />
+          
+          <Route path="/electrical-instrumentation" element={<ElectricalInstrumentation />} />
+          <Route path="/electrical-instrumentation.html" element={<ElectricalInstrumentation />} />
+          
+          <Route path="/fertilizer" element={<Fertilizer />} />
+          <Route path="/fertilizer.html" element={<Fertilizer />} />
+          
+          <Route path="/geotechnical-piling" element={<GeotechnicalPiling />} />
+          <Route path="/geotechnical-piling.html" element={<GeotechnicalPiling />} />
+          
+          <Route path="/hvac-maintenance" element={<HvacMaintenance />} />
+          <Route path="/hvac-maintenance.html" element={<HvacMaintenance />} />
+          
+          <Route path="/industrial-insulation" element={<IndustrialInsulation />} />
+          <Route path="/industrial-insulation.html" element={<IndustrialInsulation />} />
+          
+          <Route path="/industrial-painting" element={<IndustrialPainting />} />
+          <Route path="/industrial-painting.html" element={<IndustrialPainting />} />
+          
+          <Route path="/manpower-supply" element={<ManpowerSupply />} />
+          <Route path="/manpower-supply.html" element={<ManpowerSupply />} />
+          
+          <Route path="/marine-offshore" element={<MarineOffshore />} />
+          <Route path="/marine-offshore.html" element={<MarineOffshore />} />
+          
+          <Route path="/mechanical-works" element={<MechanicalWorks />} />
+          <Route path="/mechanical-works.html" element={<MechanicalWorks />} />
+          
+          <Route path="/ndt-inspection" element={<NdtInspection />} />
+          <Route path="/ndt-inspection.html" element={<NdtInspection />} />
+          
+          <Route path="/oil-refinery" element={<OilRefinery />} />
+          <Route path="/oil-refinery.html" element={<OilRefinery />} />
+          
+          <Route path="/petrochemical" element={<Petrochemical />} />
+          <Route path="/petrochemical.html" element={<Petrochemical />} />
+          
+          <Route path="/piping-pipeline" element={<PipingPipeline />} />
+          <Route path="/piping-pipeline.html" element={<PipingPipeline />} />
+          
+          <Route path="/plant-shutdowns" element={<PlantShutdowns />} />
+          <Route path="/plant-shutdowns.html" element={<PlantShutdowns />} />
+          
+          <Route path="/pre-commissioning" element={<PreCommissioning />} />
+          <Route path="/pre-commissioning.html" element={<PreCommissioning />} />
+          
+          <Route path="/project-management" element={<ProjectManagement />} />
+          <Route path="/project-management.html" element={<ProjectManagement />} />
+          
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects.html" element={<Projects />} />
+          
+          <Route path="/renewable-energy" element={<RenewableEnergy />} />
+          <Route path="/renewable-energy.html" element={<RenewableEnergy />} />
+          
+          <Route path="/safety" element={<Safety />} />
+          <Route path="/safety.html" element={<Safety />} />
+          
+          <Route path="/scaffolding-rigging" element={<ScaffoldingRigging />} />
+          <Route path="/scaffolding-rigging.html" element={<ScaffoldingRigging />} />
+          
+          <Route path="/sectors" element={<Sectors />} />
+          <Route path="/sectors.html" element={<Sectors />} />
+          
+          <Route path="/services" element={<Services />} />
+          <Route path="/services.html" element={<Services />} />
+          
+          <Route path="/steel-fabrication" element={<SteelFabrication />} />
+          <Route path="/steel-fabrication.html" element={<SteelFabrication />} />
+          
+          <Route path="/team" element={<Team />} />
+          <Route path="/team.html" element={<Team />} />
+          
+          <Route path="/transport-rental" element={<TransportRental />} />
+          <Route path="/transport-rental.html" element={<TransportRental />} />
+          
+          <Route path="/vision-2030" element={<Vision2030 />} />
+          <Route path="/vision-2030.html" element={<Vision2030 />} />
+          
+          <Route path="/water-treatment" element={<WaterTreatment />} />
+          <Route path="/water-treatment.html" element={<WaterTreatment />} />
 
-        {/* Wildcard Fallback Route */}
-        <Route path="*" element={<Home />} />
-      </Routes>
+          {/* Wildcard Fallback Route */}
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </Suspense>
       <Footer />
       <FloatingActions />
     </>
