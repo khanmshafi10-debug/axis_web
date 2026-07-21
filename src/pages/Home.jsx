@@ -1587,21 +1587,45 @@ i.active-gold-global,
     flex-grow: 1;
 }
 .sector-card-link {
-    color: #0a192f;
-    font-size: 0.9rem;
-    font-weight: 700;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    transition: 0.3s;
+    color: var(--clr-primary-navy, #0a192f) !important;
+    font-size: 0.9rem !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    padding: 10px 18px !important;
+    border-radius: 12px !important;
+    background: linear-gradient(135deg, rgba(11, 143, 200, 0.08) 0%, rgba(10, 25, 47, 0.04) 100%) !important;
+    border: 1.5px solid rgba(11, 143, 200, 0.22) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 2px 6px rgba(11, 143, 200, 0.05) !important;
+    margin-top: auto !important;
 }
 .sector-card-link i {
-    font-size: 1.1rem;
-    color: #0b8fc8;
+    font-size: 0.95rem !important;
+    color: #0b8fc8 !important;
+    background: rgba(11, 143, 200, 0.12) !important;
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 50% !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 .sector-card-link:hover {
-    color: #0b8fc8;
+    background: linear-gradient(135deg, #0b8fc8 0%, #086b96 100%) !important;
+    color: #ffffff !important;
+    border-color: #0b8fc8 !important;
+    box-shadow: 0 6px 18px rgba(11, 143, 200, 0.35) !important;
+    transform: translateY(-2px) !important;
+}
+.sector-card-link:hover i {
+    background: rgba(255, 255, 255, 0.25) !important;
+    color: #ffffff !important;
+    transform: translateX(4px) !important;
 }
 
 
@@ -2819,21 +2843,45 @@ i.active-gold-global,
     flex-grow: 1;
 }
 .sector-card-link {
-    color: #0a192f;
-    font-size: 0.9rem;
-    font-weight: 700;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    transition: 0.3s;
+    color: var(--clr-primary-navy, #0a192f) !important;
+    font-size: 0.9rem !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    padding: 10px 18px !important;
+    border-radius: 12px !important;
+    background: linear-gradient(135deg, rgba(11, 143, 200, 0.08) 0%, rgba(10, 25, 47, 0.04) 100%) !important;
+    border: 1.5px solid rgba(11, 143, 200, 0.22) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 2px 6px rgba(11, 143, 200, 0.05) !important;
+    margin-top: auto !important;
 }
 .sector-card-link i {
-    font-size: 1.1rem;
-    color: #0b8fc8;
+    font-size: 0.95rem !important;
+    color: #0b8fc8 !important;
+    background: rgba(11, 143, 200, 0.12) !important;
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 50% !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 .sector-card-link:hover {
-    color: #0b8fc8;
+    background: linear-gradient(135deg, #0b8fc8 0%, #086b96 100%) !important;
+    color: #ffffff !important;
+    border-color: #0b8fc8 !important;
+    box-shadow: 0 6px 18px rgba(11, 143, 200, 0.35) !important;
+    transform: translateY(-2px) !important;
+}
+.sector-card-link:hover i {
+    background: rgba(255, 255, 255, 0.25) !important;
+    color: #ffffff !important;
+    transform: translateX(4px) !important;
 }
 ` }} />
 
