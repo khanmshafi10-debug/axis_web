@@ -4,6 +4,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
+    target: 'esnext',
+    minify: 'esbuild',
+    cssCodeSplit: true,
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
@@ -13,5 +16,8 @@ export default defineConfig({
         }
       }
     }
+  },
+  esbuild: {
+    drop: ['console', 'debugger']
   }
 });
